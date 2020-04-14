@@ -1,10 +1,9 @@
 import requests
 from authlib.integrations.requests_client import OAuth2Session
+from uplink import Consumer, Query, get, params, returns
 
 from config.client_config import ClientConfiguration
 from config.region_config import Locale, Region
-from uplink import Consumer, get, params, Query, returns, head, response_handler
-from pprint import pprint
 
 
 class WarcraftClient(Consumer):
@@ -18,7 +17,8 @@ class WarcraftClient(Consumer):
         super().__init__(base_url=self.client_config.host, client=session)
         self._inject(Query("locale").with_value(self.client_config.locale.name))
 
-    @params({"namespace": "dynamic-us"})
-    @head("/data/wow/connected-realm/1146/auctions")
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/achievement-category/index")
     def get_achievement_category_index(self):
         """Returns an index of achievement categories."""
