@@ -31,7 +31,13 @@ class RegionConfiguration:
     API_BASE_URL = "api.blizzard.com"
     OAUTH_BASE_URL = "battle.net"
 
-    def __init__(self, prefix: Region, available_locales: List[Locale], host: str = None, oauth_host: str = None):
+    def __init__(
+        self,
+        prefix: Region,
+        available_locales: List[Locale],
+        host: str = None,
+        oauth_host: str = None,
+    ):
         if host:
             self.host = host
         else:
@@ -51,16 +57,27 @@ class RegionLocaleMap(TypedDict):
 
 
 region_locale_map = {
-    Region.us: RegionConfiguration(Region.us,
-                                   [Locale.en_US, Locale.es_MX, Locale.pt_BR]),
-    Region.eu: RegionConfiguration(Region.eu,
-                                   [Locale.en_GB, Locale.es_ES, Locale.fr_FR, Locale.ru_RU, Locale.de_DE, Locale.pt_PT, Locale.it_IT]),
-    Region.kr: RegionConfiguration(Region.kr,
-                                   [Locale.ko_KR]),
-    Region.tw: RegionConfiguration(Region.tw,
-                                   [Locale.zh_TW]),
-    Region.cn: RegionConfiguration(Region.cn,
-                                   [Locale.zh_CN],
-                                   "https://gateway.battlenet.com.cn",
-                                   "https://www.battlenet.com.cn")
+    Region.us: RegionConfiguration(
+        Region.us, [Locale.en_US, Locale.es_MX, Locale.pt_BR]
+    ),
+    Region.eu: RegionConfiguration(
+        Region.eu,
+        [
+            Locale.en_GB,
+            Locale.es_ES,
+            Locale.fr_FR,
+            Locale.ru_RU,
+            Locale.de_DE,
+            Locale.pt_PT,
+            Locale.it_IT,
+        ],
+    ),
+    Region.kr: RegionConfiguration(Region.kr, [Locale.ko_KR]),
+    Region.tw: RegionConfiguration(Region.tw, [Locale.zh_TW]),
+    Region.cn: RegionConfiguration(
+        Region.cn,
+        [Locale.zh_CN],
+        "https://gateway.battlenet.com.cn",
+        "https://www.battlenet.com.cn",
+    ),
 }

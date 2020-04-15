@@ -2,7 +2,9 @@ from config.region_config import Region, Locale, region_locale_map
 
 
 class ClientConfiguration:
-    def __init__(self, client_id: str, client_secret: str, region: Region, locale: Locale):
+    def __init__(
+        self, client_id: str, client_secret: str, region: Region, locale: Locale
+    ):
         if region not in region_locale_map.keys():
             raise ValueError("Configuration not found for specified region")
 
