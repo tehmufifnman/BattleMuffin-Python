@@ -1,5 +1,4 @@
 from config.region_config import Region, Locale, region_locale_map
-from pprint import pprint
 
 
 class ClientConfiguration:

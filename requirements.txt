@@ -3,3 +3,6 @@ typing==3.7.4.1
 AuthLib==0.14.0
 requests==2.23.0
 uplink==0.9.1
+pytest==5.4.1
+pytest_mock==3.0.0
+pytest-cov==2.8.1
