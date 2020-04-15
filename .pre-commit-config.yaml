@@ -1,8 +1,8 @@
 repos:
-    -   repo: https://github.com/psf/black
-        rev: stable
-        hooks:
+    - repo: https://github.com/psf/black
+      rev: stable
+      hooks:
         - id: black
           language_version: python3.8
-          files: ^((src)\/.+|config|tests|clients)\.py$
+          types: [python]
           verbose: true
