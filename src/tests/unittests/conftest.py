@@ -3,7 +3,7 @@ import requests
 
 # Local imports
 from uplink import clients
-from tests import MockClient, MockResponse
+from tests.unittests import MockClient, MockResponse
 
 
 @pytest.fixture
