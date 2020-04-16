@@ -8,5 +8,4 @@ pytest_mock==3.0.0
 pytest-cov==2.8.1
 pre-commit==2.2.0
 black==19.10b0
-python-dotenv==0.12.0
-snapshottest==0.5.1
+syrupy==0.3.10

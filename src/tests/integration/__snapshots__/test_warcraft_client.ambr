@@ -1,0 +1,1086 @@
+# name: test_get_achievement_category_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/achievement-category/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'categories': <class 'list'> [
+      <class 'dict'> {
+        'id': 81,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/81?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Feats of Strength',
+      },
+      <class 'dict'> {
+        'id': 92,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/92?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Character',
+      },
+      <class 'dict'> {
+        'id': 95,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/95?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Player vs. Player',
+      },
+      <class 'dict'> {
+        'id': 96,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/96?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Quests',
+      },
+      <class 'dict'> {
+        'id': 97,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/97?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Exploration',
+      },
+      <class 'dict'> {
+        'id': 155,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/155?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'World Events',
+      },
+      <class 'dict'> {
+        'id': 156,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/156?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Winter Veil',
+      },
+      <class 'dict'> {
+        'id': 158,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/158?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Hallow's End",
+      },
+      <class 'dict'> {
+        'id': 159,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/159?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Noblegarden',
+      },
+      <class 'dict'> {
+        'id': 160,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/160?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Lunar Festival',
+      },
+      <class 'dict'> {
+        'id': 161,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/161?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Midsummer',
+      },
+      <class 'dict'> {
+        'id': 162,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/162?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Brewfest',
+      },
+      <class 'dict'> {
+        'id': 163,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/163?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Children's Week",
+      },
+      <class 'dict'> {
+        'id': 165,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/165?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Arena',
+      },
+      <class 'dict'> {
+        'id': 168,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/168?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dungeons & Raids',
+      },
+      <class 'dict'> {
+        'id': 169,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/169?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Professions',
+      },
+      <class 'dict'> {
+        'id': 170,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/170?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cooking',
+      },
+      <class 'dict'> {
+        'id': 171,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/171?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Fishing',
+      },
+      <class 'dict'> {
+        'id': 172,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/172?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Professions',
+      },
+      <class 'dict'> {
+        'id': 187,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/187?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Love is in the Air',
+      },
+      <class 'dict'> {
+        'id': 201,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/201?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Reputation',
+      },
+      <class 'dict'> {
+        'id': 14777,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14777?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Eastern Kingdoms',
+      },
+      <class 'dict'> {
+        'id': 14778,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14778?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Kalimdor',
+      },
+      <class 'dict'> {
+        'id': 14779,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14779?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Outland',
+      },
+      <class 'dict'> {
+        'id': 14780,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14780?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Northrend',
+      },
+      <class 'dict'> {
+        'id': 14801,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14801?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Alterac Valley',
+      },
+      <class 'dict'> {
+        'id': 14802,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14802?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Arathi Basin',
+      },
+      <class 'dict'> {
+        'id': 14803,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14803?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Eye of the Storm',
+      },
+      <class 'dict'> {
+        'id': 14804,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14804?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Warsong Gulch',
+      },
+      <class 'dict'> {
+        'id': 14805,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14805?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Burning Crusade',
+      },
+      <class 'dict'> {
+        'id': 14806,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14806?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Lich King Dungeon',
+      },
+      <class 'dict'> {
+        'id': 14808,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14808?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Classic',
+      },
+      <class 'dict'> {
+        'id': 14861,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14861?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Eastern Kingdoms',
+      },
+      <class 'dict'> {
+        'id': 14862,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14862?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Outland',
+      },
+      <class 'dict'> {
+        'id': 14863,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14863?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Northrend',
+      },
+      <class 'dict'> {
+        'id': 14864,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14864?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Classic',
+      },
+      <class 'dict'> {
+        'id': 14865,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14865?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Burning Crusade',
+      },
+      <class 'dict'> {
+        'id': 14866,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14866?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wrath of the Lich King',
+      },
+      <class 'dict'> {
+        'id': 14901,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14901?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wintergrasp',
+      },
+      <class 'dict'> {
+        'id': 14922,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14922?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Lich King Raid',
+      },
+      <class 'dict'> {
+        'id': 14941,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14941?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Argent Tournament',
+      },
+      <class 'dict'> {
+        'id': 14981,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/14981?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Pilgrim's Bounty",
+      },
+      <class 'dict'> {
+        'id': 15003,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15003?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Isle of Conquest',
+      },
+      <class 'dict'> {
+        'id': 15067,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15067?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15068,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15068?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm Raid',
+      },
+      <class 'dict'> {
+        'id': 15069,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15069?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm',
+      },
+      <class 'dict'> {
+        'id': 15070,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15070?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm',
+      },
+      <class 'dict'> {
+        'id': 15071,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15071?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Archaeology',
+      },
+      <class 'dict'> {
+        'id': 15072,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15072?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm',
+      },
+      <class 'dict'> {
+        'id': 15073,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15073?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle for Gilneas',
+      },
+      <class 'dict'> {
+        'id': 15074,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15074?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Twin Peaks',
+      },
+      <class 'dict'> {
+        'id': 15075,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15075?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tol Barad',
+      },
+      <class 'dict'> {
+        'id': 15081,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15081?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Kalimdor',
+      },
+      <class 'dict'> {
+        'id': 15092,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15092?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Rated Battleground',
+      },
+      <class 'dict'> {
+        'id': 15101,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15101?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Darkmoon Faire',
+      },
+      <class 'dict'> {
+        'id': 15106,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15106?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15107,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15107?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria Raid',
+      },
+      <class 'dict'> {
+        'id': 15110,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15110?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria',
+      },
+      <class 'dict'> {
+        'id': 15113,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15113?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria',
+      },
+      <class 'dict'> {
+        'id': 15114,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15114?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria',
+      },
+      <class 'dict'> {
+        'id': 15117,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15117?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pet Battles',
+      },
+      <class 'dict'> {
+        'id': 15118,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15118?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Collect',
+      },
+      <class 'dict'> {
+        'id': 15119,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15119?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle',
+      },
+      <class 'dict'> {
+        'id': 15120,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15120?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Level',
+      },
+      <class 'dict'> {
+        'id': 15162,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15162?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Silvershard Mines',
+      },
+      <class 'dict'> {
+        'id': 15163,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15163?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Temple of Kotmogu',
+      },
+      <class 'dict'> {
+        'id': 15218,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15218?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Deepwind Gorge',
+      },
+      <class 'dict'> {
+        'id': 15220,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15220?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor',
+      },
+      <class 'dict'> {
+        'id': 15222,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15222?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Proving Grounds',
+      },
+      <class 'dict'> {
+        'id': 15228,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15228?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15231,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15231?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor Raid',
+      },
+      <class 'dict'> {
+        'id': 15232,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15232?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor',
+      },
+      <class 'dict'> {
+        'id': 15234,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15234?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legacy',
+      },
+      <class 'dict'> {
+        'id': 15235,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15235?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor',
+      },
+      <class 'dict'> {
+        'id': 15246,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15246?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Collections',
+      },
+      <class 'dict'> {
+        'id': 15247,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15247?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Toy Box',
+      },
+      <class 'dict'> {
+        'id': 15248,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15248?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mounts',
+      },
+      <class 'dict'> {
+        'id': 15252,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15252?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion',
+      },
+      <class 'dict'> {
+        'id': 15254,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15254?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15255,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15255?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion Raid',
+      },
+      <class 'dict'> {
+        'id': 15257,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15257?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion',
+      },
+      <class 'dict'> {
+        'id': 15258,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15258?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion',
+      },
+      <class 'dict'> {
+        'id': 15259,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15259?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Appearances',
+      },
+      <class 'dict'> {
+        'id': 15266,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15266?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Honor',
+      },
+      <class 'dict'> {
+        'id': 15268,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15268?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Promotions',
+      },
+      <class 'dict'> {
+        'id': 15269,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15269?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mounts',
+      },
+      <class 'dict'> {
+        'id': 15270,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15270?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Player vs. Player',
+      },
+      <class 'dict'> {
+        'id': 15271,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15271?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Raids',
+      },
+      <class 'dict'> {
+        'id': 15272,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15272?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dungeons',
+      },
+      <class 'dict'> {
+        'id': 15273,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15273?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Reputation',
+      },
+      <class 'dict'> {
+        'id': 15274,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15274?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Events',
+      },
+      <class 'dict'> {
+        'id': 15277,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15277?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dungeons',
+      },
+      <class 'dict'> {
+        'id': 15278,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15278?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Raids',
+      },
+      <class 'dict'> {
+        'id': 15279,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15279?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Player vs. Player',
+      },
+      <class 'dict'> {
+        'id': 15280,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15280?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Currencies',
+      },
+      <class 'dict'> {
+        'id': 15282,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15282?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawler's Guild",
+      },
+      <class 'dict'> {
+        'id': 15283,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15283?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'World',
+      },
+      <class 'dict'> {
+        'id': 15284,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15284?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle for Azeroth',
+      },
+      <class 'dict'> {
+        'id': 15285,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15285?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15286,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15286?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle Raid',
+      },
+      <class 'dict'> {
+        'id': 15292,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15292?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Seething Shore',
+      },
+      <class 'dict'> {
+        'id': 15298,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15298?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle for Azeroth',
+      },
+      <class 'dict'> {
+        'id': 15301,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15301?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Expansion Features',
+      },
+      <class 'dict'> {
+        'id': 15302,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15302?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria Scenarios',
+      },
+      <class 'dict'> {
+        'id': 15303,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15303?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor Garrison',
+      },
+      <class 'dict'> {
+        'id': 15304,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15304?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion Class Hall',
+      },
+      <class 'dict'> {
+        'id': 15305,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15305?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle for Azeroth',
+      },
+      <class 'dict'> {
+        'id': 15307,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15307?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Island Expeditions',
+      },
+      <class 'dict'> {
+        'id': 15308,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15308?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'War Effort',
+      },
+      <class 'dict'> {
+        'id': 15411,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15411?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Expansion Features',
+      },
+      <class 'dict'> {
+        'id': 15414,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15414?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ashran',
+      },
+      <class 'dict'> {
+        'id': 15416,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15416?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'World Events',
+      },
+      <class 'dict'> {
+        'id': 15417,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15417?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Heart of Azeroth',
+      },
+      <class 'dict'> {
+        'id': 15426,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15426?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Visions of N'Zoth",
+      },
+      <class 'dict'> {
+        'id': 15427,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15427?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battlegrounds',
+      },
+    ],
+    'guild_categories': <class 'list'> [
+      <class 'dict'> {
+        'id': 15076,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15076?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Guild',
+      },
+      <class 'dict'> {
+        'id': 15077,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15077?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Quests',
+      },
+      <class 'dict'> {
+        'id': 15078,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15078?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Player vs. Player',
+      },
+      <class 'dict'> {
+        'id': 15079,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15079?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dungeons & Raids',
+      },
+      <class 'dict'> {
+        'id': 15080,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15080?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Professions',
+      },
+      <class 'dict'> {
+        'id': 15082,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15082?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Classic',
+      },
+      <class 'dict'> {
+        'id': 15083,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15083?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15084,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15084?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Burning Crusade',
+      },
+      <class 'dict'> {
+        'id': 15085,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15085?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Lich King Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15086,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15086?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Lich King Raid',
+      },
+      <class 'dict'> {
+        'id': 15087,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15087?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm Raid',
+      },
+      <class 'dict'> {
+        'id': 15088,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15088?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'General',
+      },
+      <class 'dict'> {
+        'id': 15089,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15089?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Reputation',
+      },
+      <class 'dict'> {
+        'id': 15090,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15090?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battlegrounds',
+      },
+      <class 'dict'> {
+        'id': 15091,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15091?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Arena',
+      },
+      <class 'dict'> {
+        'id': 15093,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15093?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Guild Feats of Strength',
+      },
+      <class 'dict'> {
+        'id': 15153,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15153?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15154,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15154?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria Raid',
+      },
+      <class 'dict'> {
+        'id': 15243,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15243?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15244,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15244?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor Raid',
+      },
+      <class 'dict'> {
+        'id': 15262,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15262?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15263,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15263?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion Raid',
+      },
+      <class 'dict'> {
+        'id': 15299,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15299?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle Dungeon',
+      },
+      <class 'dict'> {
+        'id': 15300,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15300?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle Raid',
+      },
+    ],
+    'root_categories': <class 'list'> [
+      <class 'dict'> {
+        'id': 81,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/81?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Feats of Strength',
+      },
+      <class 'dict'> {
+        'id': 92,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/92?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Character',
+      },
+      <class 'dict'> {
+        'id': 95,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/95?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Player vs. Player',
+      },
+      <class 'dict'> {
+        'id': 96,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/96?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Quests',
+      },
+      <class 'dict'> {
+        'id': 97,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/97?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Exploration',
+      },
+      <class 'dict'> {
+        'id': 155,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/155?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'World Events',
+      },
+      <class 'dict'> {
+        'id': 168,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/168?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dungeons & Raids',
+      },
+      <class 'dict'> {
+        'id': 169,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/169?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Professions',
+      },
+      <class 'dict'> {
+        'id': 201,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/201?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Reputation',
+      },
+      <class 'dict'> {
+        'id': 15076,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15076?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Guild',
+      },
+      <class 'dict'> {
+        'id': 15117,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15117?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pet Battles',
+      },
+      <class 'dict'> {
+        'id': 15234,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15234?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legacy',
+      },
+      <class 'dict'> {
+        'id': 15246,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15246?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Collections',
+      },
+      <class 'dict'> {
+        'id': 15301,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15301?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Expansion Features',
+      },
+    ],
+  }
+---
