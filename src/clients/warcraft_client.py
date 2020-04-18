@@ -43,7 +43,7 @@ class WarcraftClient(Consumer):
     @returns.json
     @params({"namespace": "static-us"})
     @get("/data/wow/achievement-category/index")
-    def get_achievement_category_index(self):
+    def get_achievement_categories_index(self):
         """Returns an index of achievement categories."""
 
     @returns.json
@@ -55,7 +55,7 @@ class WarcraftClient(Consumer):
     @returns.json
     @params({"namespace": "static-us"})
     @get("/data/wow/achievement/index")
-    def get_achievement_index(self):
+    def get_achievements_index(self):
         """Returns an index of achievements."""
 
     @returns.json
@@ -79,7 +79,7 @@ class WarcraftClient(Consumer):
     @returns.json
     @params({"namespace": "static-us"})
     @get("/data/wow/azerite-essence/index")
-    def get_azerite_essence_index(self):
+    def get_azerite_essences_index(self):
         """Returns an index of azerite essences."""
 
     @returns.json
@@ -97,7 +97,7 @@ class WarcraftClient(Consumer):
     @returns.json
     @params({"namespace": "dynamic-us"})
     @get("/data/wow/connected-realm/index")
-    def get_connected_realm_index(self):
+    def get_connected_realms_index(self):
         """Returns an index of connected realms."""
 
     @returns.json
@@ -109,7 +109,7 @@ class WarcraftClient(Consumer):
     @returns.json
     @params({"namespace": "static-us"})
     @get("/data/wow/creature-family/index")
-    def get_creature_family_index(self):
+    def get_creature_families_index(self):
         """Returns an index of creature families."""
 
     @returns.json
@@ -121,7 +121,7 @@ class WarcraftClient(Consumer):
     @returns.json
     @params({"namespace": "static-us"})
     @get("/data/wow/creature-type/index")
-    def get_creature_type_index(self):
+    def get_creature_types_index(self):
         """Returns an index of creature types."""
 
     @returns.json
@@ -259,7 +259,7 @@ class WarcraftClient(Consumer):
     @returns.json
     @params({"namespace": "static-us"})
     @get("/data/wow/mount/{mountId}")
-    def get_mount(self):
+    def get_mount(self, mountId: int):
         """Returns a mount by ID."""
 
     @returns.json

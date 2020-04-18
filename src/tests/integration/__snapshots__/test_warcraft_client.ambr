@@ -1,4 +1,4 @@
-# name: test_get_achievement_category_index
+# name: test_get_achievement_categories_index
   <class 'dict'> {
     '_links': <class 'dict'> {
       'self': <class 'dict'> {
@@ -1080,6 +1080,845 @@
           'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15301?namespace=static-8.3.0_32861-us',
         },
         'name': 'Expansion Features',
+      },
+    ],
+  }
+---
+# name: test_get_achievement_category
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/achievement-category/81?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'achievements': <class 'list'> [
+      <class 'dict'> {
+        'id': 456,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/456?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Obsidian Slayer',
+      },
+      <class 'dict'> {
+        'id': 457,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/457?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80',
+      },
+      <class 'dict'> {
+        'id': 458,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/458?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Rogue',
+      },
+      <class 'dict'> {
+        'id': 459,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/459?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Warrior',
+      },
+      <class 'dict'> {
+        'id': 460,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/460?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Mage',
+      },
+      <class 'dict'> {
+        'id': 461,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/461?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Death Knight',
+      },
+      <class 'dict'> {
+        'id': 462,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/462?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Hunter',
+      },
+      <class 'dict'> {
+        'id': 463,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/463?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Warlock',
+      },
+      <class 'dict'> {
+        'id': 464,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/464?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Priest',
+      },
+      <class 'dict'> {
+        'id': 465,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/465?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Paladin',
+      },
+      <class 'dict'> {
+        'id': 466,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/466?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Druid',
+      },
+      <class 'dict'> {
+        'id': 467,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/467?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Shaman',
+      },
+      <class 'dict'> {
+        'id': 1400,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1400?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Magic Seeker',
+      },
+      <class 'dict'> {
+        'id': 1402,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1402?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Conqueror of Naxxramas',
+      },
+      <class 'dict'> {
+        'id': 1404,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1404?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Gnome',
+      },
+      <class 'dict'> {
+        'id': 1405,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1405?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Blood Elf',
+      },
+      <class 'dict'> {
+        'id': 1406,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1406?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Draenei',
+      },
+      <class 'dict'> {
+        'id': 1407,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1407?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Dwarf',
+      },
+      <class 'dict'> {
+        'id': 1408,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1408?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Human',
+      },
+      <class 'dict'> {
+        'id': 1409,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1409?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Night Elf',
+      },
+      <class 'dict'> {
+        'id': 1410,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1410?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Orc',
+      },
+      <class 'dict'> {
+        'id': 1411,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1411?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Tauren',
+      },
+      <class 'dict'> {
+        'id': 1412,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1412?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Troll',
+      },
+      <class 'dict'> {
+        'id': 1413,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1413?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 80 Forsaken',
+      },
+      <class 'dict'> {
+        'id': 1414,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1414?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Blacksmith',
+      },
+      <class 'dict'> {
+        'id': 1415,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1415?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Alchemist',
+      },
+      <class 'dict'> {
+        'id': 1416,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1416?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Cook',
+      },
+      <class 'dict'> {
+        'id': 1417,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1417?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Enchanter',
+      },
+      <class 'dict'> {
+        'id': 1418,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1418?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Engineer',
+      },
+      <class 'dict'> {
+        'id': 1419,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1419?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Medic',
+      },
+      <class 'dict'> {
+        'id': 1420,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1420?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Angler',
+      },
+      <class 'dict'> {
+        'id': 1421,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1421?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Herbalist',
+      },
+      <class 'dict'> {
+        'id': 1422,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1422?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Scribe',
+      },
+      <class 'dict'> {
+        'id': 1423,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1423?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Jewelcrafter',
+      },
+      <class 'dict'> {
+        'id': 1424,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1424?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Leatherworker',
+      },
+      <class 'dict'> {
+        'id': 1425,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1425?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Miner',
+      },
+      <class 'dict'> {
+        'id': 1426,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1426?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Skinner',
+      },
+      <class 'dict'> {
+        'id': 1427,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1427?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Tailor',
+      },
+      <class 'dict'> {
+        'id': 1463,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/1463?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Northrend Vanguard',
+      },
+      <class 'dict'> {
+        'id': 3117,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/3117?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Realm First! Death's Demise",
+      },
+      <class 'dict'> {
+        'id': 3259,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/3259?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Celestial Defender',
+      },
+      <class 'dict'> {
+        'id': 4078,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/4078?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Crusader',
+      },
+      <class 'dict'> {
+        'id': 4496,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/4496?namespace=static-8.3.0_32861-us',
+        },
+        'name': "It's Over Nine Thousand!",
+      },
+      <class 'dict'> {
+        'id': 4576,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/4576?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Fall of the Lich King',
+      },
+      <class 'dict'> {
+        'id': 4998,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/4998?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Shaman',
+      },
+      <class 'dict'> {
+        'id': 4999,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/4999?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85',
+      },
+      <class 'dict'> {
+        'id': 5000,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5000?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Druid',
+      },
+      <class 'dict'> {
+        'id': 5001,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5001?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Paladin',
+      },
+      <class 'dict'> {
+        'id': 5002,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5002?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Priest',
+      },
+      <class 'dict'> {
+        'id': 5003,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5003?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Warlock',
+      },
+      <class 'dict'> {
+        'id': 5004,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5004?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Hunter',
+      },
+      <class 'dict'> {
+        'id': 5005,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5005?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Death Knight',
+      },
+      <class 'dict'> {
+        'id': 5006,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5006?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Mage',
+      },
+      <class 'dict'> {
+        'id': 5007,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5007?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Warrior',
+      },
+      <class 'dict'> {
+        'id': 5008,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5008?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 85 Rogue',
+      },
+      <class 'dict'> {
+        'id': 5381,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5381?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Alchemist',
+      },
+      <class 'dict'> {
+        'id': 5382,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5382?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Blacksmith',
+      },
+      <class 'dict'> {
+        'id': 5383,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5383?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Cook',
+      },
+      <class 'dict'> {
+        'id': 5384,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5384?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Enchanter',
+      },
+      <class 'dict'> {
+        'id': 5385,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5385?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Engineer',
+      },
+      <class 'dict'> {
+        'id': 5386,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5386?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Medic',
+      },
+      <class 'dict'> {
+        'id': 5387,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5387?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Angler',
+      },
+      <class 'dict'> {
+        'id': 5388,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5388?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Herbalist',
+      },
+      <class 'dict'> {
+        'id': 5389,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5389?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Scribe',
+      },
+      <class 'dict'> {
+        'id': 5390,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5390?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Jewelcrafter',
+      },
+      <class 'dict'> {
+        'id': 5391,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5391?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Leatherworker',
+      },
+      <class 'dict'> {
+        'id': 5392,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5392?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Miner',
+      },
+      <class 'dict'> {
+        'id': 5393,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5393?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Skinner',
+      },
+      <class 'dict'> {
+        'id': 5394,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5394?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Tailor',
+      },
+      <class 'dict'> {
+        'id': 5395,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5395?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Grand Master Archaeologist',
+      },
+      <class 'dict'> {
+        'id': 5396,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/5396?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Illustrious Archaeologist',
+      },
+      <class 'dict'> {
+        'id': 6433,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6433?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Challenge Conqueror: Gold',
+      },
+      <class 'dict'> {
+        'id': 6523,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6523?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Shaman',
+      },
+      <class 'dict'> {
+        'id': 6524,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6524?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90',
+      },
+      <class 'dict'> {
+        'id': 6743,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6743?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Druid',
+      },
+      <class 'dict'> {
+        'id': 6744,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6744?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Paladin',
+      },
+      <class 'dict'> {
+        'id': 6745,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6745?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Priest',
+      },
+      <class 'dict'> {
+        'id': 6746,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6746?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Warlock',
+      },
+      <class 'dict'> {
+        'id': 6747,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6747?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Hunter',
+      },
+      <class 'dict'> {
+        'id': 6748,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6748?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Death Knight',
+      },
+      <class 'dict'> {
+        'id': 6749,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6749?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Mage',
+      },
+      <class 'dict'> {
+        'id': 6750,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6750?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Warrior',
+      },
+      <class 'dict'> {
+        'id': 6751,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6751?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Rogue',
+      },
+      <class 'dict'> {
+        'id': 6752,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6752?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Level 90 Monk',
+      },
+      <class 'dict'> {
+        'id': 6829,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6829?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Pandaren Ambassador',
+      },
+      <class 'dict'> {
+        'id': 6859,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6859?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Alchemist',
+      },
+      <class 'dict'> {
+        'id': 6860,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6860?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Blacksmith',
+      },
+      <class 'dict'> {
+        'id': 6861,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6861?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Cook',
+      },
+      <class 'dict'> {
+        'id': 6862,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6862?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Enchanter',
+      },
+      <class 'dict'> {
+        'id': 6863,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6863?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Engineer',
+      },
+      <class 'dict'> {
+        'id': 6864,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6864?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Medic',
+      },
+      <class 'dict'> {
+        'id': 6865,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6865?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Angler',
+      },
+      <class 'dict'> {
+        'id': 6866,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6866?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Herbalist',
+      },
+      <class 'dict'> {
+        'id': 6867,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6867?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Scribe',
+      },
+      <class 'dict'> {
+        'id': 6868,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6868?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Jewelcrafter',
+      },
+      <class 'dict'> {
+        'id': 6869,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6869?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Leatherworker',
+      },
+      <class 'dict'> {
+        'id': 6870,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6870?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Miner',
+      },
+      <class 'dict'> {
+        'id': 6871,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6871?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Skinner',
+      },
+      <class 'dict'> {
+        'id': 6872,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6872?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Tailor',
+      },
+      <class 'dict'> {
+        'id': 6873,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/6873?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Zen Master Archaeologist',
+      },
+      <class 'dict'> {
+        'id': 8812,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/8812?namespace=static-8.3.0_32861-us',
+        },
+        'name': "You're Really Doing It Wrong (Level 90)",
+      },
+      <class 'dict'> {
+        'id': 9016,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/9016?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Breaker of the Black Harvest',
+      },
+      <class 'dict'> {
+        'id': 9597,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/9597?namespace=static-8.3.0_32861-us',
+        },
+        'name': "You're Really Doing It Wrong",
+      },
+      <class 'dict'> {
+        'id': 10334,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/10334?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Predator',
+      },
+      <class 'dict'> {
+        'id': 11137,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/11137?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'A Legendary Campaign',
+      },
+      <class 'dict'> {
+        'id': 11224,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/11224?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Legion Keystone Master',
+      },
+      <class 'dict'> {
+        'id': 13078,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/13078?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Realm First! Battle for Azeroth Keystone Master',
+      },
+      <class 'dict'> {
+        'id': 13779,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/13779?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Phenomenal Cosmic Power',
+      },
+      <class 'dict'> {
+        'id': 14140,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement/14140?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mad World',
+      },
+    ],
+    'aggregates_by_faction': <class 'dict'> {
+      'alliance': <class 'dict'> {
+        'points': 0,
+        'quantity': 522,
+      },
+      'horde': <class 'dict'> {
+        'points': 0,
+        'quantity': 522,
+      },
+    },
+    'display_order': 13,
+    'id': 81,
+    'is_guild_category': False,
+    'name': 'Feats of Strength',
+    'subcategories': <class 'list'> [
+      <class 'dict'> {
+        'id': 15268,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15268?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Promotions',
+      },
+      <class 'dict'> {
+        'id': 15269,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15269?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mounts',
+      },
+      <class 'dict'> {
+        'id': 15270,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15270?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Player vs. Player',
+      },
+      <class 'dict'> {
+        'id': 15271,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15271?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Raids',
+      },
+      <class 'dict'> {
+        'id': 15272,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15272?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dungeons',
+      },
+      <class 'dict'> {
+        'id': 15273,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15273?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Reputation',
+      },
+      <class 'dict'> {
+        'id': 15274,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/achievement-category/15274?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Events',
       },
     ],
   }

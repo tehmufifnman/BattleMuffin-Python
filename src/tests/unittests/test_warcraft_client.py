@@ -23,7 +23,7 @@ def test_warcraft_client_init(mocker):
     WarcraftClient("client_id", "client_secret")
 
 
-def test_warcraft_client_get_achievement_category_index(mock_client, mock_response):
+def test_warcraft_client_get_achievement_categories_index(mock_client, mock_response):
     # Arrange
     expected_json = {"key": "value"}
     mock_response.with_json(expected_json)
@@ -33,7 +33,7 @@ def test_warcraft_client_get_achievement_category_index(mock_client, mock_respon
     )
 
     # Act
-    actual_json = client.get_achievement_category_index()
+    actual_json = client.get_achievement_categories_index()
 
     # Asset
     assert expected_json == actual_json
