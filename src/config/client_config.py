@@ -17,3 +17,11 @@ class ClientConfiguration:
         self.locale = region_config.default_locale if not locale else locale
         self.client_id = client_id
         self.client_secret = client_secret
+        self.static_params = {
+            "locale": self.locale.name,
+            "namespace": f"static-{region.name}",
+        }
+        self.dynamic_params = {
+            "locale": self.locale.name,
+            "namespace": f"dynamic-{region.name}",
+        }
