@@ -577,3 +577,81 @@ class WarcraftClient(Consumer):
     @get("/data/wow/region/{regionId}")
     def get_region(self, regionId: int):
         """Returns a region by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/reputation-faction/index")
+    def get_reputation_factions_index(self):
+        """Returns an index of reputation factions."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/reputation-faction/{reputationFactionId}")
+    def get_reputation_faction(self, reputationFactionId: int):
+        """Returns a single reputation faction by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/reputation-tiers/index")
+    def get_reputation_tiers_index(self):
+        """Returns an index of reputation tiers."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/reputation-tiers/{reputationTiersId}")
+    def get_reputation_tiers(self, reputationTiersId: int):
+        """Returns a single set of reputation tiers by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/spell/{spellId}")
+    def get_spell(self, spellId: int):
+        """Returns a spell by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/media/spell/{spellId}")
+    def get_spell_media(self, spellId: int):
+        """Returns media for a spell by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/talent/index")
+    def get_talents_index(self):
+        """Returns an index of talents."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/talent/{talentId}")
+    def get_talent(self, talentId: int):
+        """Returns a talent by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/pvp-talent/index")
+    def get_pvp_talents_index(self):
+        """Returns an index of PvP talents."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/pvp-talent/{pvpTalentId}")
+    def get_pvp_talent(self, pvpTalentId: int):
+        """Returns a PvP talent by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/title/index")
+    def get_titles_index(self):
+        """Returns an index of titles."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/title/{titleId}")
+    def get_title(self, titleId: int):
+        """Returns a title by ID."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/token/index")
+    def get_wow_token_index(self):
+        """Returns an index of titles."""
