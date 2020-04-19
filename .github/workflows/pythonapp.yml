@@ -37,6 +37,7 @@ jobs:
         CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
       run: |
         pip install pytest
+        pip install -i https://test.pypi.org/simple/ syrupy==2020.4.19.43747420734
         pytest
     - name: Generate coverage report
       env:
@@ -45,6 +46,7 @@ jobs:
       run: |
         pip install pytest
         pip install pytest-cov
+        pip install -i https://test.pypi.org/simple/ syrupy==2020.4.19.43747420734
         pytest --cov=src --cov-report=xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
