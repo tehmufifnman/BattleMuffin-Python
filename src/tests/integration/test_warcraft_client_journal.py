@@ -28,7 +28,7 @@ def test_get_journal_encounter(snapshot):
     text = json.dumps(response)
     text = text.replace("\\r\\n", "\\n")
     obj = json.loads(text)
-    assert response == snapshot
+    assert obj == snapshot
 
 
 def test_get_journal_instances_index(snapshot):
