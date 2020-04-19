@@ -162,3 +162,57 @@ def test_get_item_media(snapshot):
     client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
     response = client.get_item_media(19019)
     assert response == snapshot
+
+
+def test_get_journal_expansions_index(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_journal_expansions_index()
+    assert response == snapshot
+
+
+def test_get_journal_expansion(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_journal_expansion(68)
+    assert response == snapshot
+
+
+def test_get_journal_encounters_index(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_journal_encounters_index()
+    assert response == snapshot
+
+
+def test_get_journal_encounter(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_journal_encounter(89)
+    assert response == snapshot
+
+
+def test_get_journal_instances_index(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_journal_instances_index()
+    assert response == snapshot
+
+
+def test_get_journal_instance(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_journal_instance(63)
+    assert response == snapshot
+
+
+def test_get_journal_instance_media(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_journal_instance_media(63)
+    assert response == snapshot
+
+
+def test_get_mount_index(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_mount_index()
+    assert response == snapshot
+
+
+def test_get_mount(snapshot):
+    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
+    response = client.get_mount(6)
+    assert response == snapshot
