@@ -352,6 +352,228 @@ class WarcraftClient(Consumer):
 
     @returns.json
     @params({"namespace": "static-us"})
-    @get(" /data/wow/pet/{petId}")
+    @get("/data/wow/pet/{petId}")
     def get_pet(self, petId: int):
         """Returns a battle pets by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/playable-class/index")
+    def get_playable_classes_index(self):
+        """Returns an index of playable classes."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/playable-class/{classId}")
+    def get_playable_class(self, classId: int):
+        """Returns a playable class by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/media/playable-class/{playableClassId}")
+    def get_playable_class_media(self, playableClassId: int):
+        """Returns media for a playable class by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/playable-class/{classId}/pvp-talent-slots")
+    def get_pvp_talent_slots(self, classId: int):
+        """Returns the PvP talent slots for a playable class by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/playable-race/index")
+    def get_playable_races_index(self):
+        """Returns an index of playable races."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/playable-race/{playableRaceId}")
+    def get_playable_race(self, playableRaceId: int):
+        """Returns a playable race by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/playable-specialization/index")
+    def get_playable_specializations_index(self):
+        """Returns an index of playable specializations."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/playable-specialization/{specId}")
+    def get_playable_specialization(self, specId: int):
+        """Returns a playable specialization by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/media/playable-specialization/{specId}")
+    def get_playable_specialization_media(self, specId: int):
+        """Returns media for a playable specialization by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/power-type/index")
+    def get_power_types_index(self):
+        """Returns an index of power types."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/power-type/{powerTypeId}")
+    def get_power_type(self, powerTypeId: int):
+        """Returns a power type by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/profession/index")
+    def get_professions_index(self):
+        """Returns an index of professions."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/profession/{professionId}")
+    def get_profession(self, professionId: int):
+        """Returns a profession by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/media/profession/{professionId}")
+    def get_profession_media(self, professionId: int):
+        """Returns media for a profession by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/profession/{professionId}/skill-tier/{skillTierId}")
+    def get_profession_skill_tier(self, professionId: int, skillTierId: int):
+        """Returns a skill tier for a profession by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/recipe/{recipeId}")
+    def get_recipe(self, professionId: int, skillTierId: int):
+        """Returns a recipe by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/media/recipe/{recipeId}")
+    def get_recipe_media(self, professionId: int, skillTierId: int):
+        """Returns media for a recipe by ID."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/pvp-season/index")
+    def get_pvp_seasons_index(self):
+        """Returns an index of PvP seasons."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/pvp-season/{pvpSeasonId}")
+    def get_pvp_season(self, pvpSeasonId: int):
+        """Returns a PvP season by ID."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/pvp-season/{pvpSeasonId}/pvp-leaderboard/index")
+    def get_pvp_leaderboards_index(self, pvpSeasonId: int):
+        """Returns an index of PvP leaderboards for a PvP season."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/pvp-season/{pvpSeasonId}/pvp-leaderboard/{pvpBracket}")
+    def get_pvp_leaderboard(self, pvpSeasonId: int, pvpBracket: str):
+        """Returns the PvP leaderboard of a specific PvP bracket for a PvP season."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/pvp-season/{pvpSeasonId}/pvp-reward/index")
+    def get_pvp_rewards_index(self, pvpSeasonId: int):
+        """Returns an index of PvP rewards for a PvP season."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/pvp-tier/index")
+    def get_pvp_tiers_index(self):
+        """Returns an index of PvP tiers."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/pvp-tier/{pvpTierId}")
+    def get_pvp_tier(self, pvpTierId: int):
+        """Returns a PvP tier by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/media/pvp-tier/{pvpTierId}")
+    def get_pvp_tier_media(self, pvpTierId: int):
+        """Returns media for a PvP tier by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/quest/index")
+    def get_quests_index(self):
+        """Returns an index of quests."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/quest/{questId}")
+    def get_quest(self, questId: int):
+        """Returns a quest by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/quest/category/index")
+    def get_quest_categories_index(self):
+        """Returns an index of quest categories (such as quests for a specific class, profession, or storyline)."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/quest/category/{questCategoryId}")
+    def get_quest_category(self, questCategoryId: int):
+        """Returns a quest category by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/quest/area/index")
+    def get_quest_areas_index(self):
+        """Returns an index of quest areas."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/quest/area/{questAreaId}")
+    def get_quest_area(self, questAreaId: int):
+        """Returns a quest area by ID."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/quest/type/index")
+    def get_quest_types_index(self):
+        """Returns an index of quest types (such as PvP quests, raid quests, or account quests)."""
+
+    @returns.json
+    @params({"namespace": "static-us"})
+    @get("/data/wow/quest/type/{questTypeId}")
+    def get_quest_type(self, questTypeId: int):
+        """Returns a quest type by ID."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/realm/index")
+    def get_realms_index(self):
+        """Returns an index of realms."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/realm/{realmSlug}")
+    def get_realm(self, realmSlug: str):
+        """Returns a single realm by slug."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/region/index")
+    def get_regions_index(self):
+        """Returns an index of regions."""
+
+    @returns.json
+    @params({"namespace": "dynamic-us"})
+    @get("/data/wow/region/{regionId}")
+    def get_region(self, regionId: int):
+        """Returns a region by ID."""
