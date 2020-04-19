@@ -449,13 +449,13 @@ class WarcraftClient(Consumer):
     @returns.json
     @params({"namespace": "static-us"})
     @get("/data/wow/recipe/{recipeId}")
-    def get_recipe(self, professionId: int, skillTierId: int):
+    def get_recipe(self, recipeId: int):
         """Returns a recipe by ID."""
 
     @returns.json
     @params({"namespace": "static-us"})
     @get("/data/wow/media/recipe/{recipeId}")
-    def get_recipe_media(self, professionId: int, skillTierId: int):
+    def get_recipe_media(self, recipeId: int):
         """Returns media for a recipe by ID."""
 
     @returns.json
