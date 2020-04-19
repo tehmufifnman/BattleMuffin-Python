@@ -1,0 +1,2078 @@
+# name: test_get_profession
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/profession/164?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'description': 'Higher smithing skill allows you to learn higher level smithing plans.  Blacksmithing plans can be found on trainers around the world as well as from quests and monsters.',
+    'id': 164,
+    'media': <class 'dict'> {
+      'id': 164,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/profession/164?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'name': 'Blacksmithing',
+    'skill_tiers': <class 'list'> [
+      <class 'dict'> {
+        'id': 2437,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2437?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Kul Tiran Blacksmithing / Zandalari Blacksmithing',
+      },
+      <class 'dict'> {
+        'id': 2454,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2454?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion Blacksmithing',
+      },
+      <class 'dict'> {
+        'id': 2472,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2472?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Draenor Blacksmithing',
+      },
+      <class 'dict'> {
+        'id': 2473,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2473?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pandaria Blacksmithing',
+      },
+      <class 'dict'> {
+        'id': 2474,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2474?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm Blacksmithing',
+      },
+      <class 'dict'> {
+        'id': 2475,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2475?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Northrend Blacksmithing',
+      },
+      <class 'dict'> {
+        'id': 2476,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2476?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Outland Blacksmithing',
+      },
+      <class 'dict'> {
+        'id': 2477,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2477?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Blacksmithing',
+      },
+    ],
+    'type': <class 'dict'> {
+      'name': 'Primary',
+      'type': 'PRIMARY',
+    },
+  }
+---
+# name: test_get_profession_media
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/profession/164?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'assets': <class 'list'> [
+      <class 'dict'> {
+        'key': 'icon',
+        'value': 'https://render-us.worldofwarcraft.com/icons/56/trade_blacksmithing.jpg',
+      },
+    ],
+    'id': 164,
+  }
+---
+# name: test_get_profession_skill_tier
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2477?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'categories': <class 'list'> [
+      <class 'dict'> {
+        'name': 'Weapon Mods',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1631,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1631?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Sharpening Stone',
+          },
+          <class 'dict'> {
+            'id': 1636,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1636?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Coarse Sharpening Stone',
+          },
+          <class 'dict'> {
+            'id': 1644,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1644?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Sharpening Stone',
+          },
+          <class 'dict'> {
+            'id': 1798,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1798?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Weightstone',
+          },
+          <class 'dict'> {
+            'id': 1799,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1799?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Weightstone',
+          },
+          <class 'dict'> {
+            'id': 1800,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1800?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Coarse Weightstone',
+          },
+          <class 'dict'> {
+            'id': 4205,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4205?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Steel Weapon Chain',
+          },
+          <class 'dict'> {
+            'id': 4208,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4208?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Iron Counterweight',
+          },
+          <class 'dict'> {
+            'id': 5312,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5312?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Solid Sharpening Stone',
+          },
+          <class 'dict'> {
+            'id': 5313,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5313?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Solid Weightstone',
+          },
+          <class 'dict'> {
+            'id': 9156,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9156?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dense Sharpening Stone',
+          },
+          <class 'dict'> {
+            'id': 9157,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9157?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dense Weightstone',
+          },
+          <class 'dict'> {
+            'id': 12302,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12302?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Elemental Sharpening Stone',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Belts',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1632,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1632?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Chain Belt',
+          },
+          <class 'dict'> {
+            'id': 1637,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1637?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runed Copper Belt',
+          },
+          <class 'dict'> {
+            'id': 9160,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9160?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thorium Belt',
+          },
+          <class 'dict'> {
+            'id': 9162,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9162?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Radiant Belt',
+          },
+          <class 'dict'> {
+            'id': 9164,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9164?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Imperial Plate Belt',
+          },
+          <class 'dict'> {
+            'id': 11863,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11863?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Fiery Chain Girdle',
+          },
+          <class 'dict'> {
+            'id': 12677,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12677?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Timbermaw Belt',
+          },
+          <class 'dict'> {
+            'id': 12679,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12679?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Girdle of the Dawn',
+          },
+          <class 'dict'> {
+            'id': 13803,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13803?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Obsidian Belt',
+          },
+          <class 'dict'> {
+            'id': 13804,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13804?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Light Obsidian Belt',
+          },
+          <class 'dict'> {
+            'id': 13946,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13946?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ironvine Belt',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Legs',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1633,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1633?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Chain Pants',
+          },
+          <class 'dict'> {
+            'id': 1639,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1639?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Bronze Leggings',
+          },
+          <class 'dict'> {
+            'id': 1859,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1859?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runed Copper Pants',
+          },
+          <class 'dict'> {
+            'id': 1998,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1998?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Green Iron Leggings',
+          },
+          <class 'dict'> {
+            'id': 1999,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1999?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Scale Leggings',
+          },
+          <class 'dict'> {
+            'id': 5317,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5317?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Mithril Scale Pants',
+          },
+          <class 'dict'> {
+            'id': 5318,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5318?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Mithril Pants',
+          },
+          <class 'dict'> {
+            'id': 5323,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5323?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ornate Mithril Pants',
+          },
+          <class 'dict'> {
+            'id': 5327,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5327?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Orcish War Leggings',
+          },
+          <class 'dict'> {
+            'id': 6637,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/6637?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Silvered Bronze Leggings',
+          },
+          <class 'dict'> {
+            'id': 9180,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9180?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thorium Leggings',
+          },
+          <class 'dict'> {
+            'id': 9322,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9322?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Radiant Leggings',
+          },
+          <class 'dict'> {
+            'id': 9324,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9324?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Imperial Plate Leggings',
+          },
+          <class 'dict'> {
+            'id': 9333,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9333?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runic Plate Leggings',
+          },
+          <class 'dict'> {
+            'id': 9336,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9336?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Enchanted Thorium Leggings',
+          },
+          <class 'dict'> {
+            'id': 11864,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11864?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Leggings',
+          },
+          <class 'dict'> {
+            'id': 12833,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12833?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Darksoul Leggings',
+          },
+          <class 'dict'> {
+            'id': 13843,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13843?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Titanic Leggings',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Bracers',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1634,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1634?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Bracers',
+          },
+          <class 'dict'> {
+            'id': 1635,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1635?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runed Copper Bracers',
+          },
+          <class 'dict'> {
+            'id': 1642,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1642?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Patterned Bronze Bracers',
+          },
+          <class 'dict'> {
+            'id': 1993,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1993?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Green Iron Bracers',
+          },
+          <class 'dict'> {
+            'id': 3974,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/3974?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Bronze Bracers',
+          },
+          <class 'dict'> {
+            'id': 4206,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4206?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Scale Bracers',
+          },
+          <class 'dict'> {
+            'id': 5320,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5320?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Mithril Scale Bracers',
+          },
+          <class 'dict'> {
+            'id': 9161,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9161?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thorium Bracers',
+          },
+          <class 'dict'> {
+            'id': 9166,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9166?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Imperial Plate Bracers',
+          },
+          <class 'dict'> {
+            'id': 11862,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11862?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Bracers',
+          },
+          <class 'dict'> {
+            'id': 13920,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13920?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Icebane Bracers',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Chest',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1638,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1638?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runed Copper Breastplate',
+          },
+          <class 'dict'> {
+            'id': 1640,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1640?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Bronze Cuirass',
+          },
+          <class 'dict'> {
+            'id': 1645,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1645?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Shining Silver Breastplate',
+          },
+          <class 'dict'> {
+            'id': 1857,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1857?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Chain Vest',
+          },
+          <class 'dict'> {
+            'id': 2000,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/2000?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Green Iron Hauberk',
+          },
+          <class 'dict'> {
+            'id': 2001,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/2001?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Scale Cuirass',
+          },
+          <class 'dict'> {
+            'id': 3975,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/3975?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Silvered Bronze Breastplate',
+          },
+          <class 'dict'> {
+            'id': 4628,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4628?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ironforge Chain',
+          },
+          <class 'dict'> {
+            'id': 4629,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4629?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ironforge Breastplate',
+          },
+          <class 'dict'> {
+            'id': 5307,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5307?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Barbaric Iron Breastplate',
+          },
+          <class 'dict'> {
+            'id': 5311,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5311?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Steel Breastplate',
+          },
+          <class 'dict'> {
+            'id': 5328,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5328?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Mithril Breastplate',
+          },
+          <class 'dict'> {
+            'id': 5334,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5334?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ornate Mithril Breastplate',
+          },
+          <class 'dict'> {
+            'id': 5335,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5335?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Truesilver Breastplate',
+          },
+          <class 'dict'> {
+            'id': 6636,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/6636?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Copper Vest',
+          },
+          <class 'dict'> {
+            'id': 8216,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/8216?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Plate',
+          },
+          <class 'dict'> {
+            'id': 8217,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/8217?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Mail',
+          },
+          <class 'dict'> {
+            'id': 9159,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9159?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thorium Armor',
+          },
+          <class 'dict'> {
+            'id': 9165,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9165?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Radiant Breastplate',
+          },
+          <class 'dict'> {
+            'id': 9167,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9167?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Wildthorn Mail',
+          },
+          <class 'dict'> {
+            'id': 9172,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9172?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Demon Forged Breastplate',
+          },
+          <class 'dict'> {
+            'id': 9181,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9181?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Imperial Plate Chest',
+          },
+          <class 'dict'> {
+            'id': 9332,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9332?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runic Breastplate',
+          },
+          <class 'dict'> {
+            'id': 9337,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9337?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Enchanted Thorium Breastplate',
+          },
+          <class 'dict'> {
+            'id': 9338,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9338?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Invulnerable Mail',
+          },
+          <class 'dict'> {
+            'id': 12829,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12829?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bloodsoul Breastplate',
+          },
+          <class 'dict'> {
+            'id': 12832,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12832?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Darksoul Breastplate',
+          },
+          <class 'dict'> {
+            'id': 13079,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13079?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Darkrune Breastplate',
+          },
+          <class 'dict'> {
+            'id': 13807,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13807?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Obsidian Mail Tunic',
+          },
+          <class 'dict'> {
+            'id': 13808,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13808?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thick Obsidian Breastplate',
+          },
+          <class 'dict'> {
+            'id': 13922,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13922?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Icebane Breastplate',
+          },
+          <class 'dict'> {
+            'id': 13944,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13944?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ironvine Breastplate',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Weapons',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1646,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1646?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Mace',
+          },
+          <class 'dict'> {
+            'id': 1649,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1649?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bronze Mace',
+          },
+          <class 'dict'> {
+            'id': 1650,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1650?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bronze Axe',
+          },
+          <class 'dict'> {
+            'id': 1651,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1651?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Axe',
+          },
+          <class 'dict'> {
+            'id': 1652,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1652?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Shortsword',
+          },
+          <class 'dict'> {
+            'id': 1653,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1653?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bronze Shortsword',
+          },
+          <class 'dict'> {
+            'id': 1849,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1849?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Copper Broadsword',
+          },
+          <class 'dict'> {
+            'id': 1850,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1850?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Battle Axe',
+          },
+          <class 'dict'> {
+            'id': 1851,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1851?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thick War Axe',
+          },
+          <class 'dict'> {
+            'id': 1852,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1852?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Deadly Bronze Poniard',
+          },
+          <class 'dict'> {
+            'id': 1853,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1853?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Bronze Mace',
+          },
+          <class 'dict'> {
+            'id': 1854,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1854?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Mighty Iron Hammer',
+          },
+          <class 'dict'> {
+            'id': 1984,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1984?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Big Bronze Knife',
+          },
+          <class 'dict'> {
+            'id': 1985,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1985?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Hardened Iron Shortsword',
+          },
+          <class 'dict'> {
+            'id': 1986,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1986?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Jade Serpentblade',
+          },
+          <class 'dict'> {
+            'id': 1987,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1987?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Solid Iron Maul',
+          },
+          <class 'dict'> {
+            'id': 1988,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1988?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Iron Destroyer',
+          },
+          <class 'dict'> {
+            'id': 1989,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1989?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Moonsteel Broadsword',
+          },
+          <class 'dict'> {
+            'id': 1990,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1990?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Frost Tiger Blade',
+          },
+          <class 'dict'> {
+            'id': 1991,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1991?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Massive Iron Axe',
+          },
+          <class 'dict'> {
+            'id': 1992,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1992?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Shadow Crescent Axe',
+          },
+          <class 'dict'> {
+            'id': 3971,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/3971?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Iridescent Hammer',
+          },
+          <class 'dict'> {
+            'id': 3972,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/3972?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Pearl-handled Dagger',
+          },
+          <class 'dict'> {
+            'id': 4285,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4285?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Copper Maul',
+          },
+          <class 'dict'> {
+            'id': 4910,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4910?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Dagger',
+          },
+          <class 'dict'> {
+            'id': 5338,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5338?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Claymore',
+          },
+          <class 'dict'> {
+            'id': 5339,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5339?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bronze Warhammer',
+          },
+          <class 'dict'> {
+            'id': 5340,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5340?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bronze Greatsword',
+          },
+          <class 'dict'> {
+            'id': 5341,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5341?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bronze Battle Axe',
+          },
+          <class 'dict'> {
+            'id': 5342,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5342?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Mithril Axe',
+          },
+          <class 'dict'> {
+            'id': 5343,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5343?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Blue Glittering Axe',
+          },
+          <class 'dict'> {
+            'id': 5344,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5344?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Wicked Mithril Blade',
+          },
+          <class 'dict'> {
+            'id': 5345,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5345?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Big Black Mace',
+          },
+          <class 'dict'> {
+            'id': 5346,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5346?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'The Shatterer',
+          },
+          <class 'dict'> {
+            'id': 5347,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5347?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dazzling Mithril Rapier',
+          },
+          <class 'dict'> {
+            'id': 5348,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5348?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Phantom Blade',
+          },
+          <class 'dict'> {
+            'id': 5349,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5349?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runed Mithril Hammer',
+          },
+          <class 'dict'> {
+            'id': 5350,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5350?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Blight',
+          },
+          <class 'dict'> {
+            'id': 5351,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5351?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ebon Shiv',
+          },
+          <class 'dict'> {
+            'id': 5352,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5352?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Truesilver Champion',
+          },
+          <class 'dict'> {
+            'id': 8218,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/8218?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Pulverizer',
+          },
+          <class 'dict'> {
+            'id': 8219,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/8219?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Sunderer',
+          },
+          <class 'dict'> {
+            'id': 8636,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/8636?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Glinting Steel Dagger',
+          },
+          <class 'dict'> {
+            'id': 8637,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/8637?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Searing Golden Blade',
+          },
+          <class 'dict'> {
+            'id': 9436,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9436?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thorium Greatsword',
+          },
+          <class 'dict'> {
+            'id': 9437,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9437?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bleakwood Hew',
+          },
+          <class 'dict'> {
+            'id': 9438,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9438?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Inlaid Thorium Hammer',
+          },
+          <class 'dict'> {
+            'id': 9439,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9439?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ornate Thorium Handaxe',
+          },
+          <class 'dict'> {
+            'id': 9440,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9440?namespace=static-8.3.0_32861-us',
+            },
+            'name': "Dawn's Edge",
+          },
+          <class 'dict'> {
+            'id': 9441,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9441?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Huge Thorium Battleaxe',
+          },
+          <class 'dict'> {
+            'id': 9442,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9442?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Enchanted Battlehammer',
+          },
+          <class 'dict'> {
+            'id': 9443,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9443?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Blazing Rapier',
+          },
+          <class 'dict'> {
+            'id': 9444,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9444?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rune Edge',
+          },
+          <class 'dict'> {
+            'id': 9445,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9445?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Serenity',
+          },
+          <class 'dict'> {
+            'id': 9446,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9446?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Volcanic Hammer',
+          },
+          <class 'dict'> {
+            'id': 9447,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9447?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Corruption',
+          },
+          <class 'dict'> {
+            'id': 9448,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9448?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Blood Talon',
+          },
+          <class 'dict'> {
+            'id': 9449,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9449?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Darkspear',
+          },
+          <class 'dict'> {
+            'id': 9450,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9450?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Hammer of the Titans',
+          },
+          <class 'dict'> {
+            'id': 9451,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9451?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Arcanite Champion',
+          },
+          <class 'dict'> {
+            'id': 9452,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9452?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Annihilator',
+          },
+          <class 'dict'> {
+            'id': 9453,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9453?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Frostguard',
+          },
+          <class 'dict'> {
+            'id': 9454,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9454?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Masterwork Stormhammer',
+          },
+          <class 'dict'> {
+            'id': 9455,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9455?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Arcanite Reaper',
+          },
+          <class 'dict'> {
+            'id': 9456,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9456?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heartseeker',
+          },
+          <class 'dict'> {
+            'id': 11866,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11866?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Destroyer',
+          },
+          <class 'dict'> {
+            'id': 11867,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11867?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Reaver',
+          },
+          <class 'dict'> {
+            'id': 11979,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11979?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Sulfuron Hammer',
+          },
+          <class 'dict'> {
+            'id': 12136,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12136?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Edge of Winter',
+          },
+          <class 'dict'> {
+            'id': 12683,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12683?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Black Amnesty',
+          },
+          <class 'dict'> {
+            'id': 12684,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12684?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Blackfury',
+          },
+          <class 'dict'> {
+            'id': 12685,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12685?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ebon Hand',
+          },
+          <class 'dict'> {
+            'id': 12686,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12686?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Blackguard',
+          },
+          <class 'dict'> {
+            'id': 12687,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12687?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Nightfall',
+          },
+          <class 'dict'> {
+            'id': 13842,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13842?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Persuader',
+          },
+          <class 'dict'> {
+            'id': 13844,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13844?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Sageblade',
+          },
+          <class 'dict'> {
+            'id': 15619,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/15619?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Light Earthforged Blade',
+          },
+          <class 'dict'> {
+            'id': 16001,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/16001?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Copper Longsword',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Boots',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1855,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1855?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Copper Chain Boots',
+          },
+          <class 'dict'> {
+            'id': 1864,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1864?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Silvered Bronze Boots',
+          },
+          <class 'dict'> {
+            'id': 1866,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1866?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Green Iron Boots',
+          },
+          <class 'dict'> {
+            'id': 2002,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/2002?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Polished Steel Boots',
+          },
+          <class 'dict'> {
+            'id': 2003,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/2003?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Scale Boots',
+          },
+          <class 'dict'> {
+            'id': 4389,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4389?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Bronze Boots',
+          },
+          <class 'dict'> {
+            'id': 5309,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5309?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Barbaric Iron Boots',
+          },
+          <class 'dict'> {
+            'id': 5332,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5332?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Mithril Boots',
+          },
+          <class 'dict'> {
+            'id': 5336,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5336?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ornate Mithril Boots',
+          },
+          <class 'dict'> {
+            'id': 9169,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9169?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thorium Boots',
+          },
+          <class 'dict'> {
+            'id': 9173,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9173?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Radiant Boots',
+          },
+          <class 'dict'> {
+            'id': 9176,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9176?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Imperial Plate Boots',
+          },
+          <class 'dict'> {
+            'id': 9183,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9183?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runic Plate Boots',
+          },
+          <class 'dict'> {
+            'id': 12678,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12678?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Timbermaw Boots',
+          },
+          <class 'dict'> {
+            'id': 12901,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12901?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Boots',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Materials',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1856,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1856?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Grinding Stone',
+          },
+          <class 'dict'> {
+            'id': 1861,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1861?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Coarse Grinding Stone',
+          },
+          <class 'dict'> {
+            'id': 1868,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1868?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Grinding Stone',
+          },
+          <class 'dict'> {
+            'id': 4847,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4847?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Iron Buckle',
+          },
+          <class 'dict'> {
+            'id': 5314,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5314?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Solid Grinding Stone',
+          },
+          <class 'dict'> {
+            'id': 7417,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/7417?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Inlaid Mithril Cylinder',
+          },
+          <class 'dict'> {
+            'id': 9158,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9158?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dense Grinding Stone',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Gauntlets',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1858,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1858?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runed Copper Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 1860,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1860?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Gemmed Copper Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 1865,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1865?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Silvered Bronze Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 1867,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1867?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Green Iron Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 4630,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4630?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ironforge Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 5310,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5310?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Barbaric Iron Gloves',
+          },
+          <class 'dict'> {
+            'id': 5316,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5316?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Mithril Gauntlet',
+          },
+          <class 'dict'> {
+            'id': 5322,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5322?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Mithril Scale Gloves',
+          },
+          <class 'dict'> {
+            'id': 5324,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5324?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ornate Mithril Gloves',
+          },
+          <class 'dict'> {
+            'id': 5326,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5326?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Truesilver Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 6136,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/6136?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Scale Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 9171,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9171?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Radiant Gloves',
+          },
+          <class 'dict'> {
+            'id': 9175,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9175?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Fiery Plate Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 9334,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9334?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Stronghold Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 9579,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9579?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Storm Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 12680,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12680?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Gloves of the Dawn',
+          },
+          <class 'dict'> {
+            'id': 12682,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12682?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 12830,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12830?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bloodsoul Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 13080,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13080?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Darkrune Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 13806,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13806?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Black Grasp of the Destroyer',
+          },
+          <class 'dict'> {
+            'id': 13923,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13923?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Icebane Gauntlets',
+          },
+          <class 'dict'> {
+            'id': 13945,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13945?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ironvine Gloves',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Shoulders',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1862,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1862?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Rough Bronze Shoulders',
+          },
+          <class 'dict'> {
+            'id': 1863,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1863?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Silvered Bronze Shoulders',
+          },
+          <class 'dict'> {
+            'id': 1996,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1996?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Green Iron Shoulders',
+          },
+          <class 'dict'> {
+            'id': 1997,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1997?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Scale Shoulders',
+          },
+          <class 'dict'> {
+            'id': 5306,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5306?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Barbaric Iron Shoulders',
+          },
+          <class 'dict'> {
+            'id': 5315,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5315?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Mithril Shoulder',
+          },
+          <class 'dict'> {
+            'id': 5325,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5325?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ornate Mithril Shoulder',
+          },
+          <class 'dict'> {
+            'id': 5331,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5331?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Mithril Scale Shoulders',
+          },
+          <class 'dict'> {
+            'id': 8220,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/8220?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Shoulders',
+          },
+          <class 'dict'> {
+            'id': 9163,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9163?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Imperial Plate Shoulders',
+          },
+          <class 'dict'> {
+            'id': 9174,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9174?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dawnbringer Shoulders',
+          },
+          <class 'dict'> {
+            'id': 9182,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9182?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runic Plate Shoulders',
+          },
+          <class 'dict'> {
+            'id': 11865,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11865?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Fiery Chain Shoulders',
+          },
+          <class 'dict'> {
+            'id': 12831,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12831?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Bloodsoul Shoulders',
+          },
+          <class 'dict'> {
+            'id': 12834,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12834?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Darksoul Shoulders',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Helms',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 1994,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1994?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Green Iron Helm',
+          },
+          <class 'dict'> {
+            'id': 1995,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/1995?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Scale Coif',
+          },
+          <class 'dict'> {
+            'id': 5308,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5308?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Barbaric Iron Helm',
+          },
+          <class 'dict'> {
+            'id': 5319,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5319?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Steel Plate Helm',
+          },
+          <class 'dict'> {
+            'id': 5329,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5329?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Mithril Coif',
+          },
+          <class 'dict'> {
+            'id': 5333,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5333?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Heavy Mithril Helm',
+          },
+          <class 'dict'> {
+            'id': 5337,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5337?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Ornate Mithril Helm',
+          },
+          <class 'dict'> {
+            'id': 9170,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9170?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thorium Helm',
+          },
+          <class 'dict'> {
+            'id': 9177,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9177?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Imperial Plate Helm',
+          },
+          <class 'dict'> {
+            'id': 9179,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9179?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Radiant Circlet',
+          },
+          <class 'dict'> {
+            'id': 9321,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9321?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Whitesoul Helm',
+          },
+          <class 'dict'> {
+            'id': 9323,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9323?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Runic Plate Helm',
+          },
+          <class 'dict'> {
+            'id': 9325,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9325?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Helm of the Great Chief',
+          },
+          <class 'dict'> {
+            'id': 9331,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9331?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Lionheart Helm',
+          },
+          <class 'dict'> {
+            'id': 9335,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9335?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Enchanted Thorium Helm',
+          },
+          <class 'dict'> {
+            'id': 12681,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/12681?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Dark Iron Helm',
+          },
+          <class 'dict'> {
+            'id': 13081,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13081?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Darkrune Helm',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Armor Mods',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 4207,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/4207?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Iron Shield Spike',
+          },
+          <class 'dict'> {
+            'id': 5321,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5321?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Mithril Shield Spike',
+          },
+          <class 'dict'> {
+            'id': 5330,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/5330?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Mithril Spurs',
+          },
+          <class 'dict'> {
+            'id': 9168,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/9168?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Thorium Shield Spike',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Skeleton Keys',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 11183,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11183?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Silver Skeleton Key',
+          },
+          <class 'dict'> {
+            'id': 11184,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11184?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Golden Skeleton Key',
+          },
+          <class 'dict'> {
+            'id': 11185,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11185?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Truesilver Skeleton Key',
+          },
+          <class 'dict'> {
+            'id': 11186,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/11186?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Arcanite Skeleton Key',
+          },
+        ],
+      },
+      <class 'dict'> {
+        'name': 'Shields',
+        'recipes': <class 'list'> [
+          <class 'dict'> {
+            'id': 13805,
+            'key': <class 'dict'> {
+              'href': 'https://us.api.blizzard.com/data/wow/recipe/13805?namespace=static-8.3.0_32861-us',
+            },
+            'name': 'Jagged Obsidian Shield',
+          },
+        ],
+      },
+    ],
+    'id': 2477,
+    'maximum_skill_level': 300,
+    'minimum_skill_level': 1,
+    'name': 'Blacksmithing',
+  }
+---
+# name: test_get_professions_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/profession/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'professions': <class 'list'> [
+      <class 'dict'> {
+        'id': 164,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/164?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Blacksmithing',
+      },
+      <class 'dict'> {
+        'id': 165,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/165?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Leatherworking',
+      },
+      <class 'dict'> {
+        'id': 171,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/171?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Alchemy',
+      },
+      <class 'dict'> {
+        'id': 182,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/182?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Herbalism',
+      },
+      <class 'dict'> {
+        'id': 185,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/185?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cooking',
+      },
+      <class 'dict'> {
+        'id': 186,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/186?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mining',
+      },
+      <class 'dict'> {
+        'id': 197,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/197?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tailoring',
+      },
+      <class 'dict'> {
+        'id': 202,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/202?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Engineering',
+      },
+      <class 'dict'> {
+        'id': 333,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/333?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Enchanting',
+      },
+      <class 'dict'> {
+        'id': 356,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/356?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Fishing',
+      },
+      <class 'dict'> {
+        'id': 393,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/393?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Skinning',
+      },
+      <class 'dict'> {
+        'id': 755,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/755?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Jewelcrafting',
+      },
+      <class 'dict'> {
+        'id': 773,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/773?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Inscription',
+      },
+      <class 'dict'> {
+        'id': 794,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/profession/794?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Archaeology',
+      },
+    ],
+  }
+---
+# name: test_get_recipe
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/recipe/1631?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'crafted_item': <class 'dict'> {
+      'id': 2862,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/item/2862?namespace=static-8.3.0_32861-us',
+      },
+      'name': 'Rough Sharpening Stone',
+    },
+    'id': 1631,
+    'media': <class 'dict'> {
+      'id': 1631,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/recipe/1631?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'name': 'Rough Sharpening Stone',
+    'reagents': <class 'list'> [
+      <class 'dict'> {
+        'quantity': 1,
+        'reagent': <class 'dict'> {
+          'id': 2835,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/item/2835?namespace=static-8.3.0_32861-us',
+          },
+          'name': 'Rough Stone',
+        },
+      },
+    ],
+  }
+---
+# name: test_get_recipe_media
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/recipe/1631?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'assets': <class 'list'> [
+      <class 'dict'> {
+        'key': 'icon',
+        'value': 'https://render-us.worldofwarcraft.com/icons/56/inv_stone_sharpeningstone_01.jpg',
+      },
+    ],
+    'id': 1631,
+  }
+---

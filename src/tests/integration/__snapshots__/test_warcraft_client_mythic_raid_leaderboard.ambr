@@ -1,0 +1,1719 @@
+# name: test_get_mythic_raid_leaderboard
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/leaderboard/hall-of-fame/uldir/alliance?namespace=dynamic-us',
+      },
+    },
+    'criteria_type': 'hall-of-fame',
+    'entries': <class 'list'> [
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 31307591,
+          'name': '阿尔法',
+          'realm': <class 'dict'> {
+            'id': 729,
+            'name': 'Rhonin',
+            'slug': 'rhonin',
+          },
+        },
+        'rank': 1,
+        'region': 'cn',
+        'timestamp': 1537733917000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 41321785,
+          'name': 'Honestly',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 2,
+        'region': 'us',
+        'timestamp': 1538129132000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 49912595,
+          'name': 'P G',
+          'realm': <class 'dict'> {
+            'id': 554,
+            'name': 'Ravencrest',
+            'slug': 'ravencrest',
+          },
+        },
+        'rank': 3,
+        'region': 'eu',
+        'timestamp': 1538159395000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 16512112,
+          'name': '鼎鑫',
+          'realm': <class 'dict'> {
+            'id': 816,
+            'name': 'Thunder Axe Fortress',
+            'slug': 'thunder-axe-fortress',
+          },
+        },
+        'rank': 4,
+        'region': 'cn',
+        'timestamp': 1538224427000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 26151452,
+          'name': 'Bleached Bones',
+          'realm': <class 'dict'> {
+            'id': 1313,
+            'name': 'Wildhammer',
+            'slug': 'wildhammer',
+          },
+        },
+        'rank': 5,
+        'region': 'eu',
+        'timestamp': 1538601478000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 29227025,
+          'name': 'Sloth',
+          'realm': <class 'dict'> {
+            'id': 1378,
+            'name': 'Dun Modr',
+            'slug': 'dun-modr',
+          },
+        },
+        'rank': 6,
+        'region': 'eu',
+        'timestamp': 1538601824000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 67796992,
+          'name': 'Gulch Trotters',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 7,
+        'region': 'us',
+        'timestamp': 1538646842000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 131765,
+          'name': 'Чёрный Лотос',
+          'realm': <class 'dict'> {
+            'id': 1602,
+            'name': 'Gordunni',
+            'slug': 'gordunni',
+          },
+        },
+        'rank': 8,
+        'region': 'eu',
+        'timestamp': 1538939787000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 63185519,
+          'name': 'Ингениум',
+          'realm': <class 'dict'> {
+            'id': 1602,
+            'name': 'Gordunni',
+            'slug': 'gordunni',
+          },
+        },
+        'rank': 9,
+        'region': 'eu',
+        'timestamp': 1539028156000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 60457445,
+          'name': 'Club Camel',
+          'realm': <class 'dict'> {
+            'id': 60,
+            'name': 'Stormrage',
+            'slug': 'stormrage',
+          },
+        },
+        'rank': 10,
+        'region': 'us',
+        'timestamp': 1539134433000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 67048936,
+          'name': 'Scared of the Dark',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 11,
+        'region': 'us',
+        'timestamp': 1539176103000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 26999802,
+          'name': 'Group Therapy',
+          'realm': <class 'dict'> {
+            'id': 554,
+            'name': 'Ravencrest',
+            'slug': 'ravencrest',
+          },
+        },
+        'rank': 12,
+        'region': 'eu',
+        'timestamp': 1539526402000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 28309954,
+          'name': '項羽',
+          'realm': <class 'dict'> {
+            'id': 1208,
+            'name': 'Crushridge',
+            'slug': 'crushridge',
+          },
+        },
+        'rank': 13,
+        'region': 'cn',
+        'timestamp': 1539688306000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 27133119,
+          'name': '凌云',
+          'realm': <class 'dict'> {
+            'id': 842,
+            'name': 'Azjol-Nerub',
+            'slug': 'azjolnerub',
+          },
+        },
+        'rank': 14,
+        'region': 'cn',
+        'timestamp': 1539699895000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 64584513,
+          'name': 'Рубль идёт вверх',
+          'realm': <class 'dict'> {
+            'id': 1929,
+            'name': 'Blackscar',
+            'slug': 'blackscar',
+          },
+        },
+        'rank': 15,
+        'region': 'eu',
+        'timestamp': 1539723789000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 42063793,
+          'name': 'Fortune',
+          'realm': <class 'dict'> {
+            'id': 963,
+            'name': 'Shadowmoon',
+            'slug': 'shadowmoon',
+          },
+        },
+        'rank': 16,
+        'region': 'tw',
+        'timestamp': 1539783119000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 26999469,
+          'name': 'Alterac Deviants',
+          'realm': <class 'dict'> {
+            'id': 554,
+            'name': 'Ravencrest',
+            'slug': 'ravencrest',
+          },
+        },
+        'rank': 17,
+        'region': 'eu',
+        'timestamp': 1539812254000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 45501835,
+          'name': 'Formality',
+          'realm': <class 'dict'> {
+            'id': 5,
+            'name': 'Proudmoore',
+            'slug': 'proudmoore',
+          },
+        },
+        'rank': 18,
+        'region': 'us',
+        'timestamp': 1539839568000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 5756876,
+          'name': 'THE LOONEY BIN',
+          'realm': <class 'dict'> {
+            'id': 960,
+            'name': 'Falathim',
+            'slug': 'falathim',
+          },
+        },
+        'rank': 19,
+        'region': 'cn',
+        'timestamp': 1539880602000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 41590750,
+          'name': 'Bloody Tearz',
+          'realm': <class 'dict'> {
+            'id': 538,
+            'name': 'Dalaran',
+            'slug': 'dalaran',
+          },
+        },
+        'rank': 20,
+        'region': 'eu',
+        'timestamp': 1539896538000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 25951954,
+          'name': '乔纳森之盾',
+          'realm': <class 'dict'> {
+            'id': 962,
+            'name': 'The Golden Plains',
+            'slug': 'the-golden-plains',
+          },
+        },
+        'rank': 21,
+        'region': 'cn',
+        'timestamp': 1539960167000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 33320648,
+          'name': '순 삭',
+          'realm': <class 'dict'> {
+            'id': 2107,
+            'name': 'Hyjal',
+            'slug': 'hyjal',
+          },
+        },
+        'rank': 22,
+        'region': 'kr',
+        'timestamp': 1540010944000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 76779993,
+          'name': 'Crimson',
+          'realm': <class 'dict'> {
+            'id': 3734,
+            'name': 'Nagrand',
+            'slug': 'nagrand',
+          },
+        },
+        'rank': 23,
+        'region': 'us',
+        'timestamp': 1540084577000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 67081001,
+          'name': 'One',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 24,
+        'region': 'us',
+        'timestamp': 1540114131000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 74117989,
+          'name': 'Selfless',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 25,
+        'region': 'us',
+        'timestamp': 1540122562000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 59278455,
+          'name': 'Focus Up',
+          'realm': <class 'dict'> {
+            'id': 60,
+            'name': 'Stormrage',
+            'slug': 'stormrage',
+          },
+        },
+        'rank': 26,
+        'region': 'us',
+        'timestamp': 1540179215000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 40075497,
+          'name': 'Inner Sanctum',
+          'realm': <class 'dict'> {
+            'id': 549,
+            'name': 'Silvermoon',
+            'slug': 'silvermoon',
+          },
+        },
+        'rank': 27,
+        'region': 'eu',
+        'timestamp': 1540231701000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 32448534,
+          'name': 'Schwingen des Phoenix',
+          'realm': <class 'dict'> {
+            'id': 592,
+            'name': 'Zirkel des Cenarius',
+            'slug': 'zirkel-des-cenarius',
+          },
+        },
+        'rank': 28,
+        'region': 'eu',
+        'timestamp': 1540235138000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 13973402,
+          'name': 'Аструм',
+          'realm': <class 'dict'> {
+            'id': 1602,
+            'name': 'Gordunni',
+            'slug': 'gordunni',
+          },
+        },
+        'rank': 29,
+        'region': 'eu',
+        'timestamp': 1540236423000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 34216488,
+          'name': 'У беляша',
+          'realm': <class 'dict'> {
+            'id': 1602,
+            'name': 'Gordunni',
+            'slug': 'gordunni',
+          },
+        },
+        'rank': 30,
+        'region': 'eu',
+        'timestamp': 1540239233000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 59509458,
+          'name': 'Polar',
+          'realm': <class 'dict'> {
+            'id': 549,
+            'name': 'Silvermoon',
+            'slug': 'silvermoon',
+          },
+        },
+        'rank': 31,
+        'region': 'eu',
+        'timestamp': 1540243237000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 43333053,
+          'name': 'Vindicatum',
+          'realm': <class 'dict'> {
+            'id': 14,
+            'name': 'Icecrown',
+            'slug': 'icecrown',
+          },
+        },
+        'rank': 32,
+        'region': 'us',
+        'timestamp': 1540258475000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 77077990,
+          'name': 'Content',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 33,
+        'region': 'us',
+        'timestamp': 1540262430000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 48748000,
+          'name': 'Reload',
+          'realm': <class 'dict'> {
+            'id': 66,
+            'name': 'Dalaran',
+            'slug': 'dalaran',
+          },
+        },
+        'rank': 34,
+        'region': 'us',
+        'timestamp': 1540337729000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 19470381,
+          'name': 'Alpha',
+          'realm': <class 'dict'> {
+            'id': 55,
+            'name': 'Whisperwind',
+            'slug': 'whisperwind',
+          },
+        },
+        'rank': 35,
+        'region': 'us',
+        'timestamp': 1540347191000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 26168976,
+          'name': 'Vulgar',
+          'realm': <class 'dict'> {
+            'id': 76,
+            'name': 'Sargeras',
+            'slug': 'sargeras',
+          },
+        },
+        'rank': 36,
+        'region': 'us',
+        'timestamp': 1540429486000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 70093522,
+          'name': 'Там Разберёмся',
+          'realm': <class 'dict'> {
+            'id': 1602,
+            'name': 'Gordunni',
+            'slug': 'gordunni',
+          },
+        },
+        'rank': 37,
+        'region': 'eu',
+        'timestamp': 1540497751000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 30552128,
+          'name': '一波流',
+          'realm': <class 'dict'> {
+            'id': 816,
+            'name': 'Thunder Axe Fortress',
+            'slug': 'thunder-axe-fortress',
+          },
+        },
+        'rank': 38,
+        'region': 'cn',
+        'timestamp': 1540524192000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 52452929,
+          'name': 'Dinner Time',
+          'realm': <class 'dict'> {
+            'id': 60,
+            'name': 'Stormrage',
+            'slug': 'stormrage',
+          },
+        },
+        'rank': 39,
+        'region': 'us',
+        'timestamp': 1540530871000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 16091168,
+          'name': '境界的彼方',
+          'realm': <class 'dict'> {
+            'id': 794,
+            'name': "The Master's Glaive",
+            'slug': 'the-masters-glaive',
+          },
+        },
+        'rank': 40,
+        'region': 'cn',
+        'timestamp': 1540652860000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 44628087,
+          'name': 'Honolulu',
+          'realm': <class 'dict'> {
+            'id': 628,
+            'name': 'Sylvanas',
+            'slug': 'sylvanas',
+          },
+        },
+        'rank': 41,
+        'region': 'eu',
+        'timestamp': 1540743559000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 29920097,
+          'name': 'Arctic Avengers',
+          'realm': <class 'dict'> {
+            'id': 554,
+            'name': 'Ravencrest',
+            'slug': 'ravencrest',
+          },
+        },
+        'rank': 42,
+        'region': 'eu',
+        'timestamp': 1540760339000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 38135045,
+          'name': 'Loading',
+          'realm': <class 'dict'> {
+            'id': 1795,
+            'name': 'Argus',
+            'slug': 'argus',
+          },
+        },
+        'rank': 43,
+        'region': 'cn',
+        'timestamp': 1540818296000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 39566475,
+          'name': 'FGamer',
+          'realm': <class 'dict'> {
+            'id': 838,
+            'name': 'Pandaren',
+            'slug': 'pandaren',
+          },
+        },
+        'rank': 44,
+        'region': 'cn',
+        'timestamp': 1540827545000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 36783963,
+          'name': '众神之秋',
+          'realm': <class 'dict'> {
+            'id': 711,
+            'name': 'Danath Trollbane',
+            'slug': 'danath-trollbane',
+          },
+        },
+        'rank': 45,
+        'region': 'cn',
+        'timestamp': 1540828175000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 37781690,
+          'name': '咏冻黎明',
+          'realm': <class 'dict'> {
+            'id': 962,
+            'name': 'The Golden Plains',
+            'slug': 'the-golden-plains',
+          },
+        },
+        'rank': 46,
+        'region': 'cn',
+        'timestamp': 1540828401000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 5301,
+          'name': 'Die Gummibärenbande',
+          'realm': <class 'dict'> {
+            'id': 580,
+            'name': 'Blackmoore',
+            'slug': 'blackmoore',
+          },
+        },
+        'rank': 47,
+        'region': 'eu',
+        'timestamp': 1540843527000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 31121098,
+          'name': 'Veneration',
+          'realm': <class 'dict'> {
+            'id': 564,
+            'name': 'Antonidas',
+            'slug': 'antonidas',
+          },
+        },
+        'rank': 48,
+        'region': 'eu',
+        'timestamp': 1540845285000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 3936916,
+          'name': 'Orden Inmortal',
+          'realm': <class 'dict'> {
+            'id': 1385,
+            'name': 'Exodar',
+            'slug': 'exodar',
+          },
+        },
+        'rank': 49,
+        'region': 'eu',
+        'timestamp': 1540854720000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 48702577,
+          'name': '佶天鸿俱乐部',
+          'realm': <class 'dict'> {
+            'id': 838,
+            'name': 'Pandaren',
+            'slug': 'pandaren',
+          },
+        },
+        'rank': 50,
+        'region': 'cn',
+        'timestamp': 1540878630000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 52872052,
+          'name': 'Homonoia',
+          'realm': <class 'dict'> {
+            'id': 1949,
+            'name': 'Hearthglen',
+            'slug': 'hearthglen',
+          },
+        },
+        'rank': 51,
+        'region': 'cn',
+        'timestamp': 1540902624000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 61589332,
+          'name': 'All in',
+          'realm': <class 'dict'> {
+            'id': 1939,
+            'name': 'Doomwalker',
+            'slug': 'doomwalker',
+          },
+        },
+        'rank': 52,
+        'region': 'cn',
+        'timestamp': 1540907403000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 61539359,
+          'name': '糖乄罐',
+          'realm': <class 'dict'> {
+            'id': 1939,
+            'name': 'Doomwalker',
+            'slug': 'doomwalker',
+          },
+        },
+        'rank': 53,
+        'region': 'cn',
+        'timestamp': 1540908649000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 43987323,
+          'name': 'Vigil',
+          'realm': <class 'dict'> {
+            'id': 76,
+            'name': 'Sargeras',
+            'slug': 'sargeras',
+          },
+        },
+        'rank': 54,
+        'region': 'us',
+        'timestamp': 1540944335000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 18384900,
+          'name': 'Midnight Sanctuary',
+          'realm': <class 'dict'> {
+            'id': 60,
+            'name': 'Stormrage',
+            'slug': 'stormrage',
+          },
+        },
+        'rank': 55,
+        'region': 'us',
+        'timestamp': 1540967740000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 36731044,
+          'name': '七 煌',
+          'realm': <class 'dict'> {
+            'id': 850,
+            'name': 'Alterac Mountains',
+            'slug': 'alterac-mountains',
+          },
+        },
+        'rank': 56,
+        'region': 'cn',
+        'timestamp': 1540973520000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 24956469,
+          'name': 'Unnecessary Flame',
+          'realm': <class 'dict'> {
+            'id': 1300,
+            'name': 'Frostmane',
+            'slug': 'frostmane',
+          },
+        },
+        'rank': 57,
+        'region': 'eu',
+        'timestamp': 1541014952000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 21796464,
+          'name': 'Депо',
+          'realm': <class 'dict'> {
+            'id': 1605,
+            'name': 'Deathguard',
+            'slug': 'deathguard',
+          },
+        },
+        'rank': 58,
+        'region': 'eu',
+        'timestamp': 1541016614000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 28494786,
+          'name': 'Myth',
+          'realm': <class 'dict'> {
+            'id': 580,
+            'name': 'Blackmoore',
+            'slug': 'blackmoore',
+          },
+        },
+        'rank': 59,
+        'region': 'eu',
+        'timestamp': 1541017260000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 33255505,
+          'name': 'easYplaY',
+          'realm': <class 'dict'> {
+            'id': 1097,
+            'name': 'Ysera',
+            'slug': 'ysera',
+          },
+        },
+        'rank': 60,
+        'region': 'eu',
+        'timestamp': 1541020814000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 48469463,
+          'name': 'Wisp',
+          'realm': <class 'dict'> {
+            'id': 542,
+            'name': 'Hyjal',
+            'slug': 'hyjal',
+          },
+        },
+        'rank': 61,
+        'region': 'eu',
+        'timestamp': 1541025194000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 44909441,
+          'name': 'Simplicité',
+          'realm': <class 'dict'> {
+            'id': 1146,
+            'name': 'Korgath',
+            'slug': 'korgath',
+          },
+        },
+        'rank': 62,
+        'region': 'us',
+        'timestamp': 1541036868000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 43933157,
+          'name': '恩 奕',
+          'realm': <class 'dict'> {
+            'id': 1795,
+            'name': 'Argus',
+            'slug': 'argus',
+          },
+        },
+        'rank': 63,
+        'region': 'cn',
+        'timestamp': 1541060993000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 51176060,
+          'name': 'Never Ending',
+          'realm': <class 'dict'> {
+            'id': 718,
+            'name': 'Echo Ridge',
+            'slug': 'echo-ridge',
+          },
+        },
+        'rank': 64,
+        'region': 'cn',
+        'timestamp': 1541079142000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 14549590,
+          'name': 'Dust Wind',
+          'realm': <class 'dict'> {
+            'id': 744,
+            'name': 'Bronze Dragonflight',
+            'slug': 'bronze-dragonflight',
+          },
+        },
+        'rank': 65,
+        'region': 'cn',
+        'timestamp': 1541080634000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 13092404,
+          'name': 'Whatever',
+          'realm': <class 'dict'> {
+            'id': 1597,
+            'name': 'Auchindoun',
+            'slug': 'auchindoun',
+          },
+        },
+        'rank': 66,
+        'region': 'eu',
+        'timestamp': 1541104168000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 38558095,
+          'name': 'Member Berries',
+          'realm': <class 'dict'> {
+            'id': 554,
+            'name': 'Ravencrest',
+            'slug': 'ravencrest',
+          },
+        },
+        'rank': 67,
+        'region': 'eu',
+        'timestamp': 1541107819000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 27601024,
+          'name': 'Unknown Entity',
+          'realm': <class 'dict'> {
+            'id': 1378,
+            'name': 'Dun Modr',
+            'slug': 'dun-modr',
+          },
+        },
+        'rank': 68,
+        'region': 'eu',
+        'timestamp': 1541112079000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 16542324,
+          'name': 'Cry Moar',
+          'realm': <class 'dict'> {
+            'id': 54,
+            'name': 'Blackhand',
+            'slug': 'blackhand',
+          },
+        },
+        'rank': 69,
+        'region': 'us',
+        'timestamp': 1541122381000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 70908190,
+          'name': '肖郎',
+          'realm': <class 'dict'> {
+            'id': 1939,
+            'name': 'Doomwalker',
+            'slug': 'doomwalker',
+          },
+        },
+        'rank': 70,
+        'region': 'cn',
+        'timestamp': 1541140341000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 45624477,
+          'name': '皇家永乐',
+          'realm': <class 'dict'> {
+            'id': 838,
+            'name': 'Pandaren',
+            'slug': 'pandaren',
+          },
+        },
+        'rank': 71,
+        'region': 'cn',
+        'timestamp': 1541180409000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 72555291,
+          'name': '軌迹',
+          'realm': <class 'dict'> {
+            'id': 1933,
+            'name': 'Anzu',
+            'slug': 'anzu',
+          },
+        },
+        'rank': 72,
+        'region': 'cn',
+        'timestamp': 1541212369000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 57567176,
+          'name': '江 湖',
+          'realm': <class 'dict'> {
+            'id': 1950,
+            'name': 'Barrens',
+            'slug': 'barrens',
+          },
+        },
+        'rank': 73,
+        'region': 'cn',
+        'timestamp': 1541237756000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 22857978,
+          'name': '名将',
+          'realm': <class 'dict'> {
+            'id': 850,
+            'name': 'Alterac Mountains',
+            'slug': 'alterac-mountains',
+          },
+        },
+        'rank': 74,
+        'region': 'cn',
+        'timestamp': 1541248308000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 45385849,
+          'name': 'Fate',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 75,
+        'region': 'us',
+        'timestamp': 1541251318000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 36124661,
+          'name': 'Pilgrim',
+          'realm': <class 'dict'> {
+            'id': 792,
+            'name': 'Temple of Elune',
+            'slug': 'temple-of-elune',
+          },
+        },
+        'rank': 76,
+        'region': 'cn',
+        'timestamp': 1541266329000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 61066110,
+          'name': 'Handicap Hangtime',
+          'realm': <class 'dict'> {
+            'id': 1284,
+            'name': 'Aerie Peak',
+            'slug': 'aerie-peak',
+          },
+        },
+        'rank': 77,
+        'region': 'us',
+        'timestamp': 1541294433000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 28311048,
+          'name': '梵天',
+          'realm': <class 'dict'> {
+            'id': 1208,
+            'name': 'Crushridge',
+            'slug': 'crushridge',
+          },
+        },
+        'rank': 78,
+        'region': 'cn',
+        'timestamp': 1541320302000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 71958114,
+          'name': '深 红',
+          'realm': <class 'dict'> {
+            'id': 2118,
+            'name': 'Galakrond',
+            'slug': 'galakrond',
+          },
+        },
+        'rank': 79,
+        'region': 'cn',
+        'timestamp': 1541334750000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 10338253,
+          'name': '永恒理想',
+          'realm': <class 'dict'> {
+            'id': 794,
+            'name': "The Master's Glaive",
+            'slug': 'the-masters-glaive',
+          },
+        },
+        'rank': 80,
+        'region': 'cn',
+        'timestamp': 1541337376000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 3884537,
+          'name': '神话铁骑',
+          'realm': <class 'dict'> {
+            'id': 729,
+            'name': 'Rhonin',
+            'slug': 'rhonin',
+          },
+        },
+        'rank': 81,
+        'region': 'cn',
+        'timestamp': 1541345701000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 58741632,
+          'name': 'The Inner Circle',
+          'realm': <class 'dict'> {
+            'id': 627,
+            'name': 'The Maelstrom',
+            'slug': 'the-maelstrom',
+          },
+        },
+        'rank': 82,
+        'region': 'eu',
+        'timestamp': 1541359701000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 27628083,
+          'name': 'Eversio',
+          'realm': <class 'dict'> {
+            'id': 554,
+            'name': 'Ravencrest',
+            'slug': 'ravencrest',
+          },
+        },
+        'rank': 83,
+        'region': 'eu',
+        'timestamp': 1541361049000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 40077195,
+          'name': 'Halo',
+          'realm': <class 'dict'> {
+            'id': 549,
+            'name': 'Silvermoon',
+            'slug': 'silvermoon',
+          },
+        },
+        'rank': 84,
+        'region': 'eu',
+        'timestamp': 1541363275000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 29544095,
+          'name': 'Strange Behaviour',
+          'realm': <class 'dict'> {
+            'id': 554,
+            'name': 'Ravencrest',
+            'slug': 'ravencrest',
+          },
+        },
+        'rank': 85,
+        'region': 'eu',
+        'timestamp': 1541366651000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 36886834,
+          'name': 'Avalerion',
+          'realm': <class 'dict'> {
+            'id': 550,
+            'name': 'Stormrage',
+            'slug': 'stormrage',
+          },
+        },
+        'rank': 86,
+        'region': 'eu',
+        'timestamp': 1541369117000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 42729466,
+          'name': 'Miracle',
+          'realm': <class 'dict'> {
+            'id': 1378,
+            'name': 'Dun Modr',
+            'slug': 'dun-modr',
+          },
+        },
+        'rank': 87,
+        'region': 'eu',
+        'timestamp': 1541370178000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 60873842,
+          'name': 'Barbershop Quartet',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 88,
+        'region': 'us',
+        'timestamp': 1541416126000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 71420988,
+          'name': 'Relevant',
+          'realm': <class 'dict'> {
+            'id': 3725,
+            'name': 'Frostmourne',
+            'slug': 'frostmourne',
+          },
+        },
+        'rank': 89,
+        'region': 'us',
+        'timestamp': 1541417768000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 38817042,
+          'name': '凌云',
+          'realm': <class 'dict'> {
+            'id': 1236,
+            'name': 'Well of Eternity',
+            'slug': 'well-of-eternity',
+          },
+        },
+        'rank': 90,
+        'region': 'cn',
+        'timestamp': 1541425757000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 46426974,
+          'name': '月蚀',
+          'realm': <class 'dict'> {
+            'id': 707,
+            'name': 'Silver Hand',
+            'slug': 'silver-hand',
+          },
+        },
+        'rank': 91,
+        'region': 'cn',
+        'timestamp': 1541426422000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 43306792,
+          'name': '月刃',
+          'realm': <class 'dict'> {
+            'id': 1038,
+            'name': 'Arygos',
+            'slug': 'arygos',
+          },
+        },
+        'rank': 92,
+        'region': 'tw',
+        'timestamp': 1541429301000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 39709044,
+          'name': 'LEGION',
+          'realm': <class 'dict'> {
+            'id': 1795,
+            'name': 'Argus',
+            'slug': 'argus',
+          },
+        },
+        'rank': 93,
+        'region': 'cn',
+        'timestamp': 1541430423000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 32518648,
+          'name': '와관학교',
+          'realm': <class 'dict'> {
+            'id': 2107,
+            'name': 'Hyjal',
+            'slug': 'hyjal',
+          },
+        },
+        'rank': 94,
+        'region': 'kr',
+        'timestamp': 1541439894000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 27007976,
+          'name': 'Loot FTW',
+          'realm': <class 'dict'> {
+            'id': 554,
+            'name': 'Ravencrest',
+            'slug': 'ravencrest',
+          },
+        },
+        'rank': 95,
+        'region': 'eu',
+        'timestamp': 1541444754000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 39070218,
+          'name': 'Consilium',
+          'realm': <class 'dict'> {
+            'id': 503,
+            'name': 'Azjol-Nerub',
+            'slug': 'azjolnerub',
+          },
+        },
+        'rank': 96,
+        'region': 'eu',
+        'timestamp': 1541450749000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 39960859,
+          'name': 'Eternal Shadows',
+          'realm': <class 'dict'> {
+            'id': 523,
+            'name': 'Burning Blade',
+            'slug': 'burning-blade',
+          },
+        },
+        'rank': 97,
+        'region': 'eu',
+        'timestamp': 1541452193000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 43317467,
+          'name': 'Adrenaline',
+          'realm': <class 'dict'> {
+            'id': 1378,
+            'name': 'Dun Modr',
+            'slug': 'dun-modr',
+          },
+        },
+        'rank': 98,
+        'region': 'eu',
+        'timestamp': 1541452700000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 47608457,
+          'name': 'No Hard Feelings',
+          'realm': <class 'dict'> {
+            'id': 549,
+            'name': 'Silvermoon',
+            'slug': 'silvermoon',
+          },
+        },
+        'rank': 99,
+        'region': 'eu',
+        'timestamp': 1541453481000,
+      },
+      <class 'dict'> {
+        'faction': <class 'dict'> {
+          'type': 'ALLIANCE',
+        },
+        'guild': <class 'dict'> {
+          'id': 40075794,
+          'name': 'Phoenix',
+          'realm': <class 'dict'> {
+            'id': 549,
+            'name': 'Silvermoon',
+            'slug': 'silvermoon',
+          },
+        },
+        'rank': 100,
+        'region': 'eu',
+        'timestamp': 1541454206000,
+      },
+    ],
+    'slug': 'uldir-alliance',
+    'zone': <class 'dict'> {
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/zone/9389?namespace=static-us',
+      },
+      'name': 'Uldir',
+    },
+  }
+---

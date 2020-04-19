@@ -1,0 +1,358 @@
+# name: test_get_azerite_essence
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/2?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'allowed_specializations': <class 'list'> [
+      <class 'dict'> {
+        'id': 66,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/66?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Protection',
+      },
+      <class 'dict'> {
+        'id': 73,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/73?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Protection',
+      },
+      <class 'dict'> {
+        'id': 104,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/104?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Guardian',
+      },
+      <class 'dict'> {
+        'id': 581,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/581?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Vengeance',
+      },
+      <class 'dict'> {
+        'id': 268,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/268?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Brewmaster',
+      },
+      <class 'dict'> {
+        'id': 250,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/250?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Blood',
+      },
+    ],
+    'id': 2,
+    'media': <class 'dict'> {
+      'id': 2,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/azerite-essence/2?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'name': "Azeroth's Undying Gift",
+    'powers': <class 'list'> [
+      <class 'dict'> {
+        'id': 5,
+        'main_power_spell': <class 'dict'> {
+          'id': 293019,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/spell/293019?namespace=static-8.3.0_32861-us',
+          },
+          'name': "Azeroth's Undying Gift",
+        },
+        'passive_power_spell': <class 'dict'> {
+          'id': 294668,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/spell/294668?namespace=static-8.3.0_32861-us',
+          },
+          'name': 'Hardened Azerite',
+        },
+        'rank': 1,
+      },
+      <class 'dict'> {
+        'id': 6,
+        'main_power_spell': <class 'dict'> {
+          'id': 298080,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/spell/298080?namespace=static-8.3.0_32861-us',
+          },
+          'name': "Azeroth's Undying Gift",
+        },
+        'passive_power_spell': <class 'dict'> {
+          'id': 298082,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/spell/298082?namespace=static-8.3.0_32861-us',
+          },
+          'name': 'Hardened Azerite',
+        },
+        'rank': 2,
+      },
+      <class 'dict'> {
+        'id': 7,
+        'main_power_spell': <class 'dict'> {
+          'id': 298081,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/spell/298081?namespace=static-8.3.0_32861-us',
+          },
+          'name': "Azeroth's Undying Gift",
+        },
+        'passive_power_spell': <class 'dict'> {
+          'id': 298083,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/spell/298083?namespace=static-8.3.0_32861-us',
+          },
+          'name': 'Hardened Azerite',
+        },
+        'rank': 3,
+      },
+      <class 'dict'> {
+        'id': 8,
+        'main_power_spell': <class 'dict'> {
+          'id': 298081,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/spell/298081?namespace=static-8.3.0_32861-us',
+          },
+          'name': "Azeroth's Undying Gift",
+        },
+        'passive_power_spell': <class 'dict'> {
+          'id': 298083,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/spell/298083?namespace=static-8.3.0_32861-us',
+          },
+          'name': 'Hardened Azerite',
+        },
+        'rank': 4,
+      },
+    ],
+  }
+---
+# name: test_get_azerite_essence_media
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/azerite-essence/2?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'assets': <class 'list'> [
+      <class 'dict'> {
+        'key': 'icon',
+        'value': 'https://render-us.worldofwarcraft.com/icons/56/spell_azerite_essence08.jpg',
+      },
+    ],
+    'id': 293019,
+  }
+---
+# name: test_get_azerite_essences_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'azerite_essences': <class 'list'> [
+      <class 'dict'> {
+        'id': 2,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/2?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Azeroth's Undying Gift",
+      },
+      <class 'dict'> {
+        'id': 3,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/3?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Sphere of Suppression',
+      },
+      <class 'dict'> {
+        'id': 4,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/4?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Worldvein Resonance',
+      },
+      <class 'dict'> {
+        'id': 5,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/5?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Essence of the Focusing Iris',
+      },
+      <class 'dict'> {
+        'id': 6,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/6?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Purification Protocol',
+      },
+      <class 'dict'> {
+        'id': 7,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/7?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Anima of Life and Death',
+      },
+      <class 'dict'> {
+        'id': 12,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/12?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Crucible of Flame',
+      },
+      <class 'dict'> {
+        'id': 13,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/13?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Nullification Dynamo',
+      },
+      <class 'dict'> {
+        'id': 14,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/14?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Condensed Life-Force',
+      },
+      <class 'dict'> {
+        'id': 15,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/15?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ripple in Space',
+      },
+      <class 'dict'> {
+        'id': 16,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/16?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Unwavering Ward',
+      },
+      <class 'dict'> {
+        'id': 17,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/17?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Ever-Rising Tide',
+      },
+      <class 'dict'> {
+        'id': 18,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/18?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Artifice of Time',
+      },
+      <class 'dict'> {
+        'id': 19,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/19?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Well of Existence',
+      },
+      <class 'dict'> {
+        'id': 20,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/20?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Life-Binder's Invocation",
+      },
+      <class 'dict'> {
+        'id': 21,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/21?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Vitality Conduit',
+      },
+      <class 'dict'> {
+        'id': 22,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/22?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Vision of Perfection',
+      },
+      <class 'dict'> {
+        'id': 23,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/23?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Blood of the Enemy',
+      },
+      <class 'dict'> {
+        'id': 24,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/24?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Spirit of Preservation',
+      },
+      <class 'dict'> {
+        'id': 25,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/25?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Aegis of the Deep',
+      },
+      <class 'dict'> {
+        'id': 27,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/27?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Memory of Lucid Dreams',
+      },
+      <class 'dict'> {
+        'id': 28,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/28?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Unbound Force',
+      },
+      <class 'dict'> {
+        'id': 32,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/32?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Conflict and Strife',
+      },
+      <class 'dict'> {
+        'id': 33,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/33?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Touch of the Everlasting',
+      },
+      <class 'dict'> {
+        'id': 34,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/34?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Strength of the Warden',
+      },
+      <class 'dict'> {
+        'id': 35,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/35?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Breath of the Dying',
+      },
+      <class 'dict'> {
+        'id': 36,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/36?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Spark of Inspiration',
+      },
+      <class 'dict'> {
+        'id': 37,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/azerite-essence/37?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Formless Void',
+      },
+    ],
+  }
+---

@@ -1,0 +1,26 @@
+# name: test_get_region
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us',
+      },
+    },
+    'id': 1,
+    'name': 'North America',
+    'tag': 'US',
+  }
+---
+# name: test_get_regions_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/region/?namespace=dynamic-us',
+      },
+    },
+    'regions': <class 'list'> [
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us',
+      },
+    ],
+  }
+---

@@ -9,3 +9,4 @@ pytest-cov==2.8.1
 pre-commit==2.2.0
 black==19.10b0
 syrupy==0.3.11
+pytest-parallel==0.0.10

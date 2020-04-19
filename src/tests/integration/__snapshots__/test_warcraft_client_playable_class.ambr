@@ -1,0 +1,192 @@
+# name: test_get_playable_class
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'gender_name': <class 'dict'> {
+      'female': 'Shaman',
+      'male': 'Shaman',
+    },
+    'id': 7,
+    'media': <class 'dict'> {
+      'id': 7,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/playable-class/7?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'name': 'Shaman',
+    'power_type': <class 'dict'> {
+      'id': 0,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/power-type/0?namespace=static-8.3.0_32861-us',
+      },
+      'name': 'Mana',
+    },
+    'pvp_talent_slots': <class 'dict'> {
+      'href': 'https://us.api.blizzard.com/data/wow/playable-class/7/pvp-talent-slots?namespace=static-8.3.0_32861-us',
+    },
+    'specializations': <class 'list'> [
+      <class 'dict'> {
+        'id': 262,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/262?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Elemental',
+      },
+      <class 'dict'> {
+        'id': 263,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/263?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Enhancement',
+      },
+      <class 'dict'> {
+        'id': 264,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/264?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Restoration',
+      },
+    ],
+  }
+---
+# name: test_get_playable_class_media
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/playable-class/7?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'assets': <class 'list'> [
+      <class 'dict'> {
+        'key': 'icon',
+        'value': 'https://render-us.worldofwarcraft.com/icons/56/classicon_shaman.jpg',
+      },
+    ],
+    'id': 7,
+  }
+---
+# name: test_get_playable_classes_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/playable-class/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'classes': <class 'list'> [
+      <class 'dict'> {
+        'id': 1,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Warrior',
+      },
+      <class 'dict'> {
+        'id': 2,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/2?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Paladin',
+      },
+      <class 'dict'> {
+        'id': 3,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Hunter',
+      },
+      <class 'dict'> {
+        'id': 4,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/4?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Rogue',
+      },
+      <class 'dict'> {
+        'id': 5,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/5?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Priest',
+      },
+      <class 'dict'> {
+        'id': 6,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/6?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Death Knight',
+      },
+      <class 'dict'> {
+        'id': 7,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Shaman',
+      },
+      <class 'dict'> {
+        'id': 8,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/8?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mage',
+      },
+      <class 'dict'> {
+        'id': 9,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/9?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Warlock',
+      },
+      <class 'dict'> {
+        'id': 10,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Monk',
+      },
+      <class 'dict'> {
+        'id': 11,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/11?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Druid',
+      },
+      <class 'dict'> {
+        'id': 12,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/playable-class/12?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Demon Hunter',
+      },
+    ],
+  }
+---
+# name: test_get_pvp_talent_slots
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/playable-class/7/pvp-talent-slots?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'talent_slots': <class 'list'> [
+      <class 'dict'> {
+        'slot_number': 1,
+        'unlock_player_level': 20,
+      },
+      <class 'dict'> {
+        'slot_number': 2,
+        'unlock_player_level': 40,
+      },
+      <class 'dict'> {
+        'slot_number': 3,
+        'unlock_player_level': 70,
+      },
+      <class 'dict'> {
+        'slot_number': 4,
+        'unlock_player_level': 110,
+      },
+    ],
+  }
+---

@@ -1,0 +1,418 @@
+# name: test_get_connected_realm
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/11?namespace=dynamic-us',
+      },
+    },
+    'auctions': <class 'dict'> {
+      'href': 'https://us.api.blizzard.com/data/wow/connected-realm/11/auctions?namespace=dynamic-us',
+    },
+    'has_queue': False,
+    'id': 11,
+    'mythic_leaderboards': <class 'dict'> {
+      'href': 'https://us.api.blizzard.com/data/wow/connected-realm/11/mythic-leaderboard/?namespace=dynamic-us',
+    },
+    'population': <class 'dict'> {
+      'name': 'Full',
+      'type': 'FULL',
+    },
+    'realms': <class 'list'> [
+      <class 'dict'> {
+        'category': 'United States',
+        'connected_realm': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/connected-realm/11?namespace=dynamic-us',
+        },
+        'id': 11,
+        'is_tournament': False,
+        'locale': 'enUS',
+        'name': 'Tichondrius',
+        'region': <class 'dict'> {
+          'id': 1,
+          'key': <class 'dict'> {
+            'href': 'https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us',
+          },
+          'name': 'North America',
+        },
+        'slug': 'tichondrius',
+        'timezone': 'America/Los_Angeles',
+        'type': <class 'dict'> {
+          'name': 'Normal',
+          'type': 'NORMAL',
+        },
+      },
+    ],
+    'status': <class 'dict'> {
+      'name': 'Up',
+      'type': 'UP',
+    },
+  }
+---
+# name: test_get_connected_realms_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/?namespace=dynamic-us',
+      },
+    },
+    'connected_realms': <class 'list'> [
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/4?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/5?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/7?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/9?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/10?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/11?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/12?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/47?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/51?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/52?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/53?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/54?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/55?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/57?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/58?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/60?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/61?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/62?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/63?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/64?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/67?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/68?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/69?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/70?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/71?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/73?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/74?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/75?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/76?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/77?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/78?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/84?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/85?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/86?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/87?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/90?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/91?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/96?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/98?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/99?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/100?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/101?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/104?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/105?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/106?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/113?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/114?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/115?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/116?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/117?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/118?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/119?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/120?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/121?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/122?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/123?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/125?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/127?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/128?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/131?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/151?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/153?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/154?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/155?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/156?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/157?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/158?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/159?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/160?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/162?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/163?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/164?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1069?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1070?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1071?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1072?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1129?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1136?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1138?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1146?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1147?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1151?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1165?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1168?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1169?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1171?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1173?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1174?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1175?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1182?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1184?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1185?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1190?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1425?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1426?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1427?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/1428?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3207?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3208?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3209?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3234?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3661?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3675?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3676?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3677?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3678?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3683?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3684?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3685?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3693?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3694?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3721?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3722?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3723?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3724?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3725?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3726?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3728?namespace=dynamic-us',
+      },
+      <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3729?namespace=dynamic-us',
+      },
+    ],
+  }
+---

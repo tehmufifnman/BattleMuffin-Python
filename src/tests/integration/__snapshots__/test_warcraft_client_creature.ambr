@@ -1,0 +1,774 @@
+# name: test_get_creature
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/creature/42722?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'creature_displays': <class 'list'> [
+      <class 'dict'> {
+        'id': 30221,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/media/creature-display/30221?namespace=static-8.3.0_32861-us',
+        },
+      },
+    ],
+    'family': <class 'dict'> {
+      'id': 52,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/creature-family/52?namespace=static-8.3.0_32861-us',
+      },
+      'name': 'Dog',
+    },
+    'id': 42722,
+    'is_tameable': True,
+    'name': 'Young Mastiff',
+    'type': <class 'dict'> {
+      'id': 1,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/creature-type/1?namespace=static-8.3.0_32861-us',
+      },
+      'name': 'Beast',
+    },
+  }
+---
+# name: test_get_creature_display_media
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/creature-display/30221?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'assets': <class 'list'> [
+      <class 'dict'> {
+        'key': 'zoom',
+        'value': 'https://render-us.worldofwarcraft.com/npcs/zoom/creature-display-30221.jpg',
+      },
+    ],
+    'id': 30221,
+  }
+---
+# name: test_get_creature_families_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/creature-family/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'creature_families': <class 'list'> [
+      <class 'dict'> {
+        'id': 1,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/1?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wolf',
+      },
+      <class 'dict'> {
+        'id': 2,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/2?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cat',
+      },
+      <class 'dict'> {
+        'id': 3,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/3?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Spider',
+      },
+      <class 'dict'> {
+        'id': 4,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/4?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Bear',
+      },
+      <class 'dict'> {
+        'id': 5,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/5?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Boar',
+      },
+      <class 'dict'> {
+        'id': 6,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/6?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Crocolisk',
+      },
+      <class 'dict'> {
+        'id': 7,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/7?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Carrion Bird',
+      },
+      <class 'dict'> {
+        'id': 8,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/8?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Crab',
+      },
+      <class 'dict'> {
+        'id': 9,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/9?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Gorilla',
+      },
+      <class 'dict'> {
+        'id': 11,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/11?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Raptor',
+      },
+      <class 'dict'> {
+        'id': 12,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/12?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tallstrider',
+      },
+      <class 'dict'> {
+        'id': 15,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/15?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Felhunter',
+      },
+      <class 'dict'> {
+        'id': 16,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/16?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Voidwalker',
+      },
+      <class 'dict'> {
+        'id': 17,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/17?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Succubus',
+      },
+      <class 'dict'> {
+        'id': 19,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/19?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Doomguard',
+      },
+      <class 'dict'> {
+        'id': 20,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/20?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Scorpid',
+      },
+      <class 'dict'> {
+        'id': 21,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/21?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Turtle',
+      },
+      <class 'dict'> {
+        'id': 23,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/23?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Imp',
+      },
+      <class 'dict'> {
+        'id': 24,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/24?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Bat',
+      },
+      <class 'dict'> {
+        'id': 25,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/25?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Hyena',
+      },
+      <class 'dict'> {
+        'id': 26,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/26?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Bird of Prey',
+      },
+      <class 'dict'> {
+        'id': 27,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/27?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wind Serpent',
+      },
+      <class 'dict'> {
+        'id': 28,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/28?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Remote Control',
+      },
+      <class 'dict'> {
+        'id': 29,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/29?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Felguard',
+      },
+      <class 'dict'> {
+        'id': 30,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/30?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dragonhawk',
+      },
+      <class 'dict'> {
+        'id': 31,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/31?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ravager',
+      },
+      <class 'dict'> {
+        'id': 32,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/32?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Warp Stalker',
+      },
+      <class 'dict'> {
+        'id': 33,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/33?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Sporebat',
+      },
+      <class 'dict'> {
+        'id': 34,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/34?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ray',
+      },
+      <class 'dict'> {
+        'id': 35,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/35?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Serpent',
+      },
+      <class 'dict'> {
+        'id': 37,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/37?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Moth',
+      },
+      <class 'dict'> {
+        'id': 38,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/38?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Chimaera',
+      },
+      <class 'dict'> {
+        'id': 39,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/39?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Devilsaur',
+      },
+      <class 'dict'> {
+        'id': 40,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/40?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ghoul',
+      },
+      <class 'dict'> {
+        'id': 41,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/41?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Silithid',
+      },
+      <class 'dict'> {
+        'id': 42,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/42?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Worm',
+      },
+      <class 'dict'> {
+        'id': 43,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/43?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Clefthoof',
+      },
+      <class 'dict'> {
+        'id': 44,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/44?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wasp',
+      },
+      <class 'dict'> {
+        'id': 45,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/45?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Core Hound',
+      },
+      <class 'dict'> {
+        'id': 46,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/46?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Spirit Beast',
+      },
+      <class 'dict'> {
+        'id': 49,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/49?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Water Elemental',
+      },
+      <class 'dict'> {
+        'id': 50,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/50?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Fox',
+      },
+      <class 'dict'> {
+        'id': 51,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/51?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Monkey',
+      },
+      <class 'dict'> {
+        'id': 52,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/52?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dog',
+      },
+      <class 'dict'> {
+        'id': 53,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/53?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Beetle',
+      },
+      <class 'dict'> {
+        'id': 55,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/55?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Shale Spider',
+      },
+      <class 'dict'> {
+        'id': 56,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/56?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Zombie',
+      },
+      <class 'dict'> {
+        'id': 68,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/68?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Hydra',
+      },
+      <class 'dict'> {
+        'id': 100,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/100?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Fel Imp',
+      },
+      <class 'dict'> {
+        'id': 101,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/101?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Voidlord',
+      },
+      <class 'dict'> {
+        'id': 102,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/102?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Shivarra',
+      },
+      <class 'dict'> {
+        'id': 103,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/103?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Observer',
+      },
+      <class 'dict'> {
+        'id': 104,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/104?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wrathguard',
+      },
+      <class 'dict'> {
+        'id': 108,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/108?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Infernal',
+      },
+      <class 'dict'> {
+        'id': 116,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/116?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Fire Elemental',
+      },
+      <class 'dict'> {
+        'id': 117,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/117?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Earth Elemental',
+      },
+      <class 'dict'> {
+        'id': 125,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/125?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Crane',
+      },
+      <class 'dict'> {
+        'id': 126,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/126?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Water Strider',
+      },
+      <class 'dict'> {
+        'id': 127,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/127?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Rodent',
+      },
+      <class 'dict'> {
+        'id': 128,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/128?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Quilen',
+      },
+      <class 'dict'> {
+        'id': 129,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/129?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Goat',
+      },
+      <class 'dict'> {
+        'id': 130,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/130?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Basilisk',
+      },
+      <class 'dict'> {
+        'id': 138,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/138?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Direhorn',
+      },
+      <class 'dict'> {
+        'id': 145,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/145?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Storm Elemental',
+      },
+      <class 'dict'> {
+        'id': 147,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/147?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Terrorguard',
+      },
+      <class 'dict'> {
+        'id': 148,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/148?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Abyssal',
+      },
+      <class 'dict'> {
+        'id': 150,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/150?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Riverbeast',
+      },
+      <class 'dict'> {
+        'id': 151,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/151?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Stag',
+      },
+      <class 'dict'> {
+        'id': 154,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/154?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mechanical',
+      },
+      <class 'dict'> {
+        'id': 155,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/155?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Abomination',
+      },
+      <class 'dict'> {
+        'id': 156,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/156?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Scalehide',
+      },
+      <class 'dict'> {
+        'id': 157,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/157?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Oxen',
+      },
+      <class 'dict'> {
+        'id': 160,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/160?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Feathermane',
+      },
+      <class 'dict'> {
+        'id': 288,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/288?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Lizard',
+      },
+      <class 'dict'> {
+        'id': 290,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/290?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pterrordax',
+      },
+      <class 'dict'> {
+        'id': 291,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/291?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Toad',
+      },
+      <class 'dict'> {
+        'id': 292,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/292?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Krolusk',
+      },
+      <class 'dict'> {
+        'id': 296,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-family/296?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Blood Beast',
+      },
+    ],
+  }
+---
+# name: test_get_creature_family
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/creature-family/1?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'id': 1,
+    'media': <class 'dict'> {
+      'id': 1,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/creature-family/1?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'name': 'Wolf',
+    'specialization': <class 'dict'> {
+      'id': 74,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/playable-specialization/74?namespace=static-8.3.0_32861-us',
+      },
+      'name': 'Ferocity',
+    },
+  }
+---
+# name: test_get_creature_family_media
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/creature-family/1?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'assets': <class 'list'> [
+      <class 'dict'> {
+        'key': 'icon',
+        'value': 'https://render-us.worldofwarcraft.com/icons/56/ability_hunter_pet_wolf.jpg',
+      },
+    ],
+    'id': 1,
+  }
+---
+# name: test_get_creature_type
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/creature-type/1?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'id': 1,
+    'name': 'Beast',
+  }
+---
+# name: test_get_creature_types_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/creature-type/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'creature_types': <class 'list'> [
+      <class 'dict'> {
+        'id': 1,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/1?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Beast',
+      },
+      <class 'dict'> {
+        'id': 2,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/2?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dragonkin',
+      },
+      <class 'dict'> {
+        'id': 3,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/3?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Demon',
+      },
+      <class 'dict'> {
+        'id': 4,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/4?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Elemental',
+      },
+      <class 'dict'> {
+        'id': 5,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/5?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Giant',
+      },
+      <class 'dict'> {
+        'id': 6,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/6?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Undead',
+      },
+      <class 'dict'> {
+        'id': 7,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/7?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Humanoid',
+      },
+      <class 'dict'> {
+        'id': 8,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/8?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Critter',
+      },
+      <class 'dict'> {
+        'id': 9,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/9?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mechanical',
+      },
+      <class 'dict'> {
+        'id': 10,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/10?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Not specified',
+      },
+      <class 'dict'> {
+        'id': 11,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/11?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Totem',
+      },
+      <class 'dict'> {
+        'id': 12,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/12?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Non-combat Pet',
+      },
+      <class 'dict'> {
+        'id': 13,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/13?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Gas Cloud',
+      },
+      <class 'dict'> {
+        'id': 14,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/14?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wild Pet',
+      },
+      <class 'dict'> {
+        'id': 15,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/creature-type/15?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Aberration',
+      },
+    ],
+  }
+---

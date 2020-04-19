@@ -1,0 +1,1818 @@
+# name: test_get_reputation_faction
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/21?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'description': 'This booming coastal city is run by Baron Revilgaz of the Blackwater Raiders.  Mortal enemies of the Bloodsail Buccaneers and part of the Steamwheedle Cartel.',
+    'id': 21,
+    'name': 'Booty Bay',
+    'reputation_tiers': <class 'dict'> {
+      'id': 0,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/0?namespace=static-8.3.0_32861-us',
+      },
+    },
+  }
+---
+# name: test_get_reputation_factions_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'factions': <class 'list'> [
+      <class 'dict'> {
+        'id': 21,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/21?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Booty Bay',
+      },
+      <class 'dict'> {
+        'id': 47,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/47?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ironforge',
+      },
+      <class 'dict'> {
+        'id': 54,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/54?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Gnomeregan',
+      },
+      <class 'dict'> {
+        'id': 59,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/59?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Thorium Brotherhood',
+      },
+      <class 'dict'> {
+        'id': 67,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/67?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Horde',
+      },
+      <class 'dict'> {
+        'id': 68,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/68?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Undercity',
+      },
+      <class 'dict'> {
+        'id': 69,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/69?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Darnassus',
+      },
+      <class 'dict'> {
+        'id': 70,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/70?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Syndicate',
+      },
+      <class 'dict'> {
+        'id': 72,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/72?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Stormwind',
+      },
+      <class 'dict'> {
+        'id': 76,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/76?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Orgrimmar',
+      },
+      <class 'dict'> {
+        'id': 81,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/81?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Thunder Bluff',
+      },
+      <class 'dict'> {
+        'id': 87,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/87?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Bloodsail Buccaneers',
+      },
+      <class 'dict'> {
+        'id': 92,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/92?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Gelkis Clan Centaur',
+      },
+      <class 'dict'> {
+        'id': 93,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/93?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Magram Clan Centaur',
+      },
+      <class 'dict'> {
+        'id': 169,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/169?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Steamwheedle Cartel',
+      },
+      <class 'dict'> {
+        'id': 270,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/270?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Zandalar Tribe',
+      },
+      <class 'dict'> {
+        'id': 349,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/349?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ravenholdt',
+      },
+      <class 'dict'> {
+        'id': 369,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/369?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Gadgetzan',
+      },
+      <class 'dict'> {
+        'id': 469,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/469?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Alliance',
+      },
+      <class 'dict'> {
+        'id': 470,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/470?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ratchet',
+      },
+      <class 'dict'> {
+        'id': 509,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/509?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The League of Arathor',
+      },
+      <class 'dict'> {
+        'id': 510,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/510?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Defilers',
+      },
+      <class 'dict'> {
+        'id': 529,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/529?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Argent Dawn',
+      },
+      <class 'dict'> {
+        'id': 530,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/530?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Darkspear Trolls',
+      },
+      <class 'dict'> {
+        'id': 576,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/576?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Timbermaw Hold',
+      },
+      <class 'dict'> {
+        'id': 577,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/577?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Everlook',
+      },
+      <class 'dict'> {
+        'id': 589,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/589?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wintersaber Trainers',
+      },
+      <class 'dict'> {
+        'id': 609,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/609?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cenarion Circle',
+      },
+      <class 'dict'> {
+        'id': 729,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/729?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Frostwolf Clan',
+      },
+      <class 'dict'> {
+        'id': 730,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/730?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Stormpike Guard',
+      },
+      <class 'dict'> {
+        'id': 749,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/749?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Hydraxian Waterlords',
+      },
+      <class 'dict'> {
+        'id': 809,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/809?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Shen'dralar",
+      },
+      <class 'dict'> {
+        'id': 889,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/889?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Warsong Outriders',
+      },
+      <class 'dict'> {
+        'id': 890,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/890?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Silverwing Sentinels',
+      },
+      <class 'dict'> {
+        'id': 891,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/891?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Alliance Forces',
+      },
+      <class 'dict'> {
+        'id': 892,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/892?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Horde Forces',
+      },
+      <class 'dict'> {
+        'id': 909,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/909?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Darkmoon Faire',
+      },
+      <class 'dict'> {
+        'id': 910,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/910?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Brood of Nozdormu',
+      },
+      <class 'dict'> {
+        'id': 911,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/911?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Silvermoon City',
+      },
+      <class 'dict'> {
+        'id': 922,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/922?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tranquillien',
+      },
+      <class 'dict'> {
+        'id': 930,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/930?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Exodar',
+      },
+      <class 'dict'> {
+        'id': 932,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/932?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Aldor',
+      },
+      <class 'dict'> {
+        'id': 933,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/933?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Consortium',
+      },
+      <class 'dict'> {
+        'id': 934,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/934?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Scryers',
+      },
+      <class 'dict'> {
+        'id': 935,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/935?namespace=static-8.3.0_32861-us',
+        },
+        'name': "The Sha'tar",
+      },
+      <class 'dict'> {
+        'id': 936,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/936?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Shattrath City',
+      },
+      <class 'dict'> {
+        'id': 941,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/941?namespace=static-8.3.0_32861-us',
+        },
+        'name': "The Mag'har",
+      },
+      <class 'dict'> {
+        'id': 942,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/942?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cenarion Expedition',
+      },
+      <class 'dict'> {
+        'id': 946,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/946?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Honor Hold',
+      },
+      <class 'dict'> {
+        'id': 947,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/947?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Thrallmar',
+      },
+      <class 'dict'> {
+        'id': 967,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/967?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Violet Eye',
+      },
+      <class 'dict'> {
+        'id': 970,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/970?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Sporeggar',
+      },
+      <class 'dict'> {
+        'id': 978,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/978?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Kurenai',
+      },
+      <class 'dict'> {
+        'id': 980,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/980?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Burning Crusade',
+      },
+      <class 'dict'> {
+        'id': 989,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/989?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Keepers of Time',
+      },
+      <class 'dict'> {
+        'id': 990,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/990?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Scale of the Sands',
+      },
+      <class 'dict'> {
+        'id': 1011,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1011?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Lower City',
+      },
+      <class 'dict'> {
+        'id': 1012,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1012?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ashtongue Deathsworn',
+      },
+      <class 'dict'> {
+        'id': 1015,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1015?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Netherwing',
+      },
+      <class 'dict'> {
+        'id': 1031,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1031?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Sha'tari Skyguard",
+      },
+      <class 'dict'> {
+        'id': 1037,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1037?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Alliance Vanguard',
+      },
+      <class 'dict'> {
+        'id': 1038,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1038?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Ogri'la",
+      },
+      <class 'dict'> {
+        'id': 1050,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1050?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Valiance Expedition',
+      },
+      <class 'dict'> {
+        'id': 1052,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1052?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Horde Expedition',
+      },
+      <class 'dict'> {
+        'id': 1064,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1064?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Taunka',
+      },
+      <class 'dict'> {
+        'id': 1067,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1067?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Hand of Vengeance',
+      },
+      <class 'dict'> {
+        'id': 1068,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1068?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Explorers' League",
+      },
+      <class 'dict'> {
+        'id': 1073,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1073?namespace=static-8.3.0_32861-us',
+        },
+        'name': "The Kalu'ak",
+      },
+      <class 'dict'> {
+        'id': 1077,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1077?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Shattered Sun Offensive',
+      },
+      <class 'dict'> {
+        'id': 1085,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1085?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Warsong Offensive',
+      },
+      <class 'dict'> {
+        'id': 1090,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1090?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Kirin Tor',
+      },
+      <class 'dict'> {
+        'id': 1091,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1091?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Wyrmrest Accord',
+      },
+      <class 'dict'> {
+        'id': 1094,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1094?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Silver Covenant',
+      },
+      <class 'dict'> {
+        'id': 1097,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1097?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wrath of the Lich King',
+      },
+      <class 'dict'> {
+        'id': 1098,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1098?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Knights of the Ebon Blade',
+      },
+      <class 'dict'> {
+        'id': 1104,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1104?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Frenzyheart Tribe',
+      },
+      <class 'dict'> {
+        'id': 1105,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1105?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Oracles',
+      },
+      <class 'dict'> {
+        'id': 1106,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1106?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Argent Crusade',
+      },
+      <class 'dict'> {
+        'id': 1117,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1117?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Sholazar Basin',
+      },
+      <class 'dict'> {
+        'id': 1118,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1118?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Classic',
+      },
+      <class 'dict'> {
+        'id': 1119,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1119?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Sons of Hodir',
+      },
+      <class 'dict'> {
+        'id': 1124,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1124?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Sunreavers',
+      },
+      <class 'dict'> {
+        'id': 1126,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1126?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Frostborn',
+      },
+      <class 'dict'> {
+        'id': 1133,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1133?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Bilgewater Cartel',
+      },
+      <class 'dict'> {
+        'id': 1134,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1134?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Gilneas',
+      },
+      <class 'dict'> {
+        'id': 1135,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1135?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Earthen Ring',
+      },
+      <class 'dict'> {
+        'id': 1156,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1156?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Ashen Verdict',
+      },
+      <class 'dict'> {
+        'id': 1158,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1158?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Guardians of Hyjal',
+      },
+      <class 'dict'> {
+        'id': 1162,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1162?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm',
+      },
+      <class 'dict'> {
+        'id': 1168,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1168?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Guild',
+      },
+      <class 'dict'> {
+        'id': 1169,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1169?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Guild',
+      },
+      <class 'dict'> {
+        'id': 1171,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1171?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Therazane',
+      },
+      <class 'dict'> {
+        'id': 1172,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1172?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dragonmaw Clan',
+      },
+      <class 'dict'> {
+        'id': 1173,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1173?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ramkahen',
+      },
+      <class 'dict'> {
+        'id': 1174,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1174?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wildhammer Clan',
+      },
+      <class 'dict'> {
+        'id': 1177,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1177?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Baradin's Wardens",
+      },
+      <class 'dict'> {
+        'id': 1178,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1178?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Hellscream's Reach",
+      },
+      <class 'dict'> {
+        'id': 1204,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1204?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Avengers of Hyjal',
+      },
+      <class 'dict'> {
+        'id': 1216,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1216?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Shang Xi's Academy",
+      },
+      <class 'dict'> {
+        'id': 1228,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1228?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Forest Hozen',
+      },
+      <class 'dict'> {
+        'id': 1242,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1242?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Pearlfin Jinyu',
+      },
+      <class 'dict'> {
+        'id': 1245,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1245?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mists of Pandaria',
+      },
+      <class 'dict'> {
+        'id': 1269,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1269?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Golden Lotus',
+      },
+      <class 'dict'> {
+        'id': 1270,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1270?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Shado-Pan',
+      },
+      <class 'dict'> {
+        'id': 1271,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1271?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Order of the Cloud Serpent',
+      },
+      <class 'dict'> {
+        'id': 1272,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1272?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Tillers',
+      },
+      <class 'dict'> {
+        'id': 1273,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1273?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Jogu the Drunk',
+      },
+      <class 'dict'> {
+        'id': 1275,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1275?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ella',
+      },
+      <class 'dict'> {
+        'id': 1276,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1276?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Old Hillpaw',
+      },
+      <class 'dict'> {
+        'id': 1277,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1277?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Chee Chee',
+      },
+      <class 'dict'> {
+        'id': 1278,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1278?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Sho',
+      },
+      <class 'dict'> {
+        'id': 1279,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1279?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Haohan Mudclaw',
+      },
+      <class 'dict'> {
+        'id': 1280,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1280?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tina Mudclaw',
+      },
+      <class 'dict'> {
+        'id': 1281,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1281?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Gina Mudclaw',
+      },
+      <class 'dict'> {
+        'id': 1282,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1282?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Fish Fellreed',
+      },
+      <class 'dict'> {
+        'id': 1283,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1283?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Farmer Fung',
+      },
+      <class 'dict'> {
+        'id': 1302,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1302?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Anglers',
+      },
+      <class 'dict'> {
+        'id': 1337,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1337?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Klaxxi',
+      },
+      <class 'dict'> {
+        'id': 1341,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1341?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The August Celestials',
+      },
+      <class 'dict'> {
+        'id': 1345,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1345?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Lorewalkers',
+      },
+      <class 'dict'> {
+        'id': 1352,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1352?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Huojin Pandaren',
+      },
+      <class 'dict'> {
+        'id': 1353,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1353?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tushui Pandaren',
+      },
+      <class 'dict'> {
+        'id': 1358,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1358?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Nat Pagle',
+      },
+      <class 'dict'> {
+        'id': 1359,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1359?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Black Prince',
+      },
+      <class 'dict'> {
+        'id': 1374,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1374?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawl'gar Arena (Season 1)",
+      },
+      <class 'dict'> {
+        'id': 1375,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1375?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dominance Offensive',
+      },
+      <class 'dict'> {
+        'id': 1376,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1376?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Operation: Shieldwall',
+      },
+      <class 'dict'> {
+        'id': 1387,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1387?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Kirin Tor Offensive',
+      },
+      <class 'dict'> {
+        'id': 1388,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1388?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Sunreaver Onslaught',
+      },
+      <class 'dict'> {
+        'id': 1416,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1416?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Akama's Trust",
+      },
+      <class 'dict'> {
+        'id': 1419,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1419?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Bizmo's Brawlpub (Season 1)",
+      },
+      <class 'dict'> {
+        'id': 1435,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1435?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Shado-Pan Assault',
+      },
+      <class 'dict'> {
+        'id': 1440,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1440?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Darkspear Rebellion',
+      },
+      <class 'dict'> {
+        'id': 1444,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1444?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Warlords of Draenor',
+      },
+      <class 'dict'> {
+        'id': 1445,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1445?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Frostwolf Orcs',
+      },
+      <class 'dict'> {
+        'id': 1492,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1492?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Emperor Shaohao',
+      },
+      <class 'dict'> {
+        'id': 1515,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1515?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Arakkoa Outcasts',
+      },
+      <class 'dict'> {
+        'id': 1681,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1681?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Vol'jin's Spear",
+      },
+      <class 'dict'> {
+        'id': 1682,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1682?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Wrynn's Vanguard",
+      },
+      <class 'dict'> {
+        'id': 1690,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1690?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawl'gar Arena (Season 2)",
+      },
+      <class 'dict'> {
+        'id': 1691,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1691?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Bizmo's Brawlpub (Season 2)",
+      },
+      <class 'dict'> {
+        'id': 1708,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1708?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Laughing Skull Orcs',
+      },
+      <class 'dict'> {
+        'id': 1710,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1710?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Sha'tari Defense",
+      },
+      <class 'dict'> {
+        'id': 1711,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1711?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Steamwheedle Preservation Society',
+      },
+      <class 'dict'> {
+        'id': 1731,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1731?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Council of Exarchs',
+      },
+      <class 'dict'> {
+        'id': 1733,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1733?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Delvar Ironfist',
+      },
+      <class 'dict'> {
+        'id': 1735,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1735?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Barracks Bodyguards',
+      },
+      <class 'dict'> {
+        'id': 1736,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1736?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tormmok',
+      },
+      <class 'dict'> {
+        'id': 1737,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1737?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Talonpriest Ishaal',
+      },
+      <class 'dict'> {
+        'id': 1738,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1738?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Defender Illona',
+      },
+      <class 'dict'> {
+        'id': 1739,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1739?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Vivianne',
+      },
+      <class 'dict'> {
+        'id': 1740,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1740?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Aeda Brightdawn',
+      },
+      <class 'dict'> {
+        'id': 1741,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1741?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Leorajh',
+      },
+      <class 'dict'> {
+        'id': 1828,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1828?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Highmountain Tribe',
+      },
+      <class 'dict'> {
+        'id': 1834,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1834?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion',
+      },
+      <class 'dict'> {
+        'id': 1847,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1847?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Hand of the Prophet',
+      },
+      <class 'dict'> {
+        'id': 1848,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1848?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Vol'jin's Headhunters",
+      },
+      <class 'dict'> {
+        'id': 1849,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1849?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Order of the Awakened',
+      },
+      <class 'dict'> {
+        'id': 1850,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1850?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Saberstalkers',
+      },
+      <class 'dict'> {
+        'id': 1859,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1859?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Nightfallen',
+      },
+      <class 'dict'> {
+        'id': 1883,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1883?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Dreamweavers',
+      },
+      <class 'dict'> {
+        'id': 1894,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1894?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Wardens',
+      },
+      <class 'dict'> {
+        'id': 1900,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1900?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Court of Farondis',
+      },
+      <class 'dict'> {
+        'id': 1948,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1948?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Valarjar',
+      },
+      <class 'dict'> {
+        'id': 1975,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1975?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Conjurer Margoss',
+      },
+      <class 'dict'> {
+        'id': 1984,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1984?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The First Responders',
+      },
+      <class 'dict'> {
+        'id': 2010,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2010?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawl'gar Arena (Season 3)",
+      },
+      <class 'dict'> {
+        'id': 2011,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2011?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Bizmo's Brawlpub (Season 3)",
+      },
+      <class 'dict'> {
+        'id': 2018,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2018?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Talon's Vengeance",
+      },
+      <class 'dict'> {
+        'id': 2045,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2045?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Armies of Legionfall',
+      },
+      <class 'dict'> {
+        'id': 2097,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2097?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ilyssia of the Waters',
+      },
+      <class 'dict'> {
+        'id': 2098,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2098?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Keeper Raynae',
+      },
+      <class 'dict'> {
+        'id': 2099,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2099?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Akule Riverhorn',
+      },
+      <class 'dict'> {
+        'id': 2100,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2100?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Corbyn',
+      },
+      <class 'dict'> {
+        'id': 2101,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2101?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Sha'leth",
+      },
+      <class 'dict'> {
+        'id': 2102,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2102?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Impus',
+      },
+      <class 'dict'> {
+        'id': 2103,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2103?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Zandalari Empire',
+      },
+      <class 'dict'> {
+        'id': 2104,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2104?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle for Azeroth',
+      },
+      <class 'dict'> {
+        'id': 2135,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2135?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Chromie',
+      },
+      <class 'dict'> {
+        'id': 2156,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2156?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Talanji's Expedition",
+      },
+      <class 'dict'> {
+        'id': 2157,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2157?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Honorbound',
+      },
+      <class 'dict'> {
+        'id': 2158,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2158?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Voldunai',
+      },
+      <class 'dict'> {
+        'id': 2159,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2159?namespace=static-8.3.0_32861-us',
+        },
+        'name': '7th Legion',
+      },
+      <class 'dict'> {
+        'id': 2160,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2160?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Proudmoore Admiralty',
+      },
+      <class 'dict'> {
+        'id': 2161,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2161?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Order of Embers',
+      },
+      <class 'dict'> {
+        'id': 2162,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2162?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Storm's Wake",
+      },
+      <class 'dict'> {
+        'id': 2163,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2163?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tortollan Seekers',
+      },
+      <class 'dict'> {
+        'id': 2164,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2164?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Champions of Azeroth',
+      },
+      <class 'dict'> {
+        'id': 2165,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2165?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Army of the Light',
+      },
+      <class 'dict'> {
+        'id': 2170,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2170?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Argussian Reach',
+      },
+      <class 'dict'> {
+        'id': 2371,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2371?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Bizmo's Brawlpub",
+      },
+      <class 'dict'> {
+        'id': 2372,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2372?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawl'gar Arena",
+      },
+      <class 'dict'> {
+        'id': 2373,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2373?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Unshackled',
+      },
+      <class 'dict'> {
+        'id': 2391,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2391?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Rustbolt Resistance',
+      },
+      <class 'dict'> {
+        'id': 2395,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2395?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Honeyback Hive',
+      },
+      <class 'dict'> {
+        'id': 2400,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2400?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Waveblade Ankoan',
+      },
+      <class 'dict'> {
+        'id': 2415,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2415?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Rajani',
+      },
+      <class 'dict'> {
+        'id': 2417,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2417?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Uldum Accord',
+      },
+    ],
+    'root_factions': <class 'list'> [
+      <class 'dict'> {
+        'id': 1169,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1169?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Guild',
+      },
+      <class 'dict'> {
+        'id': 2104,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/2104?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Battle for Azeroth',
+      },
+      <class 'dict'> {
+        'id': 1834,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1834?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Legion',
+      },
+      <class 'dict'> {
+        'id': 1444,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1444?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Warlords of Draenor',
+      },
+      <class 'dict'> {
+        'id': 1245,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1245?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Mists of Pandaria',
+      },
+      <class 'dict'> {
+        'id': 1162,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1162?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Cataclysm',
+      },
+      <class 'dict'> {
+        'id': 1097,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1097?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wrath of the Lich King',
+      },
+      <class 'dict'> {
+        'id': 980,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/980?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The Burning Crusade',
+      },
+      <class 'dict'> {
+        'id': 1118,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1118?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Classic',
+      },
+      <class 'dict'> {
+        'id': 70,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/70?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Syndicate',
+      },
+      <class 'dict'> {
+        'id': 589,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/589?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Wintersaber Trainers',
+      },
+    ],
+  }
+---
+# name: test_get_reputation_tiers
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/2?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'faction': <class 'dict'> {
+      'id': 1283,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/reputation-faction/1283?namespace=static-8.3.0_32861-us',
+      },
+      'name': 'Farmer Fung',
+    },
+    'id': 2,
+    'tiers': <class 'list'> [
+      <class 'dict'> {
+        'id': 0,
+        'max_value': 8400,
+        'min_value': 0,
+        'name': 'Stranger',
+      },
+      <class 'dict'> {
+        'id': 1,
+        'max_value': 16800,
+        'min_value': 8400,
+        'name': 'Acquaintance',
+      },
+      <class 'dict'> {
+        'id': 2,
+        'max_value': 25200,
+        'min_value': 16800,
+        'name': 'Buddy',
+      },
+      <class 'dict'> {
+        'id': 3,
+        'max_value': 33600,
+        'min_value': 25200,
+        'name': 'Friend',
+      },
+      <class 'dict'> {
+        'id': 4,
+        'max_value': 42000,
+        'min_value': 33600,
+        'name': 'Good Friend',
+      },
+      <class 'dict'> {
+        'id': 5,
+        'max_value': 42000,
+        'min_value': 42000,
+        'name': 'Best Friend',
+      },
+    ],
+  }
+---
+# name: test_get_reputation_tiers_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'reputation_tiers': <class 'list'> [
+      <class 'dict'> {
+        'id': 0,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/0?namespace=static-8.3.0_32861-us',
+        },
+      },
+      <class 'dict'> {
+        'id': 2,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/2?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Farmer Fung',
+      },
+      <class 'dict'> {
+        'id': 16,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/16?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Chee Chee',
+      },
+      <class 'dict'> {
+        'id': 17,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/17?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ella',
+      },
+      <class 'dict'> {
+        'id': 18,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/18?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Fish Fellreed',
+      },
+      <class 'dict'> {
+        'id': 19,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/19?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Gina Mudclaw',
+      },
+      <class 'dict'> {
+        'id': 20,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/20?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Haohan Mudclaw',
+      },
+      <class 'dict'> {
+        'id': 21,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/21?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Jogu the Drunk',
+      },
+      <class 'dict'> {
+        'id': 22,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/22?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Old Hillpaw',
+      },
+      <class 'dict'> {
+        'id': 23,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/23?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Sho',
+      },
+      <class 'dict'> {
+        'id': 24,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/24?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tina Mudclaw',
+      },
+      <class 'dict'> {
+        'id': 26,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/26?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Nat Pagle',
+      },
+      <class 'dict'> {
+        'id': 28,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/28?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawl'gar Arena",
+      },
+      <class 'dict'> {
+        'id': 43,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/43?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Bizmo's Brawlpub",
+      },
+      <class 'dict'> {
+        'id': 72,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/72?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Darkspear Rebellion',
+      },
+      <class 'dict'> {
+        'id': 160,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/160?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Tormmok',
+      },
+      <class 'dict'> {
+        'id': 162,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/162?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Defender Illona',
+      },
+      <class 'dict'> {
+        'id': 163,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/163?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Aeda Brightdawn',
+      },
+      <class 'dict'> {
+        'id': 164,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/164?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Delvar Ironfist',
+      },
+      <class 'dict'> {
+        'id': 165,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/165?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Vivianne',
+      },
+      <class 'dict'> {
+        'id': 166,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/166?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Talonpriest Ishaal',
+      },
+      <class 'dict'> {
+        'id': 167,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/167?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Leorajh',
+      },
+      <class 'dict'> {
+        'id': 171,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/171?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawl'gar Arena (Season 1)",
+      },
+      <class 'dict'> {
+        'id': 172,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/172?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Bizmo's Brawlpub (Season 1)",
+      },
+      <class 'dict'> {
+        'id': 193,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/193?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Conjurer Margoss',
+      },
+      <class 'dict'> {
+        'id': 195,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/195?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'The First Responders',
+      },
+      <class 'dict'> {
+        'id': 199,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/199?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Ilyssia of the Waters',
+      },
+      <class 'dict'> {
+        'id': 200,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/200?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Akule Riverhorn',
+      },
+      <class 'dict'> {
+        'id': 202,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/202?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Impus',
+      },
+      <class 'dict'> {
+        'id': 204,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/204?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Keeper Raynae',
+      },
+      <class 'dict'> {
+        'id': 206,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/206?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Sha'leth",
+      },
+      <class 'dict'> {
+        'id': 208,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/208?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Corbyn',
+      },
+      <class 'dict'> {
+        'id': 209,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/209?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Chromie',
+      },
+      <class 'dict'> {
+        'id': 210,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/210?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Bizmo's Brawlpub (Season 2)",
+      },
+      <class 'dict'> {
+        'id': 212,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/212?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawl'gar Arena (Season 2)",
+      },
+      <class 'dict'> {
+        'id': 339,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/339?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Bizmo's Brawlpub (Season 3)",
+      },
+      <class 'dict'> {
+        'id': 340,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/reputation-tiers/340?namespace=static-8.3.0_32861-us',
+        },
+        'name': "Brawl'gar Arena (Season 3)",
+      },
+    ],
+  }
+---

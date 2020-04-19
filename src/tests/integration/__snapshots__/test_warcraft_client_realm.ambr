@@ -1,0 +1,2009 @@
+# name: test_get_realm
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/realm/1?namespace=dynamic-us',
+      },
+    },
+    'category': 'United States',
+    'connected_realm': <class 'dict'> {
+      'href': 'https://us.api.blizzard.com/data/wow/connected-realm/3694?namespace=dynamic-us',
+    },
+    'id': 1,
+    'is_tournament': False,
+    'locale': 'enUS',
+    'name': 'Lightbringer',
+    'region': <class 'dict'> {
+      'id': 1,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/region/1?namespace=dynamic-us',
+      },
+      'name': 'North America',
+    },
+    'slug': 'lightbringer',
+    'timezone': 'America/Los_Angeles',
+    'type': <class 'dict'> {
+      'name': 'Normal',
+      'type': 'NORMAL',
+    },
+  }
+---
+# name: test_get_realms_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/realm/?namespace=dynamic-us',
+      },
+    },
+    'realms': <class 'list'> [
+      <class 'dict'> {
+        'id': 1,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1?namespace=dynamic-us',
+        },
+        'name': 'Lightbringer',
+        'slug': 'lightbringer',
+      },
+      <class 'dict'> {
+        'id': 2,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/2?namespace=dynamic-us',
+        },
+        'name': 'Cenarius',
+        'slug': 'cenarius',
+      },
+      <class 'dict'> {
+        'id': 3,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3?namespace=dynamic-us',
+        },
+        'name': 'Uther',
+        'slug': 'uther',
+      },
+      <class 'dict'> {
+        'id': 4,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/4?namespace=dynamic-us',
+        },
+        'name': 'Kilrogg',
+        'slug': 'kilrogg',
+      },
+      <class 'dict'> {
+        'id': 5,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/5?namespace=dynamic-us',
+        },
+        'name': 'Proudmoore',
+        'slug': 'proudmoore',
+      },
+      <class 'dict'> {
+        'id': 6,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/6?namespace=dynamic-us',
+        },
+        'name': 'Hyjal',
+        'slug': 'hyjal',
+      },
+      <class 'dict'> {
+        'id': 7,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/7?namespace=dynamic-us',
+        },
+        'name': 'Frostwolf',
+        'slug': 'frostwolf',
+      },
+      <class 'dict'> {
+        'id': 8,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/8?namespace=dynamic-us',
+        },
+        'name': "Ner'zhul",
+        'slug': 'nerzhul',
+      },
+      <class 'dict'> {
+        'id': 9,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/9?namespace=dynamic-us',
+        },
+        'name': "Kil'jaeden",
+        'slug': 'kiljaeden',
+      },
+      <class 'dict'> {
+        'id': 10,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/10?namespace=dynamic-us',
+        },
+        'name': 'Blackrock',
+        'slug': 'blackrock',
+      },
+      <class 'dict'> {
+        'id': 11,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/11?namespace=dynamic-us',
+        },
+        'name': 'Tichondrius',
+        'slug': 'tichondrius',
+      },
+      <class 'dict'> {
+        'id': 12,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/12?namespace=dynamic-us',
+        },
+        'name': 'Silver Hand',
+        'slug': 'silver-hand',
+      },
+      <class 'dict'> {
+        'id': 13,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/13?namespace=dynamic-us',
+        },
+        'name': 'Doomhammer',
+        'slug': 'doomhammer',
+      },
+      <class 'dict'> {
+        'id': 14,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/14?namespace=dynamic-us',
+        },
+        'name': 'Icecrown',
+        'slug': 'icecrown',
+      },
+      <class 'dict'> {
+        'id': 15,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/15?namespace=dynamic-us',
+        },
+        'name': 'Deathwing',
+        'slug': 'deathwing',
+      },
+      <class 'dict'> {
+        'id': 16,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/16?namespace=dynamic-us',
+        },
+        'name': "Kel'Thuzad",
+        'slug': 'kelthuzad',
+      },
+      <class 'dict'> {
+        'id': 47,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/47?namespace=dynamic-us',
+        },
+        'name': 'Eitrigg',
+        'slug': 'eitrigg',
+      },
+      <class 'dict'> {
+        'id': 51,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/51?namespace=dynamic-us',
+        },
+        'name': 'Garona',
+        'slug': 'garona',
+      },
+      <class 'dict'> {
+        'id': 52,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/52?namespace=dynamic-us',
+        },
+        'name': 'Alleria',
+        'slug': 'alleria',
+      },
+      <class 'dict'> {
+        'id': 53,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/53?namespace=dynamic-us',
+        },
+        'name': 'Hellscream',
+        'slug': 'hellscream',
+      },
+      <class 'dict'> {
+        'id': 54,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/54?namespace=dynamic-us',
+        },
+        'name': 'Blackhand',
+        'slug': 'blackhand',
+      },
+      <class 'dict'> {
+        'id': 55,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/55?namespace=dynamic-us',
+        },
+        'name': 'Whisperwind',
+        'slug': 'whisperwind',
+      },
+      <class 'dict'> {
+        'id': 56,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/56?namespace=dynamic-us',
+        },
+        'name': 'Archimonde',
+        'slug': 'archimonde',
+      },
+      <class 'dict'> {
+        'id': 57,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/57?namespace=dynamic-us',
+        },
+        'name': 'Illidan',
+        'slug': 'illidan',
+      },
+      <class 'dict'> {
+        'id': 58,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/58?namespace=dynamic-us',
+        },
+        'name': 'Stormreaver',
+        'slug': 'stormreaver',
+      },
+      <class 'dict'> {
+        'id': 59,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/59?namespace=dynamic-us',
+        },
+        'name': "Mal'Ganis",
+        'slug': 'malganis',
+      },
+      <class 'dict'> {
+        'id': 60,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/60?namespace=dynamic-us',
+        },
+        'name': 'Stormrage',
+        'slug': 'stormrage',
+      },
+      <class 'dict'> {
+        'id': 61,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/61?namespace=dynamic-us',
+        },
+        'name': "Zul'jin",
+        'slug': 'zuljin',
+      },
+      <class 'dict'> {
+        'id': 62,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/62?namespace=dynamic-us',
+        },
+        'name': 'Medivh',
+        'slug': 'medivh',
+      },
+      <class 'dict'> {
+        'id': 63,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/63?namespace=dynamic-us',
+        },
+        'name': 'Durotan',
+        'slug': 'durotan',
+      },
+      <class 'dict'> {
+        'id': 64,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/64?namespace=dynamic-us',
+        },
+        'name': 'Bloodhoof',
+        'slug': 'bloodhoof',
+      },
+      <class 'dict'> {
+        'id': 65,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/65?namespace=dynamic-us',
+        },
+        'name': 'Khadgar',
+        'slug': 'khadgar',
+      },
+      <class 'dict'> {
+        'id': 66,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/66?namespace=dynamic-us',
+        },
+        'name': 'Dalaran',
+        'slug': 'dalaran',
+      },
+      <class 'dict'> {
+        'id': 67,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/67?namespace=dynamic-us',
+        },
+        'name': 'Elune',
+        'slug': 'elune',
+      },
+      <class 'dict'> {
+        'id': 68,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/68?namespace=dynamic-us',
+        },
+        'name': 'Lothar',
+        'slug': 'lothar',
+      },
+      <class 'dict'> {
+        'id': 69,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/69?namespace=dynamic-us',
+        },
+        'name': 'Arthas',
+        'slug': 'arthas',
+      },
+      <class 'dict'> {
+        'id': 70,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/70?namespace=dynamic-us',
+        },
+        'name': 'Mannoroth',
+        'slug': 'mannoroth',
+      },
+      <class 'dict'> {
+        'id': 71,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/71?namespace=dynamic-us',
+        },
+        'name': 'Warsong',
+        'slug': 'warsong',
+      },
+      <class 'dict'> {
+        'id': 72,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/72?namespace=dynamic-us',
+        },
+        'name': 'Shattered Hand',
+        'slug': 'shattered-hand',
+      },
+      <class 'dict'> {
+        'id': 73,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/73?namespace=dynamic-us',
+        },
+        'name': 'Bleeding Hollow',
+        'slug': 'bleeding-hollow',
+      },
+      <class 'dict'> {
+        'id': 74,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/74?namespace=dynamic-us',
+        },
+        'name': 'Skullcrusher',
+        'slug': 'skullcrusher',
+      },
+      <class 'dict'> {
+        'id': 75,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/75?namespace=dynamic-us',
+        },
+        'name': 'Argent Dawn',
+        'slug': 'argent-dawn',
+      },
+      <class 'dict'> {
+        'id': 76,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/76?namespace=dynamic-us',
+        },
+        'name': 'Sargeras',
+        'slug': 'sargeras',
+      },
+      <class 'dict'> {
+        'id': 77,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/77?namespace=dynamic-us',
+        },
+        'name': 'Azgalor',
+        'slug': 'azgalor',
+      },
+      <class 'dict'> {
+        'id': 78,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/78?namespace=dynamic-us',
+        },
+        'name': 'Magtheridon',
+        'slug': 'magtheridon',
+      },
+      <class 'dict'> {
+        'id': 79,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/79?namespace=dynamic-us',
+        },
+        'name': 'Destromath',
+        'slug': 'destromath',
+      },
+      <class 'dict'> {
+        'id': 80,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/80?namespace=dynamic-us',
+        },
+        'name': 'Gorgonnash',
+        'slug': 'gorgonnash',
+      },
+      <class 'dict'> {
+        'id': 81,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/81?namespace=dynamic-us',
+        },
+        'name': 'Dethecus',
+        'slug': 'dethecus',
+      },
+      <class 'dict'> {
+        'id': 82,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/82?namespace=dynamic-us',
+        },
+        'name': 'Spinebreaker',
+        'slug': 'spinebreaker',
+      },
+      <class 'dict'> {
+        'id': 83,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/83?namespace=dynamic-us',
+        },
+        'name': 'Bonechewer',
+        'slug': 'bonechewer',
+      },
+      <class 'dict'> {
+        'id': 84,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/84?namespace=dynamic-us',
+        },
+        'name': 'Dragonmaw',
+        'slug': 'dragonmaw',
+      },
+      <class 'dict'> {
+        'id': 85,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/85?namespace=dynamic-us',
+        },
+        'name': 'Shadowsong',
+        'slug': 'shadowsong',
+      },
+      <class 'dict'> {
+        'id': 86,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/86?namespace=dynamic-us',
+        },
+        'name': 'Silvermoon',
+        'slug': 'silvermoon',
+      },
+      <class 'dict'> {
+        'id': 87,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/87?namespace=dynamic-us',
+        },
+        'name': 'Windrunner',
+        'slug': 'windrunner',
+      },
+      <class 'dict'> {
+        'id': 88,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/88?namespace=dynamic-us',
+        },
+        'name': 'Cenarion Circle',
+        'slug': 'cenarion-circle',
+      },
+      <class 'dict'> {
+        'id': 89,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/89?namespace=dynamic-us',
+        },
+        'name': 'Nathrezim',
+        'slug': 'nathrezim',
+      },
+      <class 'dict'> {
+        'id': 90,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/90?namespace=dynamic-us',
+        },
+        'name': 'Terenas',
+        'slug': 'terenas',
+      },
+      <class 'dict'> {
+        'id': 91,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/91?namespace=dynamic-us',
+        },
+        'name': 'Burning Blade',
+        'slug': 'burning-blade',
+      },
+      <class 'dict'> {
+        'id': 92,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/92?namespace=dynamic-us',
+        },
+        'name': 'Gorefiend',
+        'slug': 'gorefiend',
+      },
+      <class 'dict'> {
+        'id': 93,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/93?namespace=dynamic-us',
+        },
+        'name': 'Eredar',
+        'slug': 'eredar',
+      },
+      <class 'dict'> {
+        'id': 94,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/94?namespace=dynamic-us',
+        },
+        'name': 'Shadowmoon',
+        'slug': 'shadowmoon',
+      },
+      <class 'dict'> {
+        'id': 95,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/95?namespace=dynamic-us',
+        },
+        'name': "Lightning's Blade",
+        'slug': 'lightnings-blade',
+      },
+      <class 'dict'> {
+        'id': 96,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/96?namespace=dynamic-us',
+        },
+        'name': 'Eonar',
+        'slug': 'eonar',
+      },
+      <class 'dict'> {
+        'id': 97,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/97?namespace=dynamic-us',
+        },
+        'name': 'Gilneas',
+        'slug': 'gilneas',
+      },
+      <class 'dict'> {
+        'id': 98,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/98?namespace=dynamic-us',
+        },
+        'name': 'Kargath',
+        'slug': 'kargath',
+      },
+      <class 'dict'> {
+        'id': 99,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/99?namespace=dynamic-us',
+        },
+        'name': 'Llane',
+        'slug': 'llane',
+      },
+      <class 'dict'> {
+        'id': 100,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/100?namespace=dynamic-us',
+        },
+        'name': 'Earthen Ring',
+        'slug': 'earthen-ring',
+      },
+      <class 'dict'> {
+        'id': 101,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/101?namespace=dynamic-us',
+        },
+        'name': 'Laughing Skull',
+        'slug': 'laughing-skull',
+      },
+      <class 'dict'> {
+        'id': 102,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/102?namespace=dynamic-us',
+        },
+        'name': 'Burning Legion',
+        'slug': 'burning-legion',
+      },
+      <class 'dict'> {
+        'id': 103,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/103?namespace=dynamic-us',
+        },
+        'name': 'Thunderlord',
+        'slug': 'thunderlord',
+      },
+      <class 'dict'> {
+        'id': 104,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/104?namespace=dynamic-us',
+        },
+        'name': 'Malygos',
+        'slug': 'malygos',
+      },
+      <class 'dict'> {
+        'id': 105,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/105?namespace=dynamic-us',
+        },
+        'name': 'Thunderhorn',
+        'slug': 'thunderhorn',
+      },
+      <class 'dict'> {
+        'id': 106,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/106?namespace=dynamic-us',
+        },
+        'name': 'Aggramar',
+        'slug': 'aggramar',
+      },
+      <class 'dict'> {
+        'id': 107,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/107?namespace=dynamic-us',
+        },
+        'name': 'Crushridge',
+        'slug': 'crushridge',
+      },
+      <class 'dict'> {
+        'id': 108,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/108?namespace=dynamic-us',
+        },
+        'name': 'Stonemaul',
+        'slug': 'stonemaul',
+      },
+      <class 'dict'> {
+        'id': 109,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/109?namespace=dynamic-us',
+        },
+        'name': 'Daggerspine',
+        'slug': 'daggerspine',
+      },
+      <class 'dict'> {
+        'id': 110,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/110?namespace=dynamic-us',
+        },
+        'name': 'Stormscale',
+        'slug': 'stormscale',
+      },
+      <class 'dict'> {
+        'id': 111,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/111?namespace=dynamic-us',
+        },
+        'name': 'Dunemaul',
+        'slug': 'dunemaul',
+      },
+      <class 'dict'> {
+        'id': 112,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/112?namespace=dynamic-us',
+        },
+        'name': 'Boulderfist',
+        'slug': 'boulderfist',
+      },
+      <class 'dict'> {
+        'id': 113,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/113?namespace=dynamic-us',
+        },
+        'name': 'Suramar',
+        'slug': 'suramar',
+      },
+      <class 'dict'> {
+        'id': 114,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/114?namespace=dynamic-us',
+        },
+        'name': 'Dragonblight',
+        'slug': 'dragonblight',
+      },
+      <class 'dict'> {
+        'id': 115,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/115?namespace=dynamic-us',
+        },
+        'name': 'Draenor',
+        'slug': 'draenor',
+      },
+      <class 'dict'> {
+        'id': 116,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/116?namespace=dynamic-us',
+        },
+        'name': 'Uldum',
+        'slug': 'uldum',
+      },
+      <class 'dict'> {
+        'id': 117,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/117?namespace=dynamic-us',
+        },
+        'name': 'Bronzebeard',
+        'slug': 'bronzebeard',
+      },
+      <class 'dict'> {
+        'id': 118,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/118?namespace=dynamic-us',
+        },
+        'name': 'Feathermoon',
+        'slug': 'feathermoon',
+      },
+      <class 'dict'> {
+        'id': 119,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/119?namespace=dynamic-us',
+        },
+        'name': 'Bloodscalp',
+        'slug': 'bloodscalp',
+      },
+      <class 'dict'> {
+        'id': 120,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/120?namespace=dynamic-us',
+        },
+        'name': 'Darkspear',
+        'slug': 'darkspear',
+      },
+      <class 'dict'> {
+        'id': 121,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/121?namespace=dynamic-us',
+        },
+        'name': 'Azjol-Nerub',
+        'slug': 'azjolnerub',
+      },
+      <class 'dict'> {
+        'id': 122,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/122?namespace=dynamic-us',
+        },
+        'name': 'Perenolde',
+        'slug': 'perenolde',
+      },
+      <class 'dict'> {
+        'id': 123,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/123?namespace=dynamic-us',
+        },
+        'name': "Eldre'Thalas",
+        'slug': 'eldrethalas',
+      },
+      <class 'dict'> {
+        'id': 124,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/124?namespace=dynamic-us',
+        },
+        'name': 'Spirestone',
+        'slug': 'spirestone',
+      },
+      <class 'dict'> {
+        'id': 125,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/125?namespace=dynamic-us',
+        },
+        'name': 'Shadow Council',
+        'slug': 'shadow-council',
+      },
+      <class 'dict'> {
+        'id': 126,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/126?namespace=dynamic-us',
+        },
+        'name': 'Scarlet Crusade',
+        'slug': 'scarlet-crusade',
+      },
+      <class 'dict'> {
+        'id': 127,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/127?namespace=dynamic-us',
+        },
+        'name': 'Firetree',
+        'slug': 'firetree',
+      },
+      <class 'dict'> {
+        'id': 128,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/128?namespace=dynamic-us',
+        },
+        'name': 'Frostmane',
+        'slug': 'frostmane',
+      },
+      <class 'dict'> {
+        'id': 129,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/129?namespace=dynamic-us',
+        },
+        'name': 'Gurubashi',
+        'slug': 'gurubashi',
+      },
+      <class 'dict'> {
+        'id': 130,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/130?namespace=dynamic-us',
+        },
+        'name': 'Smolderthorn',
+        'slug': 'smolderthorn',
+      },
+      <class 'dict'> {
+        'id': 131,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/131?namespace=dynamic-us',
+        },
+        'name': 'Skywall',
+        'slug': 'skywall',
+      },
+      <class 'dict'> {
+        'id': 151,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/151?namespace=dynamic-us',
+        },
+        'name': 'Runetotem',
+        'slug': 'runetotem',
+      },
+      <class 'dict'> {
+        'id': 153,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/153?namespace=dynamic-us',
+        },
+        'name': 'Moonrunner',
+        'slug': 'moonrunner',
+      },
+      <class 'dict'> {
+        'id': 154,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/154?namespace=dynamic-us',
+        },
+        'name': 'Detheroc',
+        'slug': 'detheroc',
+      },
+      <class 'dict'> {
+        'id': 155,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/155?namespace=dynamic-us',
+        },
+        'name': 'Kalecgos',
+        'slug': 'kalecgos',
+      },
+      <class 'dict'> {
+        'id': 156,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/156?namespace=dynamic-us',
+        },
+        'name': 'Ursin',
+        'slug': 'ursin',
+      },
+      <class 'dict'> {
+        'id': 157,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/157?namespace=dynamic-us',
+        },
+        'name': 'Dark Iron',
+        'slug': 'dark-iron',
+      },
+      <class 'dict'> {
+        'id': 158,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/158?namespace=dynamic-us',
+        },
+        'name': 'Greymane',
+        'slug': 'greymane',
+      },
+      <class 'dict'> {
+        'id': 159,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/159?namespace=dynamic-us',
+        },
+        'name': 'Wildhammer',
+        'slug': 'wildhammer',
+      },
+      <class 'dict'> {
+        'id': 160,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/160?namespace=dynamic-us',
+        },
+        'name': 'Staghelm',
+        'slug': 'staghelm',
+      },
+      <class 'dict'> {
+        'id': 162,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/162?namespace=dynamic-us',
+        },
+        'name': 'Emerald Dream',
+        'slug': 'emerald-dream',
+      },
+      <class 'dict'> {
+        'id': 163,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/163?namespace=dynamic-us',
+        },
+        'name': 'Maelstrom',
+        'slug': 'maelstrom',
+      },
+      <class 'dict'> {
+        'id': 164,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/164?namespace=dynamic-us',
+        },
+        'name': 'Twisting Nether',
+        'slug': 'twisting-nether',
+      },
+      <class 'dict'> {
+        'id': 1067,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1067?namespace=dynamic-us',
+        },
+        'name': "Cho'gall",
+        'slug': 'chogall',
+      },
+      <class 'dict'> {
+        'id': 1068,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1068?namespace=dynamic-us',
+        },
+        'name': "Gul'dan",
+        'slug': 'guldan',
+      },
+      <class 'dict'> {
+        'id': 1069,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1069?namespace=dynamic-us',
+        },
+        'name': "Kael'thas",
+        'slug': 'kaelthas',
+      },
+      <class 'dict'> {
+        'id': 1070,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1070?namespace=dynamic-us',
+        },
+        'name': 'Alexstrasza',
+        'slug': 'alexstrasza',
+      },
+      <class 'dict'> {
+        'id': 1071,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1071?namespace=dynamic-us',
+        },
+        'name': 'Kirin Tor',
+        'slug': 'kirin-tor',
+      },
+      <class 'dict'> {
+        'id': 1072,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1072?namespace=dynamic-us',
+        },
+        'name': 'Ravencrest',
+        'slug': 'ravencrest',
+      },
+      <class 'dict'> {
+        'id': 1075,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1075?namespace=dynamic-us',
+        },
+        'name': 'Balnazzar',
+        'slug': 'balnazzar',
+      },
+      <class 'dict'> {
+        'id': 1128,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1128?namespace=dynamic-us',
+        },
+        'name': 'Azshara',
+        'slug': 'azshara',
+      },
+      <class 'dict'> {
+        'id': 1129,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1129?namespace=dynamic-us',
+        },
+        'name': 'Agamaggan',
+        'slug': 'agamaggan',
+      },
+      <class 'dict'> {
+        'id': 1130,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1130?namespace=dynamic-us',
+        },
+        'name': 'Lightninghoof',
+        'slug': 'lightninghoof',
+      },
+      <class 'dict'> {
+        'id': 1131,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1131?namespace=dynamic-us',
+        },
+        'name': 'Nazjatar',
+        'slug': 'nazjatar',
+      },
+      <class 'dict'> {
+        'id': 1132,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1132?namespace=dynamic-us',
+        },
+        'name': 'Malfurion',
+        'slug': 'malfurion',
+      },
+      <class 'dict'> {
+        'id': 1136,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1136?namespace=dynamic-us',
+        },
+        'name': 'Aegwynn',
+        'slug': 'aegwynn',
+      },
+      <class 'dict'> {
+        'id': 1137,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1137?namespace=dynamic-us',
+        },
+        'name': 'Akama',
+        'slug': 'akama',
+      },
+      <class 'dict'> {
+        'id': 1138,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1138?namespace=dynamic-us',
+        },
+        'name': 'Chromaggus',
+        'slug': 'chromaggus',
+      },
+      <class 'dict'> {
+        'id': 1139,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1139?namespace=dynamic-us',
+        },
+        'name': 'Draka',
+        'slug': 'draka',
+      },
+      <class 'dict'> {
+        'id': 1140,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1140?namespace=dynamic-us',
+        },
+        'name': "Drak'thul",
+        'slug': 'drakthul',
+      },
+      <class 'dict'> {
+        'id': 1141,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1141?namespace=dynamic-us',
+        },
+        'name': 'Garithos',
+        'slug': 'garithos',
+      },
+      <class 'dict'> {
+        'id': 1142,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1142?namespace=dynamic-us',
+        },
+        'name': 'Hakkar',
+        'slug': 'hakkar',
+      },
+      <class 'dict'> {
+        'id': 1143,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1143?namespace=dynamic-us',
+        },
+        'name': 'Khaz Modan',
+        'slug': 'khaz-modan',
+      },
+      <class 'dict'> {
+        'id': 1145,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1145?namespace=dynamic-us',
+        },
+        'name': "Mug'thol",
+        'slug': 'mugthol',
+      },
+      <class 'dict'> {
+        'id': 1146,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1146?namespace=dynamic-us',
+        },
+        'name': 'Korgath',
+        'slug': 'korgath',
+      },
+      <class 'dict'> {
+        'id': 1147,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1147?namespace=dynamic-us',
+        },
+        'name': 'Kul Tiras',
+        'slug': 'kul-tiras',
+      },
+      <class 'dict'> {
+        'id': 1148,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1148?namespace=dynamic-us',
+        },
+        'name': 'Malorne',
+        'slug': 'malorne',
+      },
+      <class 'dict'> {
+        'id': 1151,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1151?namespace=dynamic-us',
+        },
+        'name': 'Rexxar',
+        'slug': 'rexxar',
+      },
+      <class 'dict'> {
+        'id': 1154,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1154?namespace=dynamic-us',
+        },
+        'name': 'Thorium Brotherhood',
+        'slug': 'thorium-brotherhood',
+      },
+      <class 'dict'> {
+        'id': 1165,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1165?namespace=dynamic-us',
+        },
+        'name': 'Arathor',
+        'slug': 'arathor',
+      },
+      <class 'dict'> {
+        'id': 1173,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1173?namespace=dynamic-us',
+        },
+        'name': 'Madoran',
+        'slug': 'madoran',
+      },
+      <class 'dict'> {
+        'id': 1175,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1175?namespace=dynamic-us',
+        },
+        'name': 'Trollbane',
+        'slug': 'trollbane',
+      },
+      <class 'dict'> {
+        'id': 1182,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1182?namespace=dynamic-us',
+        },
+        'name': 'Muradin',
+        'slug': 'muradin',
+      },
+      <class 'dict'> {
+        'id': 1184,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1184?namespace=dynamic-us',
+        },
+        'name': "Vek'nilash",
+        'slug': 'veknilash',
+      },
+      <class 'dict'> {
+        'id': 1185,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1185?namespace=dynamic-us',
+        },
+        'name': "Sen'jin",
+        'slug': 'senjin',
+      },
+      <class 'dict'> {
+        'id': 1190,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1190?namespace=dynamic-us',
+        },
+        'name': 'Baelgun',
+        'slug': 'baelgun',
+      },
+      <class 'dict'> {
+        'id': 1258,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1258?namespace=dynamic-us',
+        },
+        'name': 'Duskwood',
+        'slug': 'duskwood',
+      },
+      <class 'dict'> {
+        'id': 1259,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1259?namespace=dynamic-us',
+        },
+        'name': 'Zuluhed',
+        'slug': 'zuluhed',
+      },
+      <class 'dict'> {
+        'id': 1260,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1260?namespace=dynamic-us',
+        },
+        'name': 'Steamwheedle Cartel',
+        'slug': 'steamwheedle-cartel',
+      },
+      <class 'dict'> {
+        'id': 1262,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1262?namespace=dynamic-us',
+        },
+        'name': 'Norgannon',
+        'slug': 'norgannon',
+      },
+      <class 'dict'> {
+        'id': 1263,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1263?namespace=dynamic-us',
+        },
+        'name': 'Thrall',
+        'slug': 'thrall',
+      },
+      <class 'dict'> {
+        'id': 1264,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1264?namespace=dynamic-us',
+        },
+        'name': 'Anetheron',
+        'slug': 'anetheron',
+      },
+      <class 'dict'> {
+        'id': 1265,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1265?namespace=dynamic-us',
+        },
+        'name': 'Turalyon',
+        'slug': 'turalyon',
+      },
+      <class 'dict'> {
+        'id': 1266,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1266?namespace=dynamic-us',
+        },
+        'name': 'Haomarush',
+        'slug': 'haomarush',
+      },
+      <class 'dict'> {
+        'id': 1267,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1267?namespace=dynamic-us',
+        },
+        'name': 'Scilla',
+        'slug': 'scilla',
+      },
+      <class 'dict'> {
+        'id': 1268,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1268?namespace=dynamic-us',
+        },
+        'name': 'Ysondre',
+        'slug': 'ysondre',
+      },
+      <class 'dict'> {
+        'id': 1270,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1270?namespace=dynamic-us',
+        },
+        'name': 'Ysera',
+        'slug': 'ysera',
+      },
+      <class 'dict'> {
+        'id': 1271,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1271?namespace=dynamic-us',
+        },
+        'name': 'Dentarg',
+        'slug': 'dentarg',
+      },
+      <class 'dict'> {
+        'id': 1276,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1276?namespace=dynamic-us',
+        },
+        'name': 'Andorhal',
+        'slug': 'andorhal',
+      },
+      <class 'dict'> {
+        'id': 1277,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1277?namespace=dynamic-us',
+        },
+        'name': 'Executus',
+        'slug': 'executus',
+      },
+      <class 'dict'> {
+        'id': 1278,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1278?namespace=dynamic-us',
+        },
+        'name': 'Dalvengyr',
+        'slug': 'dalvengyr',
+      },
+      <class 'dict'> {
+        'id': 1280,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1280?namespace=dynamic-us',
+        },
+        'name': 'Black Dragonflight',
+        'slug': 'black-dragonflight',
+      },
+      <class 'dict'> {
+        'id': 1282,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1282?namespace=dynamic-us',
+        },
+        'name': 'Altar of Storms',
+        'slug': 'altar-of-storms',
+      },
+      <class 'dict'> {
+        'id': 1283,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1283?namespace=dynamic-us',
+        },
+        'name': 'Uldaman',
+        'slug': 'uldaman',
+      },
+      <class 'dict'> {
+        'id': 1284,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1284?namespace=dynamic-us',
+        },
+        'name': 'Aerie Peak',
+        'slug': 'aerie-peak',
+      },
+      <class 'dict'> {
+        'id': 1285,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1285?namespace=dynamic-us',
+        },
+        'name': 'Onyxia',
+        'slug': 'onyxia',
+      },
+      <class 'dict'> {
+        'id': 1286,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1286?namespace=dynamic-us',
+        },
+        'name': 'Demon Soul',
+        'slug': 'demon-soul',
+      },
+      <class 'dict'> {
+        'id': 1287,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1287?namespace=dynamic-us',
+        },
+        'name': 'Gnomeregan',
+        'slug': 'gnomeregan',
+      },
+      <class 'dict'> {
+        'id': 1288,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1288?namespace=dynamic-us',
+        },
+        'name': 'Anvilmar',
+        'slug': 'anvilmar',
+      },
+      <class 'dict'> {
+        'id': 1289,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1289?namespace=dynamic-us',
+        },
+        'name': 'The Venture Co',
+        'slug': 'the-venture-co',
+      },
+      <class 'dict'> {
+        'id': 1290,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1290?namespace=dynamic-us',
+        },
+        'name': 'Sentinels',
+        'slug': 'sentinels',
+      },
+      <class 'dict'> {
+        'id': 1291,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1291?namespace=dynamic-us',
+        },
+        'name': 'Jaedenar',
+        'slug': 'jaedenar',
+      },
+      <class 'dict'> {
+        'id': 1292,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1292?namespace=dynamic-us',
+        },
+        'name': 'Tanaris',
+        'slug': 'tanaris',
+      },
+      <class 'dict'> {
+        'id': 1293,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1293?namespace=dynamic-us',
+        },
+        'name': 'Alterac Mountains',
+        'slug': 'alterac-mountains',
+      },
+      <class 'dict'> {
+        'id': 1294,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1294?namespace=dynamic-us',
+        },
+        'name': 'Undermine',
+        'slug': 'undermine',
+      },
+      <class 'dict'> {
+        'id': 1295,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1295?namespace=dynamic-us',
+        },
+        'name': 'Lethon',
+        'slug': 'lethon',
+      },
+      <class 'dict'> {
+        'id': 1296,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1296?namespace=dynamic-us',
+        },
+        'name': 'Blackwing Lair',
+        'slug': 'blackwing-lair',
+      },
+      <class 'dict'> {
+        'id': 1297,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1297?namespace=dynamic-us',
+        },
+        'name': 'Arygos',
+        'slug': 'arygos',
+      },
+      <class 'dict'> {
+        'id': 1342,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1342?namespace=dynamic-us',
+        },
+        'name': 'Echo Isles',
+        'slug': 'echo-isles',
+      },
+      <class 'dict'> {
+        'id': 1344,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1344?namespace=dynamic-us',
+        },
+        'name': 'The Forgotten Coast',
+        'slug': 'the-forgotten-coast',
+      },
+      <class 'dict'> {
+        'id': 1345,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1345?namespace=dynamic-us',
+        },
+        'name': 'Fenris',
+        'slug': 'fenris',
+      },
+      <class 'dict'> {
+        'id': 1346,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1346?namespace=dynamic-us',
+        },
+        'name': "Anub'arak",
+        'slug': 'anubarak',
+      },
+      <class 'dict'> {
+        'id': 1347,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1347?namespace=dynamic-us',
+        },
+        'name': 'Blackwater Raiders',
+        'slug': 'blackwater-raiders',
+      },
+      <class 'dict'> {
+        'id': 1348,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1348?namespace=dynamic-us',
+        },
+        'name': 'Vashj',
+        'slug': 'vashj',
+      },
+      <class 'dict'> {
+        'id': 1349,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1349?namespace=dynamic-us',
+        },
+        'name': 'Korialstrasz',
+        'slug': 'korialstrasz',
+      },
+      <class 'dict'> {
+        'id': 1350,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1350?namespace=dynamic-us',
+        },
+        'name': 'Misha',
+        'slug': 'misha',
+      },
+      <class 'dict'> {
+        'id': 1351,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1351?namespace=dynamic-us',
+        },
+        'name': 'Darrowmere',
+        'slug': 'darrowmere',
+      },
+      <class 'dict'> {
+        'id': 1352,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1352?namespace=dynamic-us',
+        },
+        'name': 'Ravenholdt',
+        'slug': 'ravenholdt',
+      },
+      <class 'dict'> {
+        'id': 1353,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1353?namespace=dynamic-us',
+        },
+        'name': 'Bladefist',
+        'slug': 'bladefist',
+      },
+      <class 'dict'> {
+        'id': 1354,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1354?namespace=dynamic-us',
+        },
+        'name': "Shu'halo",
+        'slug': 'shuhalo',
+      },
+      <class 'dict'> {
+        'id': 1355,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1355?namespace=dynamic-us',
+        },
+        'name': 'Winterhoof',
+        'slug': 'winterhoof',
+      },
+      <class 'dict'> {
+        'id': 1356,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1356?namespace=dynamic-us',
+        },
+        'name': 'Sisters of Elune',
+        'slug': 'sisters-of-elune',
+      },
+      <class 'dict'> {
+        'id': 1357,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1357?namespace=dynamic-us',
+        },
+        'name': 'Maiev',
+        'slug': 'maiev',
+      },
+      <class 'dict'> {
+        'id': 1358,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1358?namespace=dynamic-us',
+        },
+        'name': 'Rivendare',
+        'slug': 'rivendare',
+      },
+      <class 'dict'> {
+        'id': 1359,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1359?namespace=dynamic-us',
+        },
+        'name': 'Nordrassil',
+        'slug': 'nordrassil',
+      },
+      <class 'dict'> {
+        'id': 1360,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1360?namespace=dynamic-us',
+        },
+        'name': 'Tortheldrin',
+        'slug': 'tortheldrin',
+      },
+      <class 'dict'> {
+        'id': 1361,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1361?namespace=dynamic-us',
+        },
+        'name': 'Cairne',
+        'slug': 'cairne',
+      },
+      <class 'dict'> {
+        'id': 1362,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1362?namespace=dynamic-us',
+        },
+        'name': "Drak'Tharon",
+        'slug': 'draktharon',
+      },
+      <class 'dict'> {
+        'id': 1363,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1363?namespace=dynamic-us',
+        },
+        'name': 'Antonidas',
+        'slug': 'antonidas',
+      },
+      <class 'dict'> {
+        'id': 1364,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1364?namespace=dynamic-us',
+        },
+        'name': 'Shandris',
+        'slug': 'shandris',
+      },
+      <class 'dict'> {
+        'id': 1365,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1365?namespace=dynamic-us',
+        },
+        'name': 'Moon Guard',
+        'slug': 'moon-guard',
+      },
+      <class 'dict'> {
+        'id': 1367,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1367?namespace=dynamic-us',
+        },
+        'name': 'Nazgrel',
+        'slug': 'nazgrel',
+      },
+      <class 'dict'> {
+        'id': 1368,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1368?namespace=dynamic-us',
+        },
+        'name': 'Hydraxis',
+        'slug': 'hydraxis',
+      },
+      <class 'dict'> {
+        'id': 1369,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1369?namespace=dynamic-us',
+        },
+        'name': 'Wyrmrest Accord',
+        'slug': 'wyrmrest-accord',
+      },
+      <class 'dict'> {
+        'id': 1370,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1370?namespace=dynamic-us',
+        },
+        'name': 'Farstriders',
+        'slug': 'farstriders',
+      },
+      <class 'dict'> {
+        'id': 1371,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1371?namespace=dynamic-us',
+        },
+        'name': 'Borean Tundra',
+        'slug': 'borean-tundra',
+      },
+      <class 'dict'> {
+        'id': 1372,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1372?namespace=dynamic-us',
+        },
+        'name': "Quel'dorei",
+        'slug': 'queldorei',
+      },
+      <class 'dict'> {
+        'id': 1373,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1373?namespace=dynamic-us',
+        },
+        'name': 'Garrosh',
+        'slug': 'garrosh',
+      },
+      <class 'dict'> {
+        'id': 1374,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1374?namespace=dynamic-us',
+        },
+        'name': "Mok'Nathal",
+        'slug': 'moknathal',
+      },
+      <class 'dict'> {
+        'id': 1375,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1375?namespace=dynamic-us',
+        },
+        'name': 'Nesingwary',
+        'slug': 'nesingwary',
+      },
+      <class 'dict'> {
+        'id': 1377,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1377?namespace=dynamic-us',
+        },
+        'name': 'Drenden',
+        'slug': 'drenden',
+      },
+      <class 'dict'> {
+        'id': 1425,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1425?namespace=dynamic-us',
+        },
+        'name': 'Drakkari',
+        'slug': 'drakkari',
+      },
+      <class 'dict'> {
+        'id': 1427,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1427?namespace=dynamic-us',
+        },
+        'name': 'Ragnaros',
+        'slug': 'ragnaros',
+      },
+      <class 'dict'> {
+        'id': 1428,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1428?namespace=dynamic-us',
+        },
+        'name': "Quel'Thalas",
+        'slug': 'quelthalas',
+      },
+      <class 'dict'> {
+        'id': 1549,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1549?namespace=dynamic-us',
+        },
+        'name': 'Azuremyst',
+        'slug': 'azuremyst',
+      },
+      <class 'dict'> {
+        'id': 1555,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1555?namespace=dynamic-us',
+        },
+        'name': 'Auchindoun',
+        'slug': 'auchindoun',
+      },
+      <class 'dict'> {
+        'id': 1556,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1556?namespace=dynamic-us',
+        },
+        'name': 'Coilfang',
+        'slug': 'coilfang',
+      },
+      <class 'dict'> {
+        'id': 1557,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1557?namespace=dynamic-us',
+        },
+        'name': 'Shattered Halls',
+        'slug': 'shattered-halls',
+      },
+      <class 'dict'> {
+        'id': 1558,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1558?namespace=dynamic-us',
+        },
+        'name': 'Blood Furnace',
+        'slug': 'blood-furnace',
+      },
+      <class 'dict'> {
+        'id': 1559,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1559?namespace=dynamic-us',
+        },
+        'name': 'The Underbog',
+        'slug': 'the-underbog',
+      },
+      <class 'dict'> {
+        'id': 1563,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1563?namespace=dynamic-us',
+        },
+        'name': 'Terokkar',
+        'slug': 'terokkar',
+      },
+      <class 'dict'> {
+        'id': 1564,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1564?namespace=dynamic-us',
+        },
+        'name': "Blade's Edge",
+        'slug': 'blades-edge',
+      },
+      <class 'dict'> {
+        'id': 1565,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1565?namespace=dynamic-us',
+        },
+        'name': 'Exodar',
+        'slug': 'exodar',
+      },
+      <class 'dict'> {
+        'id': 1566,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1566?namespace=dynamic-us',
+        },
+        'name': 'Area 52',
+        'slug': 'area-52',
+      },
+      <class 'dict'> {
+        'id': 1567,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1567?namespace=dynamic-us',
+        },
+        'name': 'Velen',
+        'slug': 'velen',
+      },
+      <class 'dict'> {
+        'id': 1570,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1570?namespace=dynamic-us',
+        },
+        'name': 'The Scryers',
+        'slug': 'the-scryers',
+      },
+      <class 'dict'> {
+        'id': 1572,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1572?namespace=dynamic-us',
+        },
+        'name': 'Zangarmarsh',
+        'slug': 'zangarmarsh',
+      },
+      <class 'dict'> {
+        'id': 1576,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1576?namespace=dynamic-us',
+        },
+        'name': 'Fizzcrank',
+        'slug': 'fizzcrank',
+      },
+      <class 'dict'> {
+        'id': 1578,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1578?namespace=dynamic-us',
+        },
+        'name': 'Ghostlands',
+        'slug': 'ghostlands',
+      },
+      <class 'dict'> {
+        'id': 1579,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1579?namespace=dynamic-us',
+        },
+        'name': 'Grizzly Hills',
+        'slug': 'grizzly-hills',
+      },
+      <class 'dict'> {
+        'id': 1581,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1581?namespace=dynamic-us',
+        },
+        'name': 'Galakrond',
+        'slug': 'galakrond',
+      },
+      <class 'dict'> {
+        'id': 1582,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/1582?namespace=dynamic-us',
+        },
+        'name': 'Dawnbringer',
+        'slug': 'dawnbringer',
+      },
+      <class 'dict'> {
+        'id': 3207,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3207?namespace=dynamic-us',
+        },
+        'name': 'Goldrinn',
+        'slug': 'goldrinn',
+      },
+      <class 'dict'> {
+        'id': 3208,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3208?namespace=dynamic-us',
+        },
+        'name': 'Nemesis',
+        'slug': 'nemesis',
+      },
+      <class 'dict'> {
+        'id': 3209,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3209?namespace=dynamic-us',
+        },
+        'name': 'Azralon',
+        'slug': 'azralon',
+      },
+      <class 'dict'> {
+        'id': 3210,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3210?namespace=dynamic-us',
+        },
+        'name': 'Tol Barad',
+        'slug': 'tol-barad',
+      },
+      <class 'dict'> {
+        'id': 3234,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3234?namespace=dynamic-us',
+        },
+        'name': 'Gallywix',
+        'slug': 'gallywix',
+      },
+      <class 'dict'> {
+        'id': 3721,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3721?namespace=dynamic-us',
+        },
+        'name': 'Caelestrasz',
+        'slug': 'caelestrasz',
+      },
+      <class 'dict'> {
+        'id': 3722,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3722?namespace=dynamic-us',
+        },
+        'name': "Aman'Thul",
+        'slug': 'amanthul',
+      },
+      <class 'dict'> {
+        'id': 3723,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3723?namespace=dynamic-us',
+        },
+        'name': 'Barthilas',
+        'slug': 'barthilas',
+      },
+      <class 'dict'> {
+        'id': 3724,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3724?namespace=dynamic-us',
+        },
+        'name': 'Thaurissan',
+        'slug': 'thaurissan',
+      },
+      <class 'dict'> {
+        'id': 3725,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3725?namespace=dynamic-us',
+        },
+        'name': 'Frostmourne',
+        'slug': 'frostmourne',
+      },
+      <class 'dict'> {
+        'id': 3726,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3726?namespace=dynamic-us',
+        },
+        'name': "Khaz'goroth",
+        'slug': 'khazgoroth',
+      },
+      <class 'dict'> {
+        'id': 3733,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3733?namespace=dynamic-us',
+        },
+        'name': 'Dreadmaul',
+        'slug': 'dreadmaul',
+      },
+      <class 'dict'> {
+        'id': 3734,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3734?namespace=dynamic-us',
+        },
+        'name': 'Nagrand',
+        'slug': 'nagrand',
+      },
+      <class 'dict'> {
+        'id': 3735,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3735?namespace=dynamic-us',
+        },
+        'name': "Dath'Remar",
+        'slug': 'dathremar',
+      },
+      <class 'dict'> {
+        'id': 3736,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3736?namespace=dynamic-us',
+        },
+        'name': "Jubei'Thos",
+        'slug': 'jubeithos',
+      },
+      <class 'dict'> {
+        'id': 3737,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3737?namespace=dynamic-us',
+        },
+        'name': 'Gundrak',
+        'slug': 'gundrak',
+      },
+      <class 'dict'> {
+        'id': 3738,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/realm/3738?namespace=dynamic-us',
+        },
+        'name': 'Saurfang',
+        'slug': 'saurfang',
+      },
+    ],
+  }
+---

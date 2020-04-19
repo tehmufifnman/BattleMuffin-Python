@@ -1,0 +1,177 @@
+# name: test_get_pvp_tier
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'bracket': <class 'dict'> {
+      'id': 0,
+      'type': 'ARENA_2v2',
+    },
+    'id': 1,
+    'max_rating': 1400,
+    'media': <class 'dict'> {
+      'id': 1,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/pvp-tier/1?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'min_rating': 0,
+    'name': 'Unranked',
+    'rating_type': 0,
+  }
+---
+# name: test_get_pvp_tier_media
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/pvp-tier/1?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'assets': <class 'list'> [
+      <class 'dict'> {
+        'key': 'icon',
+        'value': 'https://render-us.worldofwarcraft.com/icons/56/ui_rankedpvp_01.jpg',
+      },
+    ],
+    'id': 1,
+  }
+---
+# name: test_get_pvp_tiers_index
+  <class 'dict'> {
+    '_links': <class 'dict'> {
+      'self': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/?namespace=static-8.3.0_32861-us',
+      },
+    },
+    'tiers': <class 'list'> [
+      <class 'dict'> {
+        'id': 1,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Unranked',
+      },
+      <class 'dict'> {
+        'id': 2,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/2?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Combatant',
+      },
+      <class 'dict'> {
+        'id': 3,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/3?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Challenger',
+      },
+      <class 'dict'> {
+        'id': 4,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Rival',
+      },
+      <class 'dict'> {
+        'id': 5,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/5?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Duelist',
+      },
+      <class 'dict'> {
+        'id': 6,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/6?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Elite',
+      },
+      <class 'dict'> {
+        'id': 8,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/8?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Unranked',
+      },
+      <class 'dict'> {
+        'id': 9,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/9?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Combatant',
+      },
+      <class 'dict'> {
+        'id': 11,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/11?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Challenger',
+      },
+      <class 'dict'> {
+        'id': 12,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/12?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Rival',
+      },
+      <class 'dict'> {
+        'id': 13,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/13?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Duelist',
+      },
+      <class 'dict'> {
+        'id': 14,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/14?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Elite',
+      },
+      <class 'dict'> {
+        'id': 16,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/16?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Unranked',
+      },
+      <class 'dict'> {
+        'id': 17,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/17?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Combatant',
+      },
+      <class 'dict'> {
+        'id': 18,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/18?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Challenger',
+      },
+      <class 'dict'> {
+        'id': 19,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/19?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Rival',
+      },
+      <class 'dict'> {
+        'id': 20,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/20?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Duelist',
+      },
+      <class 'dict'> {
+        'id': 21,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/pvp-tier/21?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Elite',
+      },
+    ],
+  }
+---
