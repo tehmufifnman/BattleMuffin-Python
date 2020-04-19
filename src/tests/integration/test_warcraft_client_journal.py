@@ -1,4 +1,6 @@
+import json
 import os
+
 from clients.warcraft_client import WarcraftClient
 
 
@@ -23,6 +25,10 @@ def test_get_journal_encounters_index(snapshot):
 def test_get_journal_encounter(snapshot):
     client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
     response = client.get_journal_encounter(89)
+    response = client.get_playable_specialization(262)
+    text = json.dumps(response)
+    text = text.replace("\\r\\n", "\\n")
+    obj = json.loads(text)
     assert response == snapshot
 
 
