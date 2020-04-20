@@ -11,7 +11,7 @@ def read(filename):
 # Read package metadata from __about__.py, to avoid importing the whole
 # package prior to installation.
 about = dict()
-with open(os.path.join("battle-muffin", "__about__.py")) as fp:
+with open(os.path.join("battlemuffin", "__about__.py")) as fp:
     exec(fp.read(), about)
     about = dict((k.strip("_"), about[k]) for k in about)
 
@@ -58,4 +58,4 @@ metadata = {
 metadata = dict(metadata, **about)
 
 if __name__ == "__main__":
-    setup(name="battle-muffin", **metadata)
+    setup(name="battlemuffin", **metadata)

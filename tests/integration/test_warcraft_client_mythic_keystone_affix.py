@@ -1,5 +1,5 @@
 import os
-from clients.warcraft_client import WarcraftClient
+from battlemuffin.clients.warcraft_client import WarcraftClient
 
 
 def test_get_mythic_keystone_affixes_index(snapshot):

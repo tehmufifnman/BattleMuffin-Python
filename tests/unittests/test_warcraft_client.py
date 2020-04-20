@@ -1,7 +1,7 @@
 import pytest
 
-from clients.warcraft_client import WarcraftClient
-from config.client_config import ClientConfiguration, Locale, Region
+from battlemuffin.clients.warcraft_client import WarcraftClient
+from battlemuffin.config.client_config import ClientConfiguration, Locale, Region
 
 BASE_URL = "api.blizzard.com"
 

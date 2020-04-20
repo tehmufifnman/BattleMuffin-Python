@@ -21,7 +21,7 @@ Some easy examples to get you started!
 
 .. code-block:: python
 
-   from clients.warcraft_client import WarcraftClient
+   from battlemuffin.clients.warcraft_client import WarcraftClient
 
 
    client = new WarcraftClient("CLIENT_ID", "CLIENT_SECRET")
@@ -31,8 +31,8 @@ It is possible to specify a region, using its default locale
 
 .. code-block:: python
 
-   from clients.warcraft_client import WarcraftClient
-   from config.region_config import Region
+   from battlemuffin.clients.warcraft_client import WarcraftClient
+   from battlemuffin.config.region_config import Region
 
 
    client = new WarcraftClient("CLIENT_ID", "CLIENT_SECRET", Region.eu)
@@ -42,8 +42,8 @@ It is also possible to specify both the region and locale
 
 .. code-block:: python
 
-   from clients.warcraft_client import WarcraftClient
-   from config.region_config import Region, Locale
+   from battlemuffin.clients.warcraft_client import WarcraftClient
+   from battlemuffin.config.region_config import Region, Locale
 
 
    client = WarcraftClient(client_id, client_secret, Region.eu, Locale.es_ES)
@@ -56,7 +56,7 @@ To install the latest stable release, you can use ``pip`` (or ``pipenv``):
 
 ::
 
-    $ pip install -U battle-muffin
+    $ pip install -U battlemuffin
 
 .. |Build Status| image:: https://github.com/tehmufifnman/BattleMuffin-Python/workflows/BattleMuffin-Python/badge.svg
    :target: https://github.com/tehmufifnman/BattleMuffin-Python/actions
