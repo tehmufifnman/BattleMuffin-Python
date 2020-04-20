@@ -4,7 +4,7 @@ BattleMuffin
 
 Python Implementation of Blizzard's Web API
 
-BattleMuffin officially supports Python 3.5-3.8.
+BattleMuffin officially supports Python 3.6-3.8.
 
 Requirements
 ============
