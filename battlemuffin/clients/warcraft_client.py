@@ -4,7 +4,7 @@ from uplink import Consumer, Query, get, returns
 
 from battlemuffin.config.client_config import ClientConfiguration
 from battlemuffin.config.region_config import Locale, Region
-from hooks.handlers import dynamic_locale, static_locale
+from battlemuffin.hooks.handlers import dynamic_locale, static_locale
 
 
 class WarcraftClient(Consumer):
