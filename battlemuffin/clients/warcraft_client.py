@@ -2,8 +2,8 @@ import requests
 from authlib.integrations.requests_client import OAuth2Session
 from uplink import Consumer, Query, get, returns
 
-from config.client_config import ClientConfiguration
-from config.region_config import Locale, Region
+from battlemuffin.config.client_config import ClientConfiguration
+from battlemuffin.config.region_config import Locale, Region
 from hooks.handlers import dynamic_locale, static_locale
 
 

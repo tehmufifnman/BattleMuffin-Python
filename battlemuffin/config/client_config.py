@@ -1,4 +1,4 @@
-from config.region_config import Region, Locale, region_locale_map
+from battlemuffin.config.region_config import Region, Locale, region_locale_map
 
 
 class ClientConfiguration:
