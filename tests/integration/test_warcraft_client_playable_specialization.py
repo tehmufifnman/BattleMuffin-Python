@@ -1,3 +1,5 @@
+import os
+
 from battlemuffin.clients.warcraft_client import WarcraftClient
 
 
