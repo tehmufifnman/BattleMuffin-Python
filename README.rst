@@ -4,7 +4,16 @@ BattleMuffin
 
 Python Implementation of Blizzard's Web API
 
-Requires Python >= 3.4
+BattleMuffin officially supports Python 3.5-3.8.
+
+Requirements
+============
+
+This package requires client credentials from Blizzard.
+
+You can find out more about how to generate these credentials for your project at the `Blizzard Developer Portal`.
+
+.. _`Blizzard Developer Portal`: https://develop.battle.net/
 
 Quick Setup
 ===========
