@@ -37,7 +37,7 @@ metadata = {
     "author_email": "theredraver@gmail.com",
     "url": "https://github.com/tehmufifnman/BattleMuffin-Python",
     "license": "MIT",
-    "description": "A Pythin implementation of Blizzard's Web API.",
+    "description": "A Python implementation of Blizzard's Web API.",
     "long_description": read("README.rst"),
     "classifiers": [
         "Development Status :: 4 - Beta",
