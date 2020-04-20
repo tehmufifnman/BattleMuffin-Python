@@ -11,7 +11,7 @@ Requirements
 
 This package requires client credentials from Blizzard.
 
-You can find out more about how to generate these credentials for your project at the `Blizzard Developer Portal`.
+You can find out more about how to generate these credentials for your project at the `Blizzard Developer Portal`_.
 
 .. _`Blizzard Developer Portal`: https://develop.battle.net/
 
