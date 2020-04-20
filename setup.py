@@ -50,7 +50,7 @@ metadata = {
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
-    "keywords": "blizzard api world-of-warcraft wow python7",
+    "keywords": "blizzard api world-of-warcraft wow python",
     "packages": find_packages(exclude=("tests", "tests.*")),
     "install_requires": install_requires,
     "extras_require": extras_require,
