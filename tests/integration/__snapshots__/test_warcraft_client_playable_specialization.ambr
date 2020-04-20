@@ -7,15 +7,15 @@
     },
     'gender_description': <class 'dict'> {
       'female': '
-  A spellcaster who harnesses the destructive forces of nature and the elements.
-  
-  Preferred Weapon: Mace, Dagger, and Shield    
-  ',
+        A spellcaster who harnesses the destructive forces of nature and the elements.
+        
+        Preferred Weapon: Mace, Dagger, and Shield
+      ',
       'male': '
-  A spellcaster who harnesses the destructive forces of nature and the elements.
-  
-  Preferred Weapon: Mace, Dagger, and Shield    
-  ',
+        A spellcaster who harnesses the destructive forces of nature and the elements.
+        
+        Preferred Weapon: Mace, Dagger, and Shield
+      ',
     },
     'id': 262,
     'media': <class 'dict'> {
@@ -50,10 +50,10 @@
         'spell_tooltip': <class 'dict'> {
           'cast_time': 'Passive',
           'description': '
-  Lava Burst damage increased by 25%.
-  
-  Your Flame Shock damage over time has a 10% chance to reset the remaining cooldown on Lava Burst, and increase its damage by 25%, stacking up to 3 times.        
-  ',
+            Lava Burst damage increased by 25%.
+            
+            Your Flame Shock damage over time has a 10% chance to reset the remaining cooldown on Lava Burst, and increase its damage by 25%, stacking up to 3 times.
+          ',
         },
         'talent': <class 'dict'> {
           'id': 728,
@@ -95,10 +95,10 @@
         'spell_tooltip': <class 'dict'> {
           'cast_time': 'Passive',
           'description': '
-  While in Ghost Wolf, you heal 3% health every 2 sec.
-  
-  Increases the movement speed of Ghost Wolf by an additional 10%.        
-  ',
+            While in Ghost Wolf, you heal 3% health every 2 sec.
+            
+            Increases the movement speed of Ghost Wolf by an additional 10%.
+          ',
         },
         'talent': <class 'dict'> {
           'id': 3062,
@@ -128,10 +128,10 @@
           'cast_time': 'Instant',
           'cooldown': '45 sec cooldown',
           'description': '
-  Summons an Air Totem with 5 health at the feet of the caster for 15 sec. 
-  
-  Whenever enemies within 20 yards of the totem deal direct damage, the totem will deal 100% of the damage dealt back to attacker.         
-  ',
+            Summons an Air Totem with 5 health at the feet of the caster for 15 sec. 
+            
+            Whenever enemies within 20 yards of the totem deal direct damage, the totem will deal 100% of the damage dealt back to attacker. 
+          ',
           'power_cost': '600 Mana',
           'range': '40 yd range',
         },
@@ -267,10 +267,10 @@
               'cast_time': '2 sec cast',
               'cooldown': '12 sec cooldown',
               'description': '
-  Harnesses the raw power of the elements, dealing 3,818 Elemental damage and increasing your Critical Strike, Haste, or Mastery by 366 for 10 sec.
-  
-  Can cause an Elemental Overload.            
-  ',
+                Harnesses the raw power of the elements, dealing 3,818 Elemental damage and increasing your Critical Strike, Haste, or Mastery by 366 for 10 sec.
+                
+                Can cause an Elemental Overload.
+              ',
               'range': '40 yd range',
             },
             'talent': <class 'dict'> {
@@ -320,20 +320,20 @@
             'spell_tooltip': <class 'dict'> {
               'cast_time': 'Instant',
               'description': '
-  Summons four totems that increase your combat capabilities for 2 min.
-  
-  Resonance Totem
-  Generates 1 Maelstrom every 1 sec.
-  
-  Storm Totem
-  Increases the chance for Lightning Bolt and Chain Lightning to trigger Elemental Overload by 5%.
-  
-  Ember Totem
-  Increases Flame Shock damage over time by 10%.
-  
-  Tailwind Totem
-  Increases your Haste by 2%.            
-  ',
+                Summons four totems that increase your combat capabilities for 2 min.
+                
+                Resonance Totem
+                Generates 1 Maelstrom every 1 sec.
+                
+                Storm Totem
+                Increases the chance for Lightning Bolt and Chain Lightning to trigger Elemental Overload by 5%.
+                
+                Ember Totem
+                Increases Flame Shock damage over time by 10%.
+                
+                Tailwind Totem
+                Increases your Haste by 2%.
+              ',
               'range': '40 yd range',
             },
             'talent': <class 'dict'> {
@@ -369,10 +369,10 @@
             'spell_tooltip': <class 'dict'> {
               'cast_time': 'Instant',
               'description': '
-  Protects the target with an earthen shield, increasing your healing on them by 10% and healing them for 3,401 when they take damage. 9 charges. This heal can only occur once every few seconds. 
-  
-  Earth Shield can only be placed on one target at a time.            
-  ',
+                Protects the target with an earthen shield, increasing your healing on them by 10% and healing them for 3,401 when they take damage. 9 charges. This heal can only occur once every few seconds. 
+                
+                Earth Shield can only be placed on one target at a time.
+              ',
               'power_cost': '2,000 Mana',
               'range': '40 yd range',
             },
@@ -424,10 +424,10 @@
             'spell_tooltip': <class 'dict'> {
               'cast_time': 'Instant',
               'description': '
-  Calls forth a Greater Storm Elemental to hurl gusts of wind that damage the Shaman's enemies for 30 sec.
-  
-  While the Storm Elemental is active, each time you cast Lightning Bolt or Chain Lightning, the cast time of Lightning Bolt and Chain Lightning is reduced by 3%, stacking up to 20 times.            
-  ',
+                Calls forth a Greater Storm Elemental to hurl gusts of wind that damage the Shaman's enemies for 30 sec.
+                
+                While the Storm Elemental is active, each time you cast Lightning Bolt or Chain Lightning, the cast time of Lightning Bolt and Chain Lightning is reduced by 3%, stacking up to 20 times.
+              ',
               'range': '40 yd range',
             },
             'talent': <class 'dict'> {
@@ -516,14 +516,14 @@
             'spell_tooltip': <class 'dict'> {
               'cast_time': 'Passive',
               'description': '
-  Earth Shock also enhances your next spell cast within 15 sec:
+                Earth Shock also enhances your next spell cast within 15 sec:
+                
+                Flame Shock: The next cast also applies Flame Shock to 1 additional target within 8 yards of the target.
+                Lightning Bolt: Your next cast will cause an additional 1-3 Elemental Overloads.
+                Lava Burst: Reduces the cooldown of your Fire Elemental by 6.0 sec.
+                Frost Shock: Freezes the target in place for 6 sec.
   
-  Flame Shock: The next cast also applies Flame Shock to 1 additional target within 8 yards of the target.
-  Lightning Bolt: Your next cast will cause an additional 1-3 Elemental Overloads.
-  Lava Burst: Reduces the cooldown of your Fire Elemental by 6.0 sec.
-  Frost Shock: Freezes the target in place for 6 sec.
-              
-  ',
+              ',
             },
             'talent': <class 'dict'> {
               'id': 22145,
@@ -553,12 +553,12 @@
               'cast_time': '2 sec cast',
               'cooldown': '30 sec cooldown',
               'description': '
-  Hurls frigid ice at the target, dealing 3,333 Frost damage and causing your next 4 Frost Shocks to deal 200% increased damage and generate 8 Maelstrom.
-  
-  Generates 25 Maelstrom.
-  
-  Can cause an Elemental Overload.            
-  ',
+                Hurls frigid ice at the target, dealing 3,333 Frost damage and causing your next 4 Frost Shocks to deal 200% increased damage and generate 8 Maelstrom.
+                
+                Generates 25 Maelstrom.
+                
+                Can cause an Elemental Overload.
+              ',
               'range': '40 yd range',
             },
             'talent': <class 'dict'> {

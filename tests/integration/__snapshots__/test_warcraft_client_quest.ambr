@@ -13,10 +13,10 @@
       'name': 'Ashenvale',
     },
     'description': '
-  The mighty hippogryph Sharptalon has been slain, with the claw of the felled beast serving as a testament to your victory.
-  
-  Senani Thunderheart at the Silverwind Refuge will no doubt be interested in seeing this trophy as proof of your deeds.  
-  ',
+      The mighty hippogryph Sharptalon has been slain, with the claw of the felled beast serving as a testament to your victory.
+      
+      Senani Thunderheart at the Silverwind Refuge will no doubt be interested in seeing this trophy as proof of your deeds.
+    ',
     'id': 2,
     'recommended_maximum_level': 60,
     'recommended_minimum_level': 15,

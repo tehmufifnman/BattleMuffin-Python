@@ -138,19 +138,19 @@
         'sections': <class 'list'> [
           <class 'dict'> {
             'body_text': '
-  Glubtok shrouds his fists in flame, causing each of his melee attacks that land to deal 0 Fire damage.
-  
-  Additionally, when Glubtok lands a melee attack he will sometimes deal 0 Fire damage and knock up nearby enemies within 51 yards.          
-  ',
+              Glubtok shrouds his fists in flame, causing each of his melee attacks that land to deal 0 Fire damage.
+              
+              Additionally, when Glubtok lands a melee attack he will sometimes deal 0 Fire damage and knock up nearby enemies within 51 yards.
+            ',
             'id': 2011,
             'title': 'Fists of Flame',
           },
           <class 'dict'> {
             'body_text': '
-  Glubtok coats his fists with frost, causing each of his melee attacks that land to deal 0 Frost damage.
-  
-  Additionally, when Glubtok lands a melee attack he will sometimes deal 0 Frost damage, reduce the movement speed by 40%, reduce the frequency of melee and ranged attacks by 25%, and increase the casting time by 25% of nearby enemies within 51 yards for 4 sec.          
-  ',
+              Glubtok coats his fists with frost, causing each of his melee attacks that land to deal 0 Frost damage.
+              
+              Additionally, when Glubtok lands a melee attack he will sometimes deal 0 Frost damage, reduce the movement speed by 40%, reduce the frequency of melee and ranged attacks by 25%, and increase the casting time by 25% of nearby enemies within 51 yards for 4 sec.
+            ',
             'id': 2012,
             'title': 'Fists of Frost',
           },

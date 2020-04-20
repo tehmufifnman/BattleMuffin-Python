@@ -1,18 +1,18 @@
 # name: test_api_spec_diff
   <class 'dict'> {
     'html': '
-  <p>The World of Warcraft game data APIs encompass both static and dynamic game data. For more information about static and dynamic game data, see <a href="/documentation/world-of-warcraft/guides/namespaces">World of Warcraft Namespaces</a>.</p>
-  <h2 id="host-names">Host Names</h2>
-  <p>For all regions except China, the Blizzard API host name follows the format <code>{region}.api.blizzard.com</code>, where <strong>{region}</strong> is one of <strong>us</strong> | <strong>eu</strong> | <strong>kr</strong> | <strong>tw</strong>. For China, the host name is <code>gateway.battlenet.com.cn</code>. For more information, see <a href="/documentation/guides/regionality-and-apis">Regionality and APIs</a>.</p>
+      <p>The World of Warcraft game data APIs encompass both static and dynamic game data. For more information about static and dynamic game data, see <a href="/documentation/world-of-warcraft/guides/namespaces">World of Warcraft Namespaces</a>.</p>
+      <h2 id="host-names">Host Names</h2>
+      <p>For all regions except China, the Blizzard API host name follows the format <code>{region}.api.blizzard.com</code>, where <strong>{region}</strong> is one of <strong>us</strong> | <strong>eu</strong> | <strong>kr</strong> | <strong>tw</strong>. For China, the host name is <code>gateway.battlenet.com.cn</code>. For more information, see <a href="/documentation/guides/regionality-and-apis">Regionality and APIs</a>.</p>
+      
+      
+      <h2 id="namespaces">Namespaces</h2>
+      <p>The World of Warcraft game data APIs <p>require a namespace as part of every request. Each endpoint below lists the correct namespace to use as a parameter. A namespace can be submitted as a header (<code>Battlenet-Namespace: {namespace}</code>) or as a query parameter (<code>?namespace={namespace}</code>). For more information, see <a href="/documentation/world-of-warcraft/guides/namespaces">World of Warcraft Namespaces</a>.</p>
+      </p>
+      <h2 id="apis">APIs</h2>
+      <p>World of Warcraft supports the following game data APIs. For information about using Blizzard APIs, see <a href="/documentation/guides/getting-started">Getting Started</a>.</p>
   
-  
-  <h2 id="namespaces">Namespaces</h2>
-  <p>The World of Warcraft game data APIs <p>require a namespace as part of every request. Each endpoint below lists the correct namespace to use as a parameter. A namespace can be submitted as a header (<code>Battlenet-Namespace: {namespace}</code>) or as a query parameter (<code>?namespace={namespace}</code>). For more information, see <a href="/documentation/world-of-warcraft/guides/namespaces">World of Warcraft Namespaces</a>.</p>
-  </p>
-  <h2 id="apis">APIs</h2>
-  <p>World of Warcraft supports the following game data APIs. For information about using Blizzard APIs, see <a href="/documentation/guides/getting-started">Getting Started</a>.</p>
-    
-  ',
+    ',
     'resources': <class 'list'> [
       <class 'dict'> {
         'methods': <class 'list'> [
