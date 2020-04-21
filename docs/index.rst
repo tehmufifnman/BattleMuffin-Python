@@ -10,8 +10,8 @@ Welcome to BattleMuffin's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   modules
-   readme
+   BattleMuffin <modules>
+   README <readme>
 
 
 Indices and tables
