@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import List, TypedDict
+from typing import List
 
 
 class Region(Enum):
@@ -50,10 +50,6 @@ class RegionConfiguration:
 
         self.default_locale = available_locales[0]
         self.available_locales = available_locales
-
-
-class RegionLocaleMap(TypedDict):
-    config: RegionConfiguration
 
 
 region_locale_map = {
