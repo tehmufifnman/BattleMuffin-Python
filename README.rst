@@ -1,6 +1,6 @@
 BattleMuffin
 ************
-|Build Status| |Coverage Status| |Code Style| |Docs|
+|PyPl| |Build Status| |Coverage Status| |Code Style| |Docs|
 
 Python Implementation of Blizzard's Web API
 
@@ -283,3 +283,5 @@ Game Data:
 .. |Docs| image:: https://readthedocs.org/projects/battlemuffin/badge/?version=latest
    :target: https://battlemuffin.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
+.. |PyPl| image:: https://badge.fury.io/py/battlemuffin.svg
+    :target: https://badge.fury.io/py/battlemuffin
