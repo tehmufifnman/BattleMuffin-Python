@@ -20,12 +20,6 @@ def test_get_mythic_keystone_index(snapshot):
     assert response == snapshot
 
 
-def test_get_mythic_keystone_periods_index(snapshot):
-    client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
-    response = client.get_mythic_keystone_periods_index()
-    assert response == snapshot
-
-
 def test_get_mythic_keystone_period(snapshot):
     client = WarcraftClient(os.getenv("CLIENT_ID"), os.getenv("CLIENT_SECRET"))
     response = client.get_mythic_keystone_period(641)
