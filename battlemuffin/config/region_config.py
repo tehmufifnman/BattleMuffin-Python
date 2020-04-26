@@ -3,8 +3,8 @@ from enum import Enum
 
 class Region(Enum):
     us = 1
-    eu = 2
-    kr = 3
+    eu = 3
+    kr = 2
     tw = 4
     cn = 5
 
