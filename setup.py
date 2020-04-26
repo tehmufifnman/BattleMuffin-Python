@@ -16,7 +16,6 @@ with open(os.path.join("battlemuffin", "__about__.py")) as fp:
     about = dict((k.strip("_"), about[k]) for k in about)
 
 install_requires = [
-    "typing==3.7.4.1",
     "AuthLib==0.14.1",
     "requests==2.23.0",
     "uplink==0.9.1",
