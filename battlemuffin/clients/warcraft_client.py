@@ -12,7 +12,7 @@ class WarcraftClient(Consumer):
         self,
         client_id: str,
         client_secret: str,
-        region: Region = None,
+        region: Region = Region.us,
         locale: Locale = None,
         **kwargs,
     ):
@@ -21,7 +21,9 @@ class WarcraftClient(Consumer):
         )
         client = self.get_client(**kwargs)
         super().__init__(base_url=self.client_config.host, client=client)
-        self._inject(Query("locale").with_value(self.client_config.locale.name))
+
+        if self.client_config.locale:
+            self._inject(Query("locale").with_value(self.client_config.locale.name))
 
     def get_client(self, **kwargs):
         if "client" in kwargs.keys():

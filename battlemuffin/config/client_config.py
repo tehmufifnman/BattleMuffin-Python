@@ -1,26 +1,33 @@
-from battlemuffin.config.region_config import Region, Locale, region_locale_map
+from battlemuffin.config.region_config import Region, Locale
 
 
 class ClientConfiguration:
+
+    API_BASE_URL = "api.blizzard.com"
+    OAUTH_BASE_URL = "battle.net"
+    API_BASE_URL_CN = "https://gateway.battlenet.com.cn"
+    OAUTH_BASE_URL_CN = "https://www.battlenet.com.cn"
+
     def __init__(
-        self, client_id: str, client_secret: str, region: Region, locale: Locale
+        self, client_id: str, client_secret: str, region: Region, locale: Locale = None
     ):
-        if region is None:
-            region = Region.us
-        else:
-            if region not in region_locale_map.keys():
-                raise ValueError("Configuration not found for specified region")
+        if not region or type(region) is not Region:
+            raise ValueError("Invalid value supplied for Region.")
 
-        region_config = region_locale_map[region]
-        if locale is None:
-            locale = region_config.available_locales[0]
-        else:
-            if locale not in region_config.available_locales:
-                raise ValueError("Locale not valid for specified region")
+        if locale and type(locale) is not Locale:
+            raise ValueError("Invalid value supplied for Locale.")
 
-        self.host = region_config.host
-        self.oauth_host = region_config.oauth_host
-        self.locale = region_config.default_locale if not locale else locale
+        self.host = (
+            f"https://{region.name}.{self.API_BASE_URL}"
+            if region != Region.cn
+            else self.API_BASE_URL_CN
+        )
+        self.oauth_host = (
+            f"https://{region.name}.{self.OAUTH_BASE_URL}"
+            if region != Region.cn
+            else self.OAUTH_BASE_URL_CN
+        )
+        self.locale = locale
         self.region = region
         self.client_id = client_id
         self.client_secret = client_secret

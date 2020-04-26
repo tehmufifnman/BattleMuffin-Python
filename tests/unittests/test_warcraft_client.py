@@ -16,6 +16,15 @@ def test_client_config_bad_locale():
         ClientConfiguration("client_id", "client_secret", Region.us, 999)
 
 
+def test_client_config_none_region():
+    with pytest.raises(ValueError):
+        ClientConfiguration("client_id", "client_secret", None)
+
+
+def test_client_config_none_locale():
+    ClientConfiguration("client_id", "client_secret", Region.us, None)
+
+
 def test_warcraft_client_init(mocker):
     mocker.patch("requests.Response")
     mocker.patch("uplink.Consumer.session")
