@@ -79,6 +79,11 @@ class WarcraftClient(Consumer):
     def get_auctions(self, connectedRealmId: int):
         """Returns all active auctions for a connected realm."""
 
+    @dynamic_locale
+    @get("/data/wow/connected-realm/{connectedRealmId}/auctions")
+    def get_auctions_raw_response(self, connectedRealmId: int):
+        """Returns all active auctions for a connected realm."""
+
     @returns.json
     @static_locale
     @get("/data/wow/azerite-essence/index")
