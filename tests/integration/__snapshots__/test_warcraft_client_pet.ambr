@@ -74,6 +74,7 @@
       },
     ],
     'battle_pet_type': <class 'dict'> {
+      'id': 9,
       'name': 'Mechanical',
       'type': 'MECHANICAL',
     },
