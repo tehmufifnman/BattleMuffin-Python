@@ -1,6 +1,6 @@
 import requests
 from authlib.integrations.requests_client import OAuth2Session
-from uplink import Consumer, Query, get, returns
+from uplink import Consumer, Header, Query, get, returns
 
 from battlemuffin.config.client_config import ClientConfiguration
 from battlemuffin.config.region_config import Locale, Region
@@ -82,7 +82,14 @@ class WarcraftClient(Consumer):
     @dynamic_locale
     @get("/data/wow/connected-realm/{connectedRealmId}/auctions")
     def get_auctions_raw_response(self, connectedRealmId: int):
-        """Returns all active auctions for a connected realm."""
+        """Returns raw auctions response for a connected realm."""
+
+    @dynamic_locale
+    @get("/data/wow/connected-realm/{connectedRealmId}/auctions")
+    def get_auctions_if_modified_since(
+        self, connectedRealmId: int, if_modified_since: Header("If-Modified-Since")
+    ):
+        """Returns all active auctions for a connected realm if modified since given date."""
 
     @returns.json
     @static_locale

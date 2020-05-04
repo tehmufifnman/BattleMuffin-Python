@@ -12,6 +12,7 @@ Welcome to BattleMuffin's documentation!
 
    BattleMuffin <modules>
    README <readme>
+   CHANGELOG <changelog>
    Github <https://github.com/tehmufifnman/BattleMuffin-Python>
 
 
