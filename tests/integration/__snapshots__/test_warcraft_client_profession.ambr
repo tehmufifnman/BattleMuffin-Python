@@ -2038,6 +2038,11 @@
       },
       'name': 'Rough Sharpening Stone',
     },
+    'crafted_quantity': <class 'dict'> {
+      'maximum': 1.0,
+      'minimum': 1.0,
+    },
+    'description': None,
     'id': 1631,
     'media': <class 'dict'> {
       'id': 1631,

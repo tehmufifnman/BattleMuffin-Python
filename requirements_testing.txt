@@ -1,7 +1,7 @@
-pytest==5.4.1
-pytest_mock==3.0.0
-pytest-cov==2.8.1
-pre-commit==2.2.0
+pytest==5.4.3
+pytest_mock==3.1.1
+pytest-cov==2.10.0
+pre-commit==2.5.1
 black==19.10b0
-syrupy==0.4.1
-flake8==3.7.9
+syrupy==0.5.1
+flake8==3.8.3

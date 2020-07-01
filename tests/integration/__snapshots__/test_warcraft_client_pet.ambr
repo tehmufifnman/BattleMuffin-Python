@@ -94,6 +94,12 @@
     'is_horde_only': False,
     'is_random_creature_display': False,
     'is_tradable': True,
+    'media': <class 'dict'> {
+      'id': 39,
+      'key': <class 'dict'> {
+        'href': 'https://us.api.blizzard.com/data/wow/media/pet/39?namespace=static-8.3.0_32861-us',
+      },
+    },
     'name': 'Mechanical Squirrel',
     'source': <class 'dict'> {
       'name': 'Profession',
