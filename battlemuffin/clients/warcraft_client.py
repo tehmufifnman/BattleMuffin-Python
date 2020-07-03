@@ -1,6 +1,8 @@
 import requests
 from authlib.integrations.requests_client import OAuth2Session
+from requests.adapters import HTTPAdapter
 from uplink import Consumer, Header, Query, get, returns
+from urllib3.util.retry import Retry
 
 from battlemuffin.config.client_config import ClientConfiguration
 from battlemuffin.config.region_config import Locale, Region
@@ -29,7 +31,11 @@ class WarcraftClient(Consumer):
         if "client" in kwargs.keys():
             return kwargs.get("client")
         else:
-            oath_response = requests.get(
+            session = requests.Session()
+            retries = Retry(total=10, backoff_factor=0.1)
+            session.mount("http://", HTTPAdapter(max_retries=retries))
+            session.mount("https://", HTTPAdapter(max_retries=retries))
+            oath_response = session.get(
                 f"{self.client_config.oauth_host}/oauth/.well-known/openid-configuration"
             ).json()
             token_endpoint = oath_response["token_endpoint"]
@@ -40,6 +46,8 @@ class WarcraftClient(Consumer):
                 token_endpoint=token_endpoint,
                 grant_type="client_credentials",
             )
+            client.mount("http://", HTTPAdapter(max_retries=retries))
+            client.mount("https://", HTTPAdapter(max_retries=retries))
             client.fetch_token()
             return client
 

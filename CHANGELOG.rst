@@ -6,14 +6,25 @@ All notable changes to this project will be documented in this file.
 The format is based on `Keep a Changelog`_, and this project adheres to the
 `Semantic Versioning`_ scheme.
 
-
-0.1.7 - Unreleased
+0.1.9 - Unreleased
 ==================
+
+0.1.8 - Unreleased
+==================
+Updated
+
+- Failed to mount HTTPS for retries in previous versions
+
+0.1.7 - 2020-07-02
+==================
+Updated
+
+- Blizzard API has a habit of aborting connections. BattleMuffin will now retry when this happens
 
 0.1.6 - 2020-05-03
 ==================
 Added
------
+
 - Created ``get_auctions_raw_response(connectedRealmId)`` endpoint for returning the
   raw auctions response so headers can be analyzed.
 - Created ``get_auctions_if_modified_since(connectedRealmId, if_modified_since)``
