@@ -5662,6 +5662,13 @@
         },
         'name': 'Springfur Alpaca',
       },
+      <class 'dict'> {
+        'id': 1346,
+        'key': <class 'dict'> {
+          'href': 'https://us.api.blizzard.com/data/wow/mount/1346?namespace=static-8.3.0_32861-us',
+        },
+        'name': 'Steamscale Incinerator',
+      },
     ],
   }
 ---

@@ -6,8 +6,13 @@ All notable changes to this project will be documented in this file.
 The format is based on `Keep a Changelog`_, and this project adheres to the
 `Semantic Versioning`_ scheme.
 
-0.1.10 - Unreleased
+0.1.11 - Unreleased
 ===================
+
+0.1.10 - 2020-07-12
+===================
+Updated
+- Updated retry logic to only retry on 429 and 504
 
 0.1.9 - 2020-07-02
 ==================

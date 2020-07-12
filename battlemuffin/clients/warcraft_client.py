@@ -32,7 +32,15 @@ class WarcraftClient(Consumer):
             return kwargs.get("client")
         else:
             session = requests.Session()
-            retries = Retry(total=10, backoff_factor=0.5, method_whitelist=False)
+            retries = Retry(
+                total=3,
+                status=3,
+                connect=3,
+                read=3,
+                backoff_factor=0.5,
+                method_whitelist=False,
+                status_forcelist=[429, 504],
+            )
             session.mount("http://", HTTPAdapter(max_retries=retries))
             session.mount("https://", HTTPAdapter(max_retries=retries))
             oath_response = session.get(
