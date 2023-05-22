@@ -17,7 +17,7 @@ with open(os.path.join("battlemuffin", "__about__.py")) as fp:
 
 install_requires = [
     "AuthLib==0.14.1",
-    "requests==2.23.0",
+    "requests==2.31.0",
     "uplink==0.9.1",
 ]
 
